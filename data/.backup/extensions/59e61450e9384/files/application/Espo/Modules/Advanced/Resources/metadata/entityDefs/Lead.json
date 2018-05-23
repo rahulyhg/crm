@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "targetList": {
+            "reportDisabled": true
+        }
+    },
+    "links": {
+        "googleContacts": {
+            "type": "hasChildren",
+            "entity": "GoogleContactsPair",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "labels": {
+    "Create ProductCategory": "Neue Kategorie",
+    "Manage Categories": "Kategorien verwalten"
+  },
+  "fields": {
+    "order": "Reihenfolge"
+  },
+  "links": {
+    "products": "Produkte"
+  }
+}

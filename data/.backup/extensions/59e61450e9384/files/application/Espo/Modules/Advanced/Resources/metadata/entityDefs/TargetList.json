@@ -1,0 +1,66 @@
+{
+    "fields": {
+        "mailChimpListId": {
+            "type": "varchar",
+            "reportDisabled": true
+        },
+        "mailChimpListName": {
+            "type": "varchar",
+            "reportDisabled": true
+        },
+        "mcListGroupingId": {
+            "type": "varchar",
+            "reportDisabled": true
+        },
+        "mcListGroupingName": {
+            "type": "varchar",
+            "reportDisabled": true
+        },
+        "mcListGroupId": {
+            "type": "varchar",
+            "reportDisabled": true
+        },
+        "mcListGroupName": {
+            "type": "varchar",
+            "reportDisabled": true
+        },
+        "mailChimpManualSyncRun": {
+            "type": "bool",
+            "readOnly": true,
+            "disabled": true
+        },
+        "mailChimpLastManualSyncStatus": {
+            "type": "varchar",
+            "readOnly": true,
+            "disabled": true
+        },
+        "mailChimpLastSuccessfulUpdating": {
+            "type": "datetime",
+            "readOnly": true,
+            "disabled": true
+        },
+        "syncWithReportsEnabled": {
+            "type": "bool",
+            "disabled": true
+        },
+        "syncWithReports": {
+            "type": "linkMultiple",
+            "view": "Advanced:TargetList.Fields.SyncWithReports",
+            "disabled": true,
+            "tooltip": true
+        },
+        "syncWithReportsUnlink": {
+            "type": "bool",
+            "disabled": true,
+            "tooltip": true
+        }
+    },
+    "links": {
+        "syncWithReports": {
+            "type": "hasMany",
+            "entity": "Report",
+            "foreign": "syncTargetLists",
+            "disabled": true
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "name": "Betreff",
+    "type": "Typ",
+    "list": "Liste",
+    "subject": "E-Mail Betreff",
+    "fromEmail": "Von E-Mail Adresse",
+    "fromName": "Von Name",
+    "toName": "Personalisieren Sie das \"An\" Feld",
+    "status": "Status",
+    "dateSent": "Sendedatum",
+    "content": "Inhalt?"
+  },
+  "options": {
+    "type": {
+      "regular": "Standard",
+      "plaintext": "Einfacher Text",
+      "rss": "RSS-Driven",
+      "absplit": "A/B Teilung",
+      "auto": "Auto"
+    },
+    "status": {
+      "sent": "Gesendet",
+      "save": "Speichern",
+      "paused": "Pausiert",
+      "schedule": "Planung",
+      "sending": "Wird gesendet"
+    }
+  }
+}

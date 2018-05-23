@@ -1,0 +1,105 @@
+{
+    "views":{
+         "detail":"Advanced:TargetList.Detail"
+     },
+    "recordViews": {
+      "detail": "Advanced:TargetList.Record.Detail"
+    },
+    "sidePanels": {
+    	"detail": [
+    		"__APPEND__",
+	        {
+	          "name":"syncWithReports",
+	          "label":"Sync with Reports",
+	          "view":"Advanced:TargetList.Record.Panels.SyncWithReports",
+            "notRefreshable": true
+	        }
+    	],
+    	"edit": [
+    		"__APPEND__",
+	        {
+	          "name":"syncWithReports",
+	          "label":"Sync with Reports",
+	          "view":"Advanced:TargetList.Record.Panels.SyncWithReports",
+            "notRefreshable": true
+	        }
+    	]
+    },
+    "formDependency": {
+    	"syncWithReportsEnabled": {
+    		"map": {
+    			"true": [
+	                {
+	                    "action": "show",
+	                    "fields": ["syncWithReports", "syncWithReportsUnlink"]
+	                }
+    			]
+    		},
+    		"default": [
+                {
+                    "action": "hide",
+                    "fields": ["syncWithReports", "syncWithReportsUnlink"]
+                }
+    		]
+    	}
+    },
+   "relationshipPanels": {
+      "contacts": {
+        "view": "advanced:views/target-list/record/panels/relationship",
+        "actionList": [
+            "__APPEND__",
+            {
+               "label": "Populate from Report",
+               "action": "populateFromReport",
+               "acl": "edit",
+               "data": {
+                  "link": "contacts"
+               }
+            }
+         ]
+      },
+      "leads": {
+        "view": "advanced:views/target-list/record/panels/relationship",
+        "actionList": [
+            "__APPEND__",
+            {
+               "label": "Populate from Report",
+               "action": "populateFromReport",
+               "acl": "edit",
+               "data": {
+                  "link": "leads"
+               }
+            }
+         ]
+      },
+      "accounts": {
+        "view": "advanced:views/target-list/record/panels/relationship",
+         "actionList": [
+            "__APPEND__",
+            {
+               "label": "Populate from Report",
+               "action": "populateFromReport",
+               "acl": "edit",
+               "data": {
+                  "link": "accounts"
+               }
+            }
+         ]
+      },
+      "users": {
+        "view": "Advanced:TargetList.Record.Panels.Relationship",
+         "create": false,
+         "actionList": [
+            "__APPEND__",
+            {
+               "label": "Populate from Report",
+               "action": "populateFromReport",
+               "acl": "edit",
+               "data": {
+                  "link": "users"
+               }
+            }
+         ]
+      }
+   }
+}

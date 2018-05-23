@@ -1,0 +1,172 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true
+        },
+        "entityType": {
+            "type": "varchar",
+            "required": true,
+            "view": "Advanced:Workflow.Fields.EntityType"
+        },
+        "type": {
+            "type": "enum",
+            "options": ["afterRecordSaved", "afterRecordCreated", "scheduled", "sequential"]
+        },
+        "isActive": {
+            "type": "bool",
+            "default": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "conditionsAll": {
+            "type": "jsonArray"
+        },
+        "conditionsAny": {
+            "type": "jsonArray"
+        },
+        "conditionsFormula": {
+            "type": "text"
+        },
+        "actions": {
+            "type": "jsonArray"
+        },
+        "portalOnly": {
+            "type": "bool",
+            "tooltip": true
+        },
+        "portal": {
+            "type": "link",
+            "tooltip": true
+        },
+        "targetReport": {
+            "type": "link",
+            "view": "advanced:views/workflow/fields/target-report"
+        },
+        "scheduling": {
+            "type": "varchar",
+            "maxLength": 16,
+            "default": "0 0 * * *",
+            "tooltip": true
+        },
+        "lastRun": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "portal": {
+            "type": "belongsTo",
+            "entity": "Portal"
+        },
+        "targetReport": {
+            "type": "belongsTo",
+            "entity": "Report"
+        },
+        "workflowLogRecords": {
+            "type": "hasMany",
+            "entity": "WorkflowLogRecord",
+            "foreign": "workflow"
+        }
+    },
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false
+    },
+    "conditionFieldTypes": {
+        "varchar": "varchar",
+        "enum": "enum",
+        "enumInt": "enum",
+        "enumFloat": "enum",
+        "phone": "varchar",
+        "email": "varchar",
+        "url": "varchar",
+        "int": "int",
+        "currency": "currency",
+        "float": "float",
+        "bool": "bool",
+        "password": "varchar",
+        "text": "text",
+        "wysiwyg": "text",
+        "link": "link",
+        "file": "link",
+        "image": "link",
+        "linkParent": "linkParent",
+        "date": "date",
+        "datetime": "date",
+        "linkMultiple": "linkMultiple",
+        "multiEnum": "array",
+        "array": "array"
+    },
+    "fieldDefinitions": {
+        "date": "date",
+        "datetime": "date",
+        "datetimeOptional": "date",
+        "jsonArray": "wide"
+    },
+    "fieldTypeComparison": {
+        "enumInt": ["int"],
+        "enumFloat": ["float"],
+        "date": ["datetime", "datetimeOptional"],
+        "datetime": ["date"],
+        "datetimeOptional": ["date", "datetime"],
+        "float": ["enumFloat"],
+        "linkMultiple": "link"
+    },
+    "entityListToIgnore": [
+        "PhoneNumber",
+        "Notification",
+        "EmailAddress",
+        "Attachment",
+        "Extension",
+        "Currency",
+        "Reminder",
+        "PasswordChangeRequest",
+        "Workflow",
+        "AuthToken",
+        "Team",
+        "User",
+        "Role",
+        "EmailAccount",
+        "EmailTemplate",
+        "ExternalAccount",
+        "Integration",
+        "Job",
+        "Preferences",
+        "ScheduledJob",
+        "ScheduledJobLogRecord",
+        "Settings",
+        "UniqueId",
+        "InboundEmail"
+    ],
+    "assignmentRuleList": [
+        "Round-Robin",
+        "Least-Busy"
+    ]
+}

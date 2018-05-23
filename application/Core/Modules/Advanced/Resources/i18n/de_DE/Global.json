@@ -1,0 +1,34 @@
+{
+  "scopeNames": {
+    "Workflow": "WorkFlow",
+    "Report": "Bericht",
+    "Product": "Produkt",
+    "ProductCategory": "Produktkategorie",
+    "ProductBrand": "Produkt Marke",
+    "Quote": "Angebot",
+    "QuoteItem": "Angebotsposition",
+    "Tax": "Steuer",
+    "ShippingProvider": "Versender",
+    "OpportunityItem": "Verkaufschancenposition",
+    "MailChimpCampaign": "MailChimp Kampagne",
+    "MailChimpList": "MailChimp Liste",
+    "MailChimpListGroup": "MailChimp Listengruppe",
+    "WorkflowLogRecord": "Workflow Protokollsatz"
+  },
+  "scopeNamesPlural": {
+    "Workflow": "Workflows",
+    "Report": "Berichte",
+    "Product": "Produkte",
+    "ProductCategory": "Produktkategorien",
+    "Quote": "Angebote",
+    "QuoteItem": "Angebotspositionen",
+    "Tax": "Steuern",
+    "ShippingProvider": "Versender",
+    "OpportunityItem": "Verkaufschancenpositionen",
+    "ProductBrand": "Produkt Marken",
+    "MailChimpCampaign": "MailChimp Kampagnen",
+    "MailChimpList": "MailChimp Listen",
+    "MailChimpListGroup": "MailChimp Listengruppen",
+    "WorkflowLogRecord": "Workflows Protokoll"
+  }
+}

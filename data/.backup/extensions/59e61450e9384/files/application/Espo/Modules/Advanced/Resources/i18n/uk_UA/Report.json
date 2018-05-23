@@ -1,0 +1,91 @@
+{
+  "labels": {
+    "Create Report": "Створити звіт",
+    "Run": "Згенерувати",
+    "Total": "Підсумок",
+    "-Empty-": "-Пусто-",
+    "Parameters": "Параметри",
+    "Filters": "Фільтри",
+    "Chart": "Графік",
+    "List Report": "Звіт-список",
+    "Grid Report": "Звіт-сітка",
+    "days": "днів",
+    "never": "ніколи",
+    "Get Csv": "Отримати Csv",
+    "EmailSending": "Відправка листів",
+    "View Report": "Переглянути звіт"
+  },
+  "fields": {
+    "type": "Тип",
+    "entityType": "Тип сутності",
+    "description": "Опис",
+    "groupBy": "Групувати за",
+    "columns": "Колонки",
+    "orderBy": "Сортувати за",
+    "filters": "Фільтри",
+    "runtimeFilters": "Фільтри під час виконання",
+    "chartType": "Тип графіку",
+    "emailSendingInterval": "Інтервал",
+    "emailSendingTime": "Час",
+    "emailSendingUsers": "Користувачі",
+    "emailSendingSettingDay": "День",
+    "emailSendingSettingMonth": "Місяць",
+    "emailSendingSettingWeekdays": "Дні",
+    "emailSendingDoNotSendEmptyReport": "Не відправляти порожній звіт"
+  },
+  "tooltips": {
+    "emailSendingUsers": "Користувачі, яким будуть надіслані результати звіту"
+  },
+  "functions": {
+    "COUNT": "Кількість",
+    "SUM": "Сума",
+    "AVG": "Середнє",
+    "MIN": "Мінімальне",
+    "MAX": "Максимальне",
+    "YEAR": "Рік",
+    "MONTH": "Місяць",
+    "DAY": "День"
+  },
+  "orders": {
+    "ASC": "за зростанням",
+    "DESC": "за спаданням",
+    "LIST": "Список"
+  },
+  "options": {
+    "chartType": {
+      "BarHorizontal": "Стрічковий",
+      "BarVertical": "Стовпчиковий",
+      "Pie": "Секторний",
+      "Line": "Лінійний"
+    },
+    "emailSendingInterval": {
+      "": "Не налаштовано",
+      "Daily": "Щоденно",
+      "Weekly": "Щотижнево",
+      "Monthly": "Щомісячно",
+      "Yearly": "Щорічно"
+    },
+    "emailSendingSettingDay": {
+      "32": "Останнього дня місяця"
+    }
+  },
+  "messages": {
+    "validateMaxCount": "Кількість не може бути більшою за {maxCount}",
+    "gridReportDescription": "Групуйте за одною чи двома колонками та отримаєте підсумок. Може бути представлено у вигляді графіку.",
+    "listReportDescription": "Звичайний список записів, в яких виконується критерій"
+  },
+  "presetFilters": {
+    "list": "Список",
+    "grid": "Сітка",
+    "listTargets": "Список (Цілі)",
+    "listAccounts": "Список (Контрагенти)",
+    "listContacts": "Список (Контакти)",
+    "listLeads": "Список (Ліди)",
+    "listUsers": "Список (Користувачі)"
+  },
+  "errorMessages": {
+    "error": "Помилка",
+    "noChart": "Не вибрано графік для звіту",
+    "selectReport": "Виберіть звіт серед елементів дашлету"
+  }
+}

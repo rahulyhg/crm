@@ -1,0 +1,4 @@
+{
+    "WorkflowManager": "\\Core\\Modules\\Advanced\\Core\\Loaders\\WorkflowManager",
+    "WorkflowHelper": "\\Core\\Modules\\Advanced\\Core\\Loaders\\WorkflowHelper"
+}

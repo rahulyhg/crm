@@ -1,0 +1,96 @@
+{
+  "fields": {
+    "Name": "Назва",
+    "entityType": "Цільова сутність",
+    "type": "Тип тригера",
+    "isActive": "Активний",
+    "description": "Опис",
+    "usersToMakeToFollow": "Користувачі для підписування на запис",
+    "whatToFollow": "На що підписувати"
+  },
+  "labels": {
+    "Create Workflow": "Створити правило",
+    "General": "Загальне",
+    "Conditions": "Умови",
+    "Actions": "Дії",
+    "All": "Всі",
+    "Any": "Будь-яка",
+    "Email Address": "Поштова скринька",
+    "Email Template": "Шаблон листа",
+    "From": "Від",
+    "To": "До",
+    "immediately": "Негайно",
+    "later": "Пізніше",
+    "today": "зараз",
+    "plus": "плюс",
+    "minus": "мінус",
+    "days": "днів",
+    "Link": "Зв’язок",
+    "Entity": "Сутність",
+    "Add Field": "Додати поле",
+    "equals": "дорівнює",
+    "wasEqual": "дорівнювало",
+    "notEquals": "не дорівнює",
+    "wasNotEqual": "не дорівнювало",
+    "changed": "змінено",
+    "notEmpty": "не порожнє",
+    "isEmpty": "порожнє",
+    "value": "значення",
+    "field": "поле",
+    "true": "істинне",
+    "false": "хибне",
+    "greaterThan": "більше за",
+    "lessThan": "менше за",
+    "greaterThanOrEquals": "більше за або дорівнює",
+    "lessThanOrEquals": "менше за або дорівнює",
+    "between": "між",
+    "on": "у вказаний час",
+    "before": "до",
+    "after": "після",
+    "beforeToday": "до сьогодні",
+    "afterToday": "від сьогодні",
+    "recipient": "Отримувач",
+    "has": "має",
+    "messageTemplate": "Шаблон повідомлення",
+    "users": "Користувачі",
+    "Target Entity": "Цільова сутність"
+  },
+  "emailAddressOptions": {
+    "currentUser": "Поточний користувач",
+    "specifiedEmailAddress": "Визначений емейл адрес",
+    "assignedUser": "Відповідальний користувач",
+    "targetEntity": "Цільова сутність",
+    "specifiedUsers": "Визначеним користувачам",
+    "teamUsers": "Користувачі команд",
+    "followers": "Підписані користувачі",
+    "followersExcludingAssignedUser": "Підписані користувачі за виключенням відповідального",
+    "specifiedTeams": "Користувачі визначених команд"
+  },
+  "options": {
+    "type": {
+      "afterRecordSaved": "Після збереження запису",
+      "afterRecordCreated": "Після створення запису"
+    },
+    "subjectType": {
+      "value": "значення",
+      "field": "поле"
+    }
+  },
+  "actionTypes": {
+    "sendEmail": "Відправити листа",
+    "createEntity": "Створити сутність",
+    "createRelatedEntity": "Створити пов’язану сутність",
+    "updateEntity": "Оновити сутність",
+    "updateRelatedEntity": "Оновити пов’язану сутність",
+    "makeFollowed": "Підписати",
+    "createNotification": "Створити нагадування"
+  },
+  "texts": {
+    "allMustBeMet": "Всі мають виконуватись",
+    "atLeastOneMustBeMet": "Принаймні одна має виконуватись"
+  },
+  "messages": {
+    "loopNotice": "Будьте обережні з можливим зацикленням через 2 чи більше правил з потоків робіт.",
+    "messageTemplateHelpText": "Допустимі змінні:\n{entity} - цільовий запис,\n{user} - поточний користувач."
+  }
+}

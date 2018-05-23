@@ -1,0 +1,10 @@
+{
+  "options": {
+    "job": {
+      "SynchronizeEventsWithGoogleCalendar": "Google Calendar синхронизация",
+      "MailChimpSyncData": "MailChimp синхронизация",
+      "ReportTargetListSync": "Синхронизировать целевые списки с отчётами",
+      "ScheduleReportSending": "Запланировать отправку отчётов"
+    }
+  }
+}

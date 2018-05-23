@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "itemList": {
+            "type": "jsonArray",
+            "notStorable": true,
+            "view": "Advanced:Opportunity.Fields.ItemList",
+            "layoutFiltersDisabled": true,
+            "layoutListDisabled": true
+        }
+    },
+    "links": {
+        "items": {
+            "type": "hasMany",
+            "entity": "OpportunityItem",
+            "foreign": "opportunity",
+            "layoutRelationshipsDisabled": true
+        },
+        "quotes": {
+            "type": "hasMany",
+            "entity": "Quote",
+            "foreign": "opportunity"
+        }
+    }
+}

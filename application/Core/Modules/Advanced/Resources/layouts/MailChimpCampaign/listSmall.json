@@ -1,0 +1,6 @@
+[
+    {"name":"name","width":30,"link":true,"notSortable": true},
+    {"name":"type", "type":"enum", "options":["regular", "plaintext", "absplit", "rss", "auto"],"notSortable": true},
+    {"name":"status", "type":"enum", "options":[ "sent", "save", "paused", "schedule", "sending"],"notSortable": true},
+    {"name":"dateSent", "type":"datetime","notSortable": true}
+]

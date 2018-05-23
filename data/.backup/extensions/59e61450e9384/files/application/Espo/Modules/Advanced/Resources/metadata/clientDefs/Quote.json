@@ -1,0 +1,87 @@
+{
+  "controller": "Controllers.Record",
+  "filterList": [
+    "actual",
+    {
+      "name": "approved",
+      "style": "success"
+    }
+  ],
+  "recordViews": {
+    "detail": "advanced:views/quote/record/detail",
+    "detailSmall": "advanced:views/quote/record/detail-small",
+    "editSmall": "advanced:views/quote/record/edit-small"
+  },
+  "bottomPanels": {
+    "detail": [
+      "__APPEND__",
+      {
+        "name": "items",
+        "label": "Items",
+        "view": "Advanced:Quote.Record.Panels.Items",
+        "notRefreshable": true,
+        "sticked": true
+      }
+    ],
+    "edit": [
+      "__APPEND__",
+      {
+        "name": "items",
+        "label": "Items",
+        "view": "Advanced:Quote.Record.Panels.Items",
+        "notRefreshable": true,
+        "sticked": true
+      }
+    ]
+  },
+    "menu": {
+        "list": {
+            "buttons": [
+                {
+                  "label": "Templates",
+                  "link": "#Template",
+                  "acl": "read",
+                  "aclScope": "Template"
+                }
+            ],
+            "dropdown": [
+                {
+                  "label": "Taxes",
+                  "link": "#Tax",
+                  "acl": "read",
+                  "aclScope": "Tax"
+                },
+                {
+                  "label": "Shipping Providers",
+                  "link": "#ShippingProvider",
+                  "acl": "read",
+                  "aclScope": "ShipingProvider"
+                },
+                {
+                  "label": "Quote Items",
+                  "link": "#QuoteItem",
+                  "acl": "read",
+                  "aclScope": "QuoteItem"
+                }
+            ]
+        }
+    },
+  "formDependency": {
+    "status": {
+      "map": {
+        "Approved": [
+          {
+            "action": "show",
+            "fields": ["dateInvoiced", "invoiceNumber"]
+          }
+        ]
+      },
+      "default": [
+        {
+          "action": "hide",
+          "fields": ["dateInvoiced", "invoiceNumber"]
+        }
+      ]
+    }
+  }
+}

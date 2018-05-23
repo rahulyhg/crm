@@ -1,0 +1,33 @@
+{
+    "labels": {
+        "synced with MailChimp": "synchronized with MailChimp",
+        "Skip": "--Skip--",
+        "Merge Field Tag": "Merge Field Tag",
+        "Merge Field Name": "Merge Field Name",
+        "Merge Field Type": "Merge Field Type",
+        "CustomMergeField Header": "Custom Merge Field Relations",
+        "failed synced with MailChimp": "did not synchronize with MailChimp. Try to schedule a synchronization one more time.",
+        "Core Campaign": "Core Campaign",
+        "Core TargetList": "Core Target List",
+        "MailChimp Campaign": "MailChimp Campaign",
+        "MailChimp TargetList": "MailChimp List",
+        "MailChimp TargetListGroup": "MailChimp Group",
+        "MailChimp Sync": "MailChimp Sync",
+        "Proceed Setup on MailChimp": "Proceed Setup on MailChimp",
+        "Save and Sync Now": "Save & Sync Now",
+        "Sync Now": "Sync Now",
+        "Scheduling Synchronization": "Scheduling Synchronization...",
+        "Synchronization is scheduled": "Synchronization is scheduled",
+        "Selected grouping": "You selected a grouping. Select a group?"
+    },
+    "messages": {
+        "The Tag could not be empty": "The Tag could not be empty",
+        "This tag is reserved": "This tag is reserved",
+        "Not valid tag": "Not valid tag",
+        "Duplicated Tag": "Duplicated Tag",
+        "Empty Name": "Empty Name"
+    },
+    "tooltips": {
+        "mailChimpGroup": "Select a list group (second level in the tree), if you want to add all recipients of Target List to the specified Interest Group"
+    }
+}

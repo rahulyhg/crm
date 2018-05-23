@@ -1,0 +1,8 @@
+{
+  "labels": {
+    "Workflow Manager": "Рабочий поток"
+  },
+  "descriptions": {
+    "workflowManager": "Правила рабочего потоков"
+  }
+}

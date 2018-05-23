@@ -1,0 +1,10 @@
+{
+    "entity": true,
+    "layouts": false,
+    "tab": true,
+    "acl": true,
+    "aclPortal": "recordAllNo",
+    "module": "Advanced",
+    "customizable": false,
+    "importable": false
+}

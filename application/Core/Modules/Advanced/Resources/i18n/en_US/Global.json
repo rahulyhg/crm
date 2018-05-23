@@ -1,0 +1,38 @@
+{
+    "scopeNames": {
+        "Workflow": "Workflow",
+        "Report": "Report",
+        "Product": "Product",
+        "ProductCategory": "Product Category",
+        "ProductBrand": "Product Brand",
+        "Quote": "Quote",
+        "QuoteItem": "Quote Item",
+        "Tax": "Tax",
+        "ShippingProvider": "Shipping Provider",
+        "OpportunityItem": "Opportunity Item",
+        "MailChimpCampaign": "MailChimp Campaign",
+        "MailChimpList": "MailChimp List",
+        "MailChimpListGroup": "MailChimp List Group",
+        "WorkflowLogRecord": "Workflow Log Record",
+        "GoogleCalendar": "Google Calendar",
+        "GoogleContacts": "Google Contacts"
+    },
+    "scopeNamesPlural": {
+        "Workflow": "Workflows",
+        "Report": "Reports",
+        "Product": "Products",
+        "ProductCategory": "Product Categories",
+        "Quote": "Quotes",
+        "QuoteItem": "Quote Items",
+        "Tax": "Taxes",
+        "ShippingProvider": "Shipping Providers",
+        "OpportunityItem": "Opportunity Items",
+        "ProductBrand": "Product Brands",
+        "MailChimpCampaign": "MailChimp Campaigns",
+        "MailChimpList": "MailChimp Lists",
+        "MailChimpListGroup": "MailChimp List Groups",
+        "WorkflowLogRecord": "Workflows Log",
+        "GoogleCalendar": "Google Calendar",
+        "GoogleContacts": "Google Contacts"
+    }
+}

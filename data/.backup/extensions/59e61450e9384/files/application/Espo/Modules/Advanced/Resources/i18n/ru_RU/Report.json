@@ -1,0 +1,96 @@
+{
+  "labels": {
+    "Create Report": "Создать отчёт",
+    "Run": "Сгенерировать",
+    "Total": "Итого",
+    "-Empty-": "-Пусто-",
+    "Parameters": "параметры",
+    "Filters": "Фильтры",
+    "Chart": "График",
+    "List Report": "Отчёт-список",
+    "Grid Report": "Отчёт-сетка",
+    "days": "дней",
+    "never": "никогда",
+    "Get CSV": "Получить CSV",
+    "EmailSending": "Отправка сообщений",
+    "View Report": "Посмотреть отчёт",
+    "Report": "Отчёт"
+  },
+  "fields": {
+    "type": "Тип",
+    "entityType": "Тип сущности",
+    "description": "Описание",
+    "groupBy": "Группировать по",
+    "columns": "Колонки",
+    "orderBy": "Сортировать по",
+    "filters": "Фильтры",
+    "runtimeFilters": "Фильтры при воспроизведении",
+    "chartType": "Тип графика",
+    "emailSendingInterval": "Интервал",
+    "emailSendingTime": "Время",
+    "emailSendingUsers": "Пользователи",
+    "emailSendingSettingDay": "День",
+    "emailSendingSettingMonth": "Месяц",
+    "emailSendingSettingWeekdays": "Дни",
+    "emailSendingDoNotSendEmptyReport": "Не отправлять отчёт, если он пустой"
+  },
+  "tooltips": {
+    "emailSendingUsers": "Пользователи, которым будет отсылаться результат отчёта"
+  },
+  "functions": {
+    "COUNT": "Количество",
+    "SUM": "Сумма",
+    "AVG": "Среднее",
+    "MIN": "Минимальное",
+    "MAX": "Максимальное",
+    "YEAR": "Год",
+    "MONTH": "Месяц",
+    "DAY": "День"
+  },
+  "orders": {
+    "ASC": "по возрастанию",
+    "DESC": "по убыванию",
+    "LIST": "Список"
+  },
+  "options": {
+    "chartType": {
+      "BarHorizontal": "Ленточный",
+      "BarVertical": "Столбиковый",
+      "Pie": "Секторный",
+      "Line": "Линейный"
+    },
+    "emailSendingInterval": {
+      "": "Нет",
+      "Daily": "Ежедневно",
+      "Weekly": "Еженедельно",
+      "Monthly": "Ежемесячно",
+      "Yearly": "Ежегодно"
+    },
+    "emailSendingSettingDay": {
+      "32": "В последний день месяца"
+    },
+    "type": {
+        "Grid": "Сетка",
+        "List": "Список"
+    }
+  },
+  "messages": {
+    "validateMaxCount": "Количество не может превышать число {maxCount}",
+    "gridReportDescription": "Группируйте за одной или двумя колонками и смотрите суммирование. Может отображаться как график",
+    "listReportDescription": "Простой список записей, которые соответствуют критерию"
+  },
+  "presetFilters": {
+    "list": "Список",
+    "grid": "Сетка",
+    "listTargets": "Список (Цели)",
+    "listAccounts": "Список (Контрагенты)",
+    "listContacts": "Список (Контакты)",
+    "listLeads": "Список (Лиды)",
+    "listUsers": "Список (Пользователи)"
+  },
+  "errorMessages": {
+    "error": "Ошибка",
+    "noChart": "Не выбран график для отчёта",
+    "selectReport": "Выберете отчёт в настройках дашлетов"
+  }
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Overview",
+        "style": "success",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "website"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "billingAddress"
+                },
+                {
+                    "name": "shippingAddress"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Details",
+        "style": "success",
+        "rows": [
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "sicCode"
+                }
+            ],
+            [
+                {
+                    "name": "industry"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

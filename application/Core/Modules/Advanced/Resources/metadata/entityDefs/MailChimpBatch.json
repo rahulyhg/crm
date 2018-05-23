@@ -1,0 +1,32 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "parentType": {
+            "type": "varchar"
+        },
+        "parentId": {
+            "type": "varchar"
+        },
+        "queueId": {
+            "type": "varchar"
+        },
+        "method": {
+            "type": "enum",
+            "options": [
+                "",
+                "SentToReport",
+                "Subscribe"
+            ]
+        }
+    }
+}

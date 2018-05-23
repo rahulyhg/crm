@@ -1,0 +1,11 @@
+{
+    "functionClassNameMap": {
+        "targetEntity\\attribute": "\\Core\\Modules\\Advanced\\Core\\Workflow\\Formula\\Functions\\TargetEntityGroup\\AttributeType",
+        "targetEntity\\attributeFetched": "\\Core\\Modules\\Advanced\\Core\\Workflow\\Formula\\Functions\\TargetEntityGroup\\AttributeFetchedType",
+        "targetEntity\\isAttributeChanged": "\\Core\\Modules\\Advanced\\Core\\Workflow\\Formula\\Functions\\TargetEntityGroup\\IsAttributeChangedType",
+        "targetEntity\\isAttributeNotChanged": "\\Core\\Modules\\Advanced\\Core\\Workflow\\Formula\\Functions\\TargetEntityGroup\\IsAttributeNotChangedType",
+        "targetEntity\\isNew": "\\Core\\Modules\\Advanced\\Core\\Workflow\\Formula\\Functions\\TargetEntityGroup\\IsNewType",
+        "targetEntity\\isRelated": "\\Core\\Modules\\Advanced\\Core\\Workflow\\Formula\\Functions\\TargetEntityGroup\\IsRelatedType",
+        "targetEntity\\hasLinkMultipleId": "\\Core\\Modules\\Advanced\\Core\\Workflow\\Formula\\Functions\\TargetEntityGroup\\HasLinkMultipleIdType"
+    }
+}

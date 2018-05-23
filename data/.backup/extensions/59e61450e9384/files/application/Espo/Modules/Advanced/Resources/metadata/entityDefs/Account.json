@@ -1,0 +1,20 @@
+{
+    "fields": {
+        "targetList": {
+            "reportDisabled": true
+        }
+    },
+    "links": {
+        "quotes": {
+            "type": "hasMany",
+            "entity": "Quote",
+            "foreign": "account"
+        },
+        "quoteItems": {
+            "type": "hasMany",
+            "entity": "QuoteItem",
+            "foreign": "account",
+            "layoutRelationshipsDisabled": true
+        }
+    }
+}

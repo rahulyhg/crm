@@ -1,0 +1,61 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "product"
+                }
+            ],
+            [
+                {
+                    "name": "quote"
+                },
+                {
+                    "name": "account"
+                }
+            ],
+            [
+                {
+                    "name": "quantity"
+                },
+                {
+                    "name": "quoteStatus"
+                }
+            ],
+            [
+                {
+                    "name": "listPrice"
+                },
+                {
+                    "name": "taxRate"
+                }
+            ],
+            [
+                {
+                    "name": "unitPrice"
+                },
+                {
+                    "name": "unitWeight"
+                }
+            ],
+            [
+                {
+                    "name": "amount"
+                },
+                {
+                    "name": "weight"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

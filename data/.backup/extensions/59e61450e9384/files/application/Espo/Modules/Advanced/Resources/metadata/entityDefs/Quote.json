@@ -1,0 +1,188 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true
+        },
+        "number": {
+            "type": "varchar",
+            "maxLength": "100"
+        },
+        "invoiceNumber": {
+            "type": "varchar",
+            "maxLength": "100"
+        },
+        "status": {
+            "type": "enum",
+            "options": ["Draft", "In Review", "Presented", "Approved", "Rejected", "Canceled"],
+            "view": "Fields.EnumStyled",
+            "style": {
+                "Closed Won": "success",
+                "Rejected": "danger"
+            },
+            "default": "Draft"
+        },
+        "dateQuoted": {
+            "type": "date",
+            "default": "javascript: return this.dateTime.getToday();"
+        },
+        "dateInvoiced": {
+            "type": "date"
+        },
+        "account": {
+            "type": "link",
+            "view": "Advanced:Quote.Fields.Account"
+        },
+        "opportunity": {
+            "type": "link",
+            "view": "Advanced:Quote.Fields.Opportunity"
+        },
+        "description": {
+            "type": "text"
+        },
+        "billingAddress": {
+            "type": "address"
+        },
+        "shippingAddress": {
+            "type": "address"
+        },
+        "billingContact": {
+            "type": "link",
+            "view": "Advanced:Quote.Fields.Contact"
+        },
+        "shippingContact": {
+            "type": "link",
+            "view": "Advanced:Quote.Fields.Contact"
+        },
+        "tax": {
+            "type": "link",
+            "view": "Advanced:Quote.Fields.Tax"
+        },
+        "taxRate": {
+            "type": "float",
+            "min": 0,
+            "max": 100
+        },
+        "shippingProvider": {
+            "type": "link"
+        },
+        "shippingCost": {
+            "type": "currency",
+            "layoutDetailDisabled": true
+        },
+        "taxAmount": {
+            "type": "currency",
+            "layoutDetailDisabled": true
+        },
+        "discountAmount": {
+            "type": "currency",
+            "layoutDetailDisabled": true
+        },
+        "amount": {
+            "type": "currency"
+        },
+        "preDiscountedAmount": {
+            "type": "currency",
+            "layoutDetailDisabled": true
+        },
+        "grandTotalAmount": {
+            "type": "currency",
+            "layoutDetailDisabled": true
+        },
+        "weight": {
+            "type": "float",
+            "min": 0,
+            "readOnly": true
+        },
+        "itemList": {
+            "type": "jsonArray",
+            "notStorable": true,
+            "layoutDetailDisabled": true,
+            "layoutFiltersDisabled": true,
+            "layoutListDisabled": true,
+            "view": "advanced:views/quote/fields/item-list"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "assignedUser": {
+            "type": "link",
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple"
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "tax": {
+            "type": "belongsTo",
+            "entity": "Tax"
+        },
+        "shippingProvider": {
+            "type": "belongsTo",
+            "entity": "ShippingProvider"
+        },
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account",
+            "foreign": "quotes"
+        },
+        "opportunity": {
+            "type": "belongsTo",
+            "entity": "Opportunity",
+            "foreign": "quotes"
+        },
+        "billingContact": {
+            "type": "belongsTo",
+            "entity": "Contact",
+            "foreign": "quotesBilling"
+        },
+        "shippingContact": {
+            "type": "belongsTo",
+            "entity": "Contact",
+            "foreign": "quotesShipping"
+        },
+        "items": {
+            "type": "hasMany",
+            "entity": "QuoteItem",
+            "foreign": "quote",
+            "layoutRelationshipsDisabled": true
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        }
+    },
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false
+    }
+}

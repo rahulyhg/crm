@@ -1,0 +1,8 @@
+{
+    "jobs": {
+        "AdvancedPack": {
+            "isSystem": true,
+            "scheduling": "3 3 * * 0"
+        }
+    }
+}

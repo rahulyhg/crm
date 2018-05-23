@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "name": "Имя",
+    "qty": "К-во",
+    "quantity": "Количество",
+    "unitPrice": "Цена за ед.",
+    "amount": "Сумма",
+    "product": "Продукт",
+    "order": "Номер линии",
+    "opportunity": "Сделка"
+  },
+  "links": {
+    "opportunity": "Сделка"
+  }
+}

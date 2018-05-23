@@ -1,0 +1,32 @@
+{
+  "scopeNames": {
+    "Workflow": "Workflow",
+    "Report": "Raport",
+    "Product": "Produkt",
+    "ProductCategory": "Kategoria produktu",
+    "ProductBrand": "Marka produktu",
+    "Quote": "Oferty",
+    "QuoteItem": "Pozycje oferty",
+    "Tax": "Podatek",
+    "ShippingProvider": "Dostawcy",
+    "OpportunityItem": "Pozycje szansy",
+    "MailChimpCampaign": "Kampanie MailChimp",
+    "MailChimpList": "Lista MailChimp",
+    "MailChimpListGroup": "Lista grup MailChimp"
+  },
+  "scopeNamesPlural": {
+    "Workflow": "Przepływy pracy",
+    "Report": "Raporty",
+    "Product": "Produkty",
+    "ProductCategory": "Kategorie produktów",
+    "Quote": "Oferty",
+    "QuoteItem": "Pozycje oferty",
+    "Tax": "Podatki",
+    "ShippingProvider": "Dostawcy",
+    "OpportunityItem": "Szanse pozycje",
+    "ProductBrand": "Marki Produktów",
+    "MailChimpCampaign": "Kampanie MailChimp",
+    "MailChimpList": "Listy MailChimp",
+    "MailChimpListGroup": "Lista grup MailChimp"
+  }
+}

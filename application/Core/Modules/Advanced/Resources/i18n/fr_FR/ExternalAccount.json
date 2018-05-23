@@ -1,0 +1,27 @@
+{
+    "options": {    
+        "calendarDefaultEntity" : {
+            "Call": "Appels",
+            "Meeting":"Rendez-vous"
+        },
+        
+        "calendarDirection": {
+            "CoreToGC": "Dans un sens: CRM -> Google Agenda",
+			"GCToCore": "Dans un sens: Google Agenda -> CRM",
+			"Both": "Dans les deux sens"
+        }
+        
+    },
+    "fields": {
+        "calendarStartDate": "Sync depuis",
+        "calendarEntityTypes": "Entités sync et libéllés d'identification",
+        "calendarDirection": "Direction",
+        "calendarMonitoredCalendars": "Autres Calendriers",
+        "calendarMainCalendar": "Calendrier Principal",
+        "calendarDefaultEntity": "Entité par défaut"
+    },
+    "tooltips": {
+        "calendarEntityTypes": "Les types reconnaissant le nom des événements doivent être paramétrés d'abord par les libéllés d'identification. Cette Étiquette pour l'entité par défaut peut être vide. Recommandation: Ne pas modifier les étiquettes d'identification après avoir enregistré le réglage de synchronisation.",
+        "calendarDefaultEntity": "Un événement non reconnu sera chargé par l'entité sélectionnée."
+    }
+}

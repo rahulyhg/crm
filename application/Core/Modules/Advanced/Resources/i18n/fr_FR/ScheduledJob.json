@@ -1,0 +1,9 @@
+{
+
+    "options": {
+        "job": {
+            "SynchronizeEventsWithGoogleCalendar": "Synchroniser les événements avec Google Agenda",
+            "MailChimpSyncData": "Synchroniser les données de MailChimp"
+        }
+    }
+}

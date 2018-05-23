@@ -1,0 +1,21 @@
+{
+  "labels": {
+    "synced with MailChimp": "синхронизировано с MailChimp",
+    "failed synced with MailChimp": "не синхронизировано с MailChimp. Попробуйте запланировать синхронизацию ещё раз.",
+    "Core Campaign": "Кампания Core",
+    "Core TargetList": "Целевой список Core",
+    "MailChimp Campaign": "Кампания MailChimp",
+    "MailChimp TargetList": "Список получателей MailChimp",
+    "MailChimp TargetListGroup": "Группа получателей MailChimp",
+    "MailChimp Sync": "MailChimp Синхронизация",
+    "Proceed Setup on MailChimp": "Продолжить настройку на MailChimp",
+    "Save and Sync Now": "Сохранить и Синхронизировать",
+    "Sync Now": "Синхронизировать",
+    "Scheduling Synchronization": "Планирование синхронизации",
+    "Synchronization is scheduled": "Синхронизация запланирована",
+    "Selected grouping": "Вы выбрали группировку. Выберите группу."
+  },
+  "tooltips": {
+    "mailChimpGroup": "Выберите группу (второй уровень в дереве), если Вы хотите добавить всех получателей с целевого списка в указанную группу по интересам"
+  }
+}

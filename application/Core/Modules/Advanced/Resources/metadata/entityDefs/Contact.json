@@ -1,0 +1,25 @@
+{
+    "fields": {
+        "targetList": {
+            "reportDisabled": true
+        }
+    },
+    "links": {
+        "quotesBilling": {
+            "type": "hasMany",
+            "entity": "Quote",
+            "foreign": "billingContact"
+        },
+        "quotesShipping": {
+            "type": "hasMany",
+            "entity": "Quote",
+            "foreign": "shippingContact"
+        },
+        "googleContacts": {
+            "type": "hasChildren",
+            "entity": "GoogleContactsPair",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        }
+    }
+}

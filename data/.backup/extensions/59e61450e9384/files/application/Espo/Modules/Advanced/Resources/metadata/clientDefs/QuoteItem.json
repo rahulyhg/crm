@@ -1,0 +1,22 @@
+{
+  "controller": "controllers/record",
+  "acl": "advanced:acl/quote-item",
+  "views": {
+    "list": "advanced:views/quote-item/list"
+  },
+  "recordViews": {
+    "list": "advanced:views/quote-item/record/list"
+  },
+  "menu": {
+    "list": {
+      "buttons": [
+        {
+          "label": "Quotes",
+          "link": "#Quote",
+          "acl": "read",
+          "aclScope": "Quote"
+        }
+      ]
+    }
+  }
+}

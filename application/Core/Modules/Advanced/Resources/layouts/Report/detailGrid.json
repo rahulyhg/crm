@@ -1,0 +1,73 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [{"name": "name"},{"name":"type", "readOnly": true}],
+            [false, {"name": "entityType", "readOnly": true}],
+            [{"name": "description", "fullWidth": true}]
+        ]
+    },
+    {
+        "label": "Parameters",
+        "rows": [
+            [
+                {
+                    "name": "groupBy",
+                    "view": "Advanced:Report.Fields.GroupBy",
+                    "params": {
+                        "required": true
+                    }
+                },
+                {
+                    "name": "columns",
+                    "view": "Advanced:Report.Fields.Columns",
+                    "params": {
+                        "required": true
+                    }
+                }
+            ],
+            [
+                {
+                    "name": "orderBy",
+                    "view": "Advanced:Report.Fields.OrderBy"
+                },
+                {
+                    "name": "runtimeFilters",
+                    "view": "Advanced:Report.Fields.RuntimeFilters"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Filters",
+        "rows": [
+            [
+                {
+                    "name": "filtersControl",
+                    "customLabel": "",
+                    "view": "advanced:views/report/fields/filters-control-2",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Chart",
+        "rows": [
+            [
+                {
+                    "name": "chartType"
+                },
+                {
+                    "name": "chartColorList"
+                }
+            ],
+            [
+                {
+                    "name": "chartColor"
+                },
+                false
+            ]
+        ]
+    }
+]

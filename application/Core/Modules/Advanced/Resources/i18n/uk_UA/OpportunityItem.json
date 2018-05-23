@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "name": "Назва",
+    "qty": "К-сть",
+    "quantity": "Кількість",
+    "unitPrice": "Ціна за од.",
+    "amount": "Сума",
+    "product": "Продукт",
+    "order": "Порядковий номер",
+    "opportunity": "Угода"
+  },
+  "links": {
+    "opportunity": "Угода"
+  }
+}

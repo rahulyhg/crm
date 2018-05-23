@@ -1,0 +1,43 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true
+        },
+        "parent": {
+            "type": "linkParent"
+        },
+        "data": {
+            "type": "jsonObject"
+        }, 
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "jobs": {
+            "type": "jsonArray"
+        },
+        "assignedUser": {
+            "type": "link"
+        },
+        "completed": {
+            "type": "bool"
+        }
+    },
+    "links": {
+        "parent": {
+            "type": "belongsToParent",
+            "entityList": ["Campaign", "TargetList"],
+            "foreign": "mailChimpQueue"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User",
+            "foreign": "mailChimpmanualSync"
+        }
+    }
+}

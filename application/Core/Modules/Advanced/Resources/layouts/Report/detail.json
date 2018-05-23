@@ -1,0 +1,10 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [{"name": "name"},{"name":"type", "readOnly": true}],        
+            [false, {"name": "entityType", "readOnly": true}],    
+            [{"name": "description", "fullWidth": true}]
+        ]
+    }
+]

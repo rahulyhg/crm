@@ -1,0 +1,8 @@
+{
+  "relationshipPanels": {
+    "quotes": {
+      "createAction":"createRelatedQuote",
+      "view":"Advanced:Opportunity.Record.Panels.Quotes"
+    }
+  }
+}

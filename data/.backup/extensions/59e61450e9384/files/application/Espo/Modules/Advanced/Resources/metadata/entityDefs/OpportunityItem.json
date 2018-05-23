@@ -1,0 +1,73 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true
+        },
+        "opportunity": {
+            "type": "link"
+        },
+        "product": {
+            "type": "link"
+        },
+        "quantity": {
+            "type": "float",
+            "default": 1.0,
+            "required": true
+        },
+        "unitPrice": {
+            "type": "currency",
+            "required": true
+        },
+        "amount": {
+            "type": "currency",
+            "required": true
+        },
+        "order": {
+            "type": "int",
+            "default": 1
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "product": {
+            "type": "belongsTo",
+            "entity": "Product"
+        },
+        "opportunity": {
+            "type": "belongsTo",
+            "entity": "Opportunity",
+            "foreign": "items"
+        }
+    },
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false
+    }
+}

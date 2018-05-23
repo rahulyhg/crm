@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "apiKey": "API Key",
+        "createEmails": "Récupère les emails envoyés",
+        "markEmailsOptedOut": "Marquer les Adresses e-mail comme désinscrits pour les destinataires non abonnés",
+        "hardBouncedAction": "Manipulation de refus permanent"
+    },
+    "options": {
+        "hardBouncedAction": {
+            "setAsInvalid": "Entrez l'adresse email comme non valide", 
+            "removeFromList": "Supprimer de la liste", 
+            "setAsInvalidAndRemove": "Les deux Actions"
+        }
+    },
+    "help": {
+        "Google": "<p><b>Il faut obtenir des identifiants OAuth 2.0 de Google Developers.</b></p><p>Visitez <a href=\"https://console.developers.google.com/project\" target=\"_blank\">Google Developers</a> pour obtenir les identifiants OAuth 2.0 comme un numéro de client et le client secret qui sont connus à la fois de l'application Google et du CRM.</p><p>This integration requires <b>curl</b> extension. Google Contacts also needs <b>libxml</b> and <b>xml</b></p>",
+        "MailChimp": "<p><b>Configuration MailChimp</b></p><p>Vous pouvez obtenir votre clé API dans votre compte MailChimp, dans l'onglet Extras sélectionner les touches de l'API, ou cliquez <a href='https://admin.mailchimp.com/account/api/' target='_blank'>ici</a></p>"
+    },
+    "tooltips": {
+        "createEmails": "Récupère les courriels envoyés via MailChimp et se rapportent à vos destinataires dans Samex CRM. Recommandation: ne pas chercher les emails si vous utilisez de grandes listes de destinataires."
+    }
+    
+}

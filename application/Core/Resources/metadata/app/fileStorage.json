@@ -1,0 +1,5 @@
+{
+    "implementationClassNameMap": {
+        "CoreUploadDir": "\\Core\\Core\\FileStorage\\Storages\\CoreUploadDir"
+    }
+}

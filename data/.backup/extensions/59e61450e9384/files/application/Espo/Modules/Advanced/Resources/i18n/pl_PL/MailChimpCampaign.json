@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "name": "Nazwa",
+    "type": "Typ",
+    "list": "Lista",
+    "subject": "Temat emaila",
+    "fromEmail": "Z adresu email",
+    "fromName": "Z nazwy",
+    "toName": "Pole \"Do:\" personalizacji",
+    "status": "Status",
+    "dateSent": "Data wysłania"
+  },
+  "options": {
+    "type": {
+      "regular": "Regularny",
+      "plaintext": "Zwykły tekst",
+      "rss": "RSS-Driven",
+      "absplit": "Rozdziel A/B",
+      "auto": "Auto"
+    },
+    "status": {
+      "sent": "Wyślij",
+      "save": "Zapisz",
+      "paused": "Pauza",
+      "schedule": "Rozkład",
+      "sending": "Wysyłane"
+    }
+  }
+}

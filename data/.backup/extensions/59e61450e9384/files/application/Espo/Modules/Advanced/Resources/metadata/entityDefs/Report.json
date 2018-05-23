@@ -1,0 +1,233 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true
+        },
+        "entityType": {
+            "type": "enum",
+            "required": true,
+            "view": "Advanced:Report.Fields.EntityType"
+        },
+        "type": {
+            "type": "enum",
+            "default": "Grid",
+            "options": ["Grid", "List"]
+        },
+        "data": {
+            "type": "jsonObject"
+        },
+        "columns": {
+            "type": "jsonArray"
+        },
+        "groupBy": {
+            "type": "jsonArray"
+        },
+        "orderBy": {
+            "type": "jsonArray"
+        },
+        "orderByList": {
+            "type": "varchar"
+        },
+        "filters": {
+            "type": "jsonArray"
+        },
+        "filtersDataList": {
+            "type": "jsonArray"
+        },
+        "runtimeFilters": {
+            "type": "jsonArray"
+        },
+        "filtersData": {
+            "type": "jsonObject"
+        },
+        "columnsData": {
+            "type": "jsonObject"
+        },
+        "chartColorList": {
+            "type": "array",
+            "tooltip": true,
+            "view": "advanced:views/report/fields/chart-color-list"
+        },
+        "chartColors": {
+            "type": "jsonObject"
+        },
+        "chartColor": {
+            "type": "varchar",
+            "maxLength": 7,
+            "default": "#6FA8D6"
+        },
+        "description": {
+            "type": "text"
+        },
+        "chartType": {
+            "type": "enum",
+            "options": ["", "BarVertical", "BarHorizontal", "Pie", "Line"]
+        },
+        "depth": {
+            "type": "int"
+        },
+        "isInternal": {
+            "type": "bool"
+        },
+        "internalClassName": {
+            "type": "varchar"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "assignedUser": {
+            "type": "link",
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple"
+        },
+        "emailSendingInterval": {
+            "type": "enum",
+            "options": ["", "Daily","Weekly","Monthly","Yearly"],
+            "default":""
+        },
+        "emailSendingSettingMonth": {
+            "type": "enum",
+            "dbType": "int",
+            "options": ["1","2","3","4","5","6","7","8","9","10","11","12"],
+            "view": "Advanced:Report.Fields.EmailSendingMonth"
+        },
+        "emailSendingSettingDay": {
+            "type": "enum",
+            "dbType": "int",
+            "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"]
+        },
+        "emailSendingSettingWeekdays": {
+            "type": "varchar",
+            "view": "Advanced:Report.Fields.EmailSendingWeekdays"
+        },
+        "emailSendingTime": {
+            "type": "base",
+            "required": true,
+            "dbType": "time",
+            "view": "Advanced:Report.Fields.EmailSendingTime"
+        },
+        "emailSendingUsers": {
+            "type": "linkMultiple",
+            "tooltip": true
+        },
+        "emailSendingLastDateSent": {
+            "type": "datetime",
+            "disabled": true,
+            "readOnly": true
+        },
+        "emailSendingDoNotSendEmptyReport": {
+            "type": "bool",
+            "default": false
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam"
+        },
+        "syncTargetLists": {
+            "type": "hasMany",
+            "entity": "TargetList",
+            "foreign": "syncWithReports"
+        },
+        "emailSendingUsers": {
+            "type": "hasMany",
+            "entity": "User",
+            "foreign": "reportEmailSending"
+        }
+    },
+    "collection": {
+        "sortBy": "name",
+        "asc": true
+    },
+    "entityListToIgnore": [
+        "Job",
+        "UniqueId",
+        "Role",
+        "ScheduledJob",
+        "ScheduledJobLogRecord",
+        "PhoneNumber",
+        "Notification",
+        "EmailAddress",
+        "EmailAccount",
+        "EmailTemplate",
+        "Attachment",
+        "Extension",
+        "InboundEmail",
+        "AuthToken",
+        "Integration",
+        "ExternalAccount",
+        "Currency",
+        "Note",
+        "Workflow",
+        "Report",
+        "Reminder",
+        "PasswordChangeRequest",
+        "Team",
+        "GoogleCalendar",
+        "GoogleCalendarUser",
+        "GoogleCalendarRecurrentEvent",
+        "MailChimpLogMarker",
+        "MailChimp",
+        "MailChimpCamapaign",
+        "MailChimpList",
+        "MailChimpManualSync",
+        "CampaignLogRecord",
+        "Import"
+    ],
+    "complexExpressionFunctionList": [
+        "DATE_NUMBER",
+        "MONTH_NUMBER",
+        "YEAR_NUMBER",
+        "DAYOFWEEK_NUMBER",
+        "HOUR_NUMBER",
+        "MINUTE_NUMBER",
+        "TRIM",
+        "LENGTH"
+    ],
+    "complexExpressionOperatorList": [
+        "equals",
+        "notEquals",
+        "greaterThan",
+        "lessThan",
+        "greaterThanOrEquals",
+        "lessThanOrEquals",
+        "in",
+        "notIn",
+        "isTrue",
+        "isFalse",
+        "isNull",
+        "isNotNull",
+        "like"
+    ]
+}

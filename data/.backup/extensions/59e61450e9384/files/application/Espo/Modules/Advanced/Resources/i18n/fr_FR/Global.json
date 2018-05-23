@@ -1,0 +1,14 @@
+{
+    "scopeNames": {
+        "Workflow": "Workflow",
+        "Report": "Rapport",
+        "report": "Rapport",
+        "MailChimpCampaign":"Campagne MailChimp",
+        "MailChimpList":"Liste MailChimp"
+    },
+    "scopeNamesPlural": {
+        "Workflow": "Workflows",
+        "Report": "Rapports",
+        "report": "Rapports"
+    }
+}

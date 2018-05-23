@@ -1,0 +1,8 @@
+{
+    "mailChimpNotification": {
+        "url": "MailChimp/action/checkSynchronization",
+        "interval": 15,
+        "view": "Advanced:MailChimp.Notification",
+        "disabled": true
+    }
+}

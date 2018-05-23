@@ -1,0 +1,102 @@
+{
+    "controller": "Controllers.Record",
+    "views": {
+        "list": "Advanced:Product.List"
+    },
+    "modalViews": {
+        "select": "Advanced:Product.Modals.SelectRecords"
+    },
+    "menu": {
+        "list": {
+            "dropdown": [
+                {
+                    "label": "Brands",
+                    "link": "#ProductBrand",
+                    "acl": "read",
+                    "aclScope": "ProductBrand"
+                },
+                {
+                    "label": "Categories",
+                    "link": "#ProductCategory",
+                    "acl": "edit",
+                    "aclScope": "ProductCategory"
+                }
+            ]
+        }
+    },
+    "filterList": [
+        "available"
+    ],
+    "formDependency": {
+        "pricingType": {
+            "map": {
+                "Same as List": [
+                    {
+                        "action": "hide",
+                        "fields": ["pricingFactor"]
+                    },
+                    {
+                        "action": "setReadOnly",
+                        "fields": ["unitPrice"]
+                    },
+                    {
+                        "action": "setNotReadOnly",
+                        "fields": ["listPrice"]
+                    }
+                ],
+                "Fixed": [
+                    {
+                        "action": "hide",
+                        "fields": ["pricingFactor"]
+                    },
+                    {
+                        "action": "setNotReadOnly",
+                        "fields": ["listPrice", "unitPrice"]
+                    }
+                ],
+                "Discount from List": [
+                    {
+                        "action": "show",
+                        "fields": ["pricingFactor"]
+                    },
+                    {
+                        "action": "setReadOnly",
+                        "fields": ["unitPrice"]
+                    },
+                    {
+                        "action": "setNotReadOnly",
+                        "fields": ["listPrice"]
+                    }
+                ],
+                "Markup over Cost": [
+                    {
+                        "action": "show",
+                        "fields": ["pricingFactor"]
+                    },
+                    {
+                        "action": "setReadOnly",
+                        "fields": ["unitPrice"]
+                    },
+                    {
+                        "action": "setNotReadOnly",
+                        "fields": ["listPrice"]
+                    }
+                ],
+                "Profit Margin": [
+                    {
+                        "action": "show",
+                        "fields": ["pricingFactor"]
+                    },
+                    {
+                        "action": "setReadOnly",
+                        "fields": ["unitPrice"]
+                    },
+                    {
+                        "action": "setNotReadOnly",
+                        "fields": ["listPrice"]
+                    }
+                ]
+            }
+        }
+    }
+}

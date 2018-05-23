@@ -1,0 +1,56 @@
+{
+  "labels": {
+    "Create Quote": "Создать предложение",
+    "Taxes": "Налоги",
+    "Shipping Providers": "Службы доставок",
+    "Add Item": "Добавить пункт",
+    "Templates": "Шаблоны",
+    "Items": "Пункты",
+    "Email PDF": "Отправить по почте"
+  },
+  "fields": {
+    "status": "Статус",
+    "number": "Номер предложения",
+    "invoiceNumber": "Номер счёт-фактуры",
+    "account": "Контрагент",
+    "opportunity": "Сделка",
+    "billingAddress": "Платёжный адрес",
+    "shippingAddress": "Адрес доставки",
+    "billingContact": "Контакт по платежам",
+    "shippingContact": "Контакт по доставке",
+    "tax": "Налог",
+    "taxRate": "Налог (%)",
+    "shippingCost": "Стоимость доставки",
+    "shippingProvider": "Служба доставки",
+    "taxAmount": "Сумма налога",
+    "discountAmount": "Сумма скидки",
+    "amount": "Сумма",
+    "preDiscountedAmount": "Сумма до скидки",
+    "grandTotalAmount": "Общая сумма",
+    "itemList": "Пункт списка",
+    "dateQuoted": "Дата предложения",
+    "dateInvoiced": "Дата фактуры"
+  },
+  "links": {
+    "items": "Пункты",
+    "billingContact": "Контакт по платежам",
+    "shippingContact": "Контакт по доставке",
+    "opportunity": "Сделка",
+    "account": "Контрагент",
+    "tax": "Налог"
+  },
+  "options": {
+    "status": {
+      "Draft": "В проекте",
+      "In Review": "На рассмотрении",
+      "Presented": "Предложено",
+      "Approved": "Утверждено",
+      "Rejected": "Отклонено",
+      "Canceled": "Аннулировано"
+    }
+  },
+  "presetFilters": {
+    "actual": "Актуальные",
+    "approved": "Утверждённые"
+  }
+}

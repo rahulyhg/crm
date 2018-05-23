@@ -1,0 +1,29 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "title"
+    },
+    {
+        "name": "account",
+        "width": 25
+    },
+    {
+        "name": "emailAddress",
+        "width": 20,
+        "notSortable": true
+    },
+    {
+        "name": "phoneNumber",
+        "width": 18,
+        "notSortable": true
+    },
+    {
+        "name": "assignedUser"
+    },
+    {
+        "name": "createdAt"
+    }
+]

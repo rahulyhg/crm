@@ -1,0 +1,36 @@
+{
+    "fields": {
+        "apiKey": {
+            "type": "varchar",
+            "maxLength": 255,
+            "required": true
+        },
+        "createEmails": {
+            "type": "bool",
+            "tooltip": true
+        },
+        "markEmailsOptedOut": {
+            "type": "bool"
+        },
+        "hardBouncedAction": {
+            "type": "enum",
+            "options": ["setAsInvalid", "removeFromList", "setAsInvalidAndRemove"]
+        },
+        "logSyncDurationDays": {
+            "type": "int",
+            "default": 15,
+            "tooltip": true,
+            "required": true
+        },
+        "customMergeFields": {
+            "type": "jsonObject",
+            "tooltip": true,
+            "view": "advanced:views/mail-chimp/fields/custom-merge-fields"
+        }
+    },
+    "view": "Advanced:MailChimp.Integration",
+    "allowUserAccounts": false,
+    "authMethod": "MailChimp",
+    "clientClassName": "\\Core\\Modules\\Advanced\\Core\\MailChimp\\Clients\\MailChimp"
+}
+

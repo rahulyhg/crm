@@ -1,0 +1,119 @@
+{
+  "fields": {
+    "Name": "Betreff",
+    "entityType": "Ziel Entität/Modul",
+    "type": "Triggertyp",
+    "isActive": "Aktiv",
+    "description": "Beschreibung",
+    "usersToMakeToFollow": "Benutzer zu machen, um dem Datensatz zu folgen",
+    "whatToFollow": "Was beobachten",
+    "portalOnly": "Nur Portal",
+    "portal": "Portal",
+    "targetReport": "Target Bericht",
+    "scheduling": "Planung"
+  },
+  "links": {
+    "portal": "Portal",
+    "targetReport": "Target Bericht",
+    "workflowLogRecords": "Protokoll"
+  },
+  "tooltips": {
+    "portalOnly": "Wenn markiert werden Workflows nur im Portal ausgeführt",
+    "portal": "Portale in denen der Workflow ausgeführt wird. Leer lassen wenn er in allen Portalen ausgeführt werden soll.",
+    "scheduling": "Definiert wann und wie oft ein Job läuft\n\n*/5 * * * * - alle 5 Minuten\n\n0 */2 * * * - alle 2 Stunden\n\n30 1 * * * - um 01:30 einmal am Tag\n\n0 0 1 * * - am ersten Tag des Monats"
+  },
+  "labels": {
+    "Create Workflow": "Regel erstellen",
+    "General": "Allgemein",
+    "Conditions": "Bedingungen",
+    "Actions": "Aktionen",
+    "All": "Alle",
+    "Any": "Irgendein(e)",
+    "Email Address": "E-Mail Adresse",
+    "Email Template": "E-Mail Vorlage",
+    "From": "Von",
+    "To": "Bis",
+    "immediately": "Sofort",
+    "later": "Später",
+    "today": "heute",
+    "plus": "plus",
+    "minus": "minus",
+    "days": "Tage",
+    "hours": "Stunden",
+    "months": "Monate",
+    "minutes": "Minuten",
+    "Link": "Link",
+    "Entity": "Entität/Modul",
+    "Add Field": "Feld hinzufügen",
+    "equals": "ist gleich",
+    "wasEqual": "war gleich",
+    "notEquals": "ist nicht gleich",
+    "wasNotEqual": "war nicht gleich",
+    "changed": "geändert",
+    "notEmpty": "nicht leer",
+    "isEmpty": "Leer",
+    "value": "Wert",
+    "field": "Feld",
+    "true": "wahr",
+    "false": "falsch",
+    "greaterThan": "größer als",
+    "lessThan": "kleiner als",
+    "greaterThanOrEquals": "größer oder gleich",
+    "lessThanOrEquals": "kleiner oder gleich",
+    "between": "zwischen",
+    "on": "für",
+    "before": "vor",
+    "after": "nach",
+    "beforeToday": "vor heute",
+    "afterToday": "nach heute",
+    "recipient": "Empfängert",
+    "has": "hat",
+    "messageTemplate": "Nachrichtenvorlage",
+    "users": "Benutzer",
+    "Target Entity": "Ziel Entität/Modul",
+    "Workflow": "WorkFlow",
+    "Workflows Log": "Workflows Protokoll"
+  },
+  "emailAddressOptions": {
+    "currentUser": "Aktueller Benutzer",
+    "specifiedEmailAddress": "Spezifizierte E-Mail Adresse",
+    "assignedUser": "Zugewiesener Benutzer",
+    "targetEntity": "Ziel Entität/Modul",
+    "specifiedUsers": "Spezifizierter Benutzer",
+    "teamUsers": "Team Benutzer",
+    "followers": "Beobachter",
+    "followersExcludingAssignedUser": "Beobachter außer zugewiesenen Benutzern",
+    "specifiedTeams": "Benutzer von gewählten Teams"
+  },
+  "options": {
+    "type": {
+      "afterRecordSaved": "Nach dem Speichern des Datensatzes",
+      "afterRecordCreated": "Nach dem Erstellen des Datensatzes",
+      "scheduled": "Geplant",
+      "sequential": "Nacheinander"
+    },
+    "subjectType": {
+      "value": "Wert",
+      "field": "Feld",
+      "today": "heute/jetzt"
+    }
+  },
+  "actionTypes": {
+    "sendEmail": "E-Mail senden",
+    "createEntity": "Entität/Modul erstellen",
+    "createRelatedEntity": "Verbundene Entität/Modul erstellen",
+    "updateEntity": "Entität/Modul aktualisieren",
+    "updateRelatedEntity": "Verknüpfte Entitäten aktualisieren",
+    "makeFollowed": "Beobachtet erstellen",
+    "createNotification": "Benachrichtigungen erstellen",
+    "triggerWorkflow": "Einen anderen Workflow triggern"
+  },
+  "texts": {
+    "allMustBeMet": "Alle müssen zutreffen",
+    "atLeastOneMustBeMet": "Zumindest eine/r muss zutreffen"
+  },
+  "messages": {
+    "loopNotice": "Passen Sie bitte auf, dass Workflow Regeln nicht in einer Endlosschleife enden.",
+    "messageTemplateHelpText": "Verfügbare Variablen:\n{entity} - Zielsatz\n{user} - Aktueller Benutzer"
+  }
+}

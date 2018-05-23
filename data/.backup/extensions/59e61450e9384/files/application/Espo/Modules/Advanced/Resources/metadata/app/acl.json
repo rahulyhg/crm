@@ -1,0 +1,8 @@
+{
+    "mandatory": {
+        "scopeLevel": {
+            "WorkflowLogRecord": false,
+            "QuoteItem": "Quote"
+        }
+    }
+}

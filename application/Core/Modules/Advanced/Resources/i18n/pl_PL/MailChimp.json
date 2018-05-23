@@ -1,0 +1,21 @@
+{
+  "labels": {
+    "synced with MailChimp": "Zsynchronizowane z MailChimp",
+    "failed synced with MailChimp": "nie synchronizowano z MailChimp. Spróbuj zaplanować synchonizację ponownie.",
+    "Core Campaign": "Kampania Core",
+    "Core TargetList": "Grupa docelowa Core",
+    "MailChimp Campaign": "Kampania MailChimp",
+    "MailChimp TargetList": "Lista MailChimp",
+    "MailChimp TargetListGroup": "Grupa MailChimp",
+    "MailChimp Sync": "Synchronizuj MailChimp",
+    "Proceed Setup on MailChimp": "Kontynuuj instalację w MailChimp",
+    "Save and Sync Now": "Zapisz & Synchronizuj teraz",
+    "Sync Now": "Synchronizuj teraz",
+    "Scheduling Synchronization": "Harmonogram synchronizacji...",
+    "Synchronization is scheduled": "Synchronizacna jest zaplanowana",
+    "Selected grouping": "Wybrano grupę. Wybierz grupę?"
+  },
+  "tooltips": {
+    "mailChimpGroup": "Wybierz z listy grupę (drugi poziom w drzewie), jeżeli chcesz dodać wszystkich odbiorców z Listy Odbiorców do zainteresowanej grupy"
+  }
+}

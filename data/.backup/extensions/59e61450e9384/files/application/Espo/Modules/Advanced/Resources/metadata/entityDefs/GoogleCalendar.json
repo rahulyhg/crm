@@ -1,0 +1,30 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "disabled": true
+        },
+        "calendarId": {
+            "type": "varchar",
+            "required": true,
+            "disabled": true
+        }
+    },
+    "links": {
+        "googleCalendarUser": {
+            "type": "hasMany",
+            "entity": "GoogleCalendarUser",
+            "foreign": "googleCalendar"
+        },
+        "Call": {
+            "type": "hasMany",
+            "entity": "Call",
+            "foreign": "googleCalendar"
+        },
+        "Meeting": {
+            "type": "hasMany",
+            "entity": "Meeting",
+            "foreign": "googleCalendar"
+        }
+    }
+}

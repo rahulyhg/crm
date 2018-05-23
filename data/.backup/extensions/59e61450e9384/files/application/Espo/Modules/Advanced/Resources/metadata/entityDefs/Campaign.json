@@ -1,0 +1,39 @@
+{
+    "fields": {
+        "mailChimpCampaignId": {
+            "type": "varchar",
+            "readOnly": true,
+            "disabled": true
+        },
+        "mailChimpCampaignName": {
+            "type": "varchar",
+            "readOnly": true,
+            "disabled": true
+        },
+        "mailChimpCampaignStatus": {
+            "type": "varchar",
+            "readOnly": true,
+            "disabled": true
+        },
+        "mailChimpCampaignWebId": {
+            "type": "varchar",
+            "readOnly": true,
+            "disabled": true
+        },
+        "mailChimpManualSyncRun": {
+            "type": "bool",
+            "readOnly": true,
+            "disabled": true
+        },
+        "mailChimpLastManualSyncStatus": {
+            "type": "varchar",
+            "readOnly": true,
+            "disabled": true
+        },
+        "mailChimpLastSuccessfulUpdating": {
+            "type": "datetime",
+            "readOnly": true,
+            "disabled": true
+        }
+    }
+}

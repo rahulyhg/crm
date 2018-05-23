@@ -1,0 +1,19 @@
+{
+    "labels": {
+       "MailChimp List Settings": "MailChimp List Sync",
+       "MailChimp Sync": "MailChimp Sync",
+       "Sync with Reports": "Sync with Reports"
+    },
+    "fields": {
+    	"syncWithReports": "Reports",
+    	"syncWithReportsEnabled": "Enabled",
+        "syncWithReportsUnlink": "Unlink"
+    },
+    "links": {
+    	"syncWithReports": "Sync with Reports"
+    },
+    "tooltips": {
+        "syncWithReportsUnlink": "Entries which are not contained in report results will be unlinked from Target List.",
+        "syncWithReports": "Target List will be synced with results of selected reports."
+    }
+}

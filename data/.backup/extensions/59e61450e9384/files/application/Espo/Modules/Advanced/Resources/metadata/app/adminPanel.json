@@ -1,0 +1,12 @@
+{
+   "customization":{
+      "items":[
+         "__APPEND__",
+         {
+            "url":"#Workflow",
+            "label":"Workflow Manager",
+            "description":"workflowManager"
+         }
+      ]
+   }
+}

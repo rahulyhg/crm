@@ -1,0 +1,62 @@
+{
+    "fields": {
+        "name": {
+           "type": "enum",
+           "readOnly": true,
+            "options": [
+                "Subscribe",
+                "Unsubscribe",
+                "UpdateMember",
+                "Batch",
+                "UpdateList"
+            ]
+        },
+        "orderNumber": {
+            "type": "autoincrement"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "data": {
+            "type": "jsonArray"
+        },
+        "additionalData": {
+            "type": "jsonObject"
+        },
+        "parentType": {
+            "type": "varchar"
+        },
+        "parentId": {
+            "type": "varchar"
+        },
+        "recipientEntityType": {
+            "type": "varchar"
+        },
+        "recipientEntityId": {
+            "type": "varchar"
+        },
+        "status": {
+            "type": "enum",
+            "options": [
+                "Pending",
+                "Running",
+                "Sent",
+                "Success",
+                "Failed"
+            ],
+            "default": "Pending"
+        },
+        "relatedItemId": {
+            "type": "varchar"
+        },
+        "attempsLeft": {
+            "type": "int",
+            "default": 3
+        }
+    }
+}

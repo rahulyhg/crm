@@ -1,0 +1,14 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [{"name": "name"}],
+            [{"name": "brand"}],
+            [{"name": "category"}],
+            [{"name": "status"}],
+            [{"name": "costPrice"}],
+            [{"name": "listPrice"}],
+            [{"name": "unitPrice"}]
+        ]
+    }
+]

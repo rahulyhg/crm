@@ -1,0 +1,12 @@
+[
+  {
+      "route":"/MailChimp/scheduleSync/:entity/:id",
+      "method":"get",
+      "params":{
+        "controller":"MailChimp",
+        "action":"scheduleSync",
+        "entity":":entity",
+        "id":":id"
+      }
+  }  
+]

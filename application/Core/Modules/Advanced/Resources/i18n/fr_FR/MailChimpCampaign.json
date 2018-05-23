@@ -1,0 +1,21 @@
+{
+    "fields": {
+       "name": "Nom",
+       "type": "Type",
+       "list": "Liste",
+       "subject": "Objet de l'Email",
+       "fromEmail": "De l'adresse email",
+       "fromName": "De l'expéditeur",
+       "toName": "Personaliser le champ \"À:\"",
+       "content": "Contenu?"
+    },
+    "options": {
+        "type":{
+            "regular": "Régulier",
+            "plaintext": "Texte seulement",
+            "rss": "RSS-Driven"
+        }
+    }
+}
+
+

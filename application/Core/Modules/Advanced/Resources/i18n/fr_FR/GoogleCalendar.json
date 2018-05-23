@@ -1,0 +1,8 @@
+{
+    "messages": {
+        "fieldLabelIsRequired":"Seulement une entité pourrait ne pas avoir de libéllé d'identification",
+        "emptyNotDefaultEnitityLabel":"Le libéllé d'identification ne peut être vide par défaut",
+        "defaultEntityIsRequiredInList":"Une entité par défaut est nécesaire dans la Liste des Entités Sync"
+    }
+    
+}

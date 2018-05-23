@@ -1,0 +1,12 @@
+{
+  "labels": {
+    "Create ProductCategory": "Створити категорію",
+    "Manage Categories": "Управління категоріями"
+  },
+  "fields": {
+    "order": "Порядок"
+  },
+  "links": {
+    "products": "Продукти"
+  }
+}

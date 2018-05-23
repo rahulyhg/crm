@@ -1,0 +1,35 @@
+{
+    "labels": {
+       "Create MailChimpCampaign": "Create MailChimp Campaign"
+    },
+    "fields": {
+       "name": "Name",
+       "type": "Type",
+       "list": "List",
+       "subject": "Email Subject",
+       "fromEmail": "From Email Address",
+       "fromName": "From Name",
+       "toName": "Personalize the \"To:\" field",
+       "status": "Status",
+       "dateSent": "Date Sent",
+       "content": "Content?"
+    },
+    "options": {
+        "type":{
+            "regular": "Regular",
+            "plaintext": "Plain-Text",
+            "rss": "RSS-Driven",
+            "absplit": "A/B Split",
+            "auto": "Auto"
+        },
+        "status":{
+             "sent": "Sent", 
+             "save": "Save", 
+             "paused": "Paused",
+             "schedule": "Schedule",
+             "sending": "Sending"
+        }
+    }
+}
+
+

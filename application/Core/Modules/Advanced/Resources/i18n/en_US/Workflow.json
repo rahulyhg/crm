@@ -1,0 +1,146 @@
+{
+    "fields": {
+        "Name": "Name",
+        "entityType": "Target Entity",
+        "type": "Trigger Type",
+        "isActive": "Active",
+        "description": "Description",
+        "usersToMakeToFollow": "Users to make to follow the record",
+        "whatToFollow": "What to Follow",
+        "portalOnly": "Portal Only",
+        "portal": "Portal",
+        "targetReport": "Target Report",
+        "scheduling": "Scheduling",
+        "methodName": "Service Method",
+        "assignmentRule": "Assignment Rule",
+        "targetTeam": "Target Team",
+        "targetUserPosition": "Target User Position",
+        "listReport": "List Report"
+    },
+    "links": {
+        "portal": "Portal",
+        "targetReport": "Target Report",
+        "workflowLogRecords": "Log"
+    },
+    "tooltips": {
+        "portalOnly": "If checked workflow will be triggered only in portal.",
+        "portal": "Specific portal where workflow will be triggered. Leave empty if you need it to work in any portal.",
+        "scheduling": "Crontab notation. Defines frequency of job runs.\n\n*/5 * * * * - every 5 minutes\n\n0 */2 * * * - every 2 hours\n\n30 1 * * * - at 01:30 once a day\n\n0 0 1 * * - on the first day of the month"
+    },
+    "labels": {
+        "Create Workflow": "Create Rule",
+        "General": "General",
+        "Conditions": "Conditions",
+        "Actions": "Actions",
+        "All": "All",
+        "Any": "Any",
+        "Formula": "Formula",
+        "Email Address": "Email Address",
+        "Email Template": "Email Template",
+        "From": "From",
+        "To": "To",
+        "immediately": "Immediately",
+        "later": "Later",
+        "today": "now",
+        "plus": "plus",
+        "minus": "minus",
+        "days": "days",
+        "hours": "hours",
+        "months": "months",
+        "minutes": "minutes",
+        "Link": "Link",
+        "Entity": "Entity",
+        "Add Field": "Add Field",
+        "equals": "equals",
+        "wasEqual": "was equal",
+        "notEquals": "not equals",
+        "wasNotEqual": "was not equal",
+        "changed": "changed",
+        "notEmpty": "not empty",
+        "isEmpty": "empty",
+        "value": "value",
+        "field": "field",
+        "true": "true",
+        "false": "false",
+        "greaterThan": "greater than",
+        "lessThan": "less than",
+        "greaterThanOrEquals": "greater than or equals",
+        "lessThanOrEquals": "less than or equals",
+        "between": "between",
+        "on": "on",
+        "before": "before",
+        "after": "after",
+        "beforeToday": "before today",
+        "afterToday": "after today",
+        "recipient": "Recipient",
+        "has": "has",
+        "notHas": "not has",
+        "messageTemplate": "Message Template",
+        "users": "Users",
+        "Target Entity": "Target Entity",
+        "Workflow": "Workflow",
+        "Workflows Log": "Workflows Log",
+        "methodName": "Service Method",
+        "additionalParameters": "Additional Parameters (JSON format)",
+        "doNotStore": "Do not store sent email",
+        "Related": "Related"
+    },
+
+    "emailAddressOptions": {
+        "currentUser": "Current User",
+        "specifiedEmailAddress": "Specified Email Address",
+        "assignedUser": "Assigned User",
+        "targetEntity": "Target Entity",
+        "specifiedUsers": "Specified Users",
+        "specifiedContacts": "Specified Contacts",
+        "teamUsers": "Team Users",
+        "followers": "Followers",
+        "followersExcludingAssignedUser": "Followers excluding Assigned User",
+        "specifiedTeams": "Users of specified Teams",
+        "system": "System"
+    },
+
+    "options": {
+        "type": {
+            "afterRecordSaved": "After record saved",
+            "afterRecordCreated": "After record created",
+            "scheduled": "Scheduled",
+            "sequential": "Sequential"
+        },
+        "subjectType": {
+            "value": "value",
+            "field": "field",
+            "today": "today/now"
+        },
+        "assignmentRule": {
+            "Round-Robin": "Round-Robin",
+            "Least-Busy": "Least-Busy"
+        }
+    },
+
+    "actionTypes": {
+        "sendEmail": "Send Email",
+        "createEntity": "Create Entity",
+        "createRelatedEntity": "Create Related Entity",
+        "updateEntity": "Update Entity",
+        "updateRelatedEntity": "Update Related Entity",
+        "relateWithEntity": "Link with Another Entity",
+        "unrelateFromEntity": "Unlink from Another Entity",
+        "makeFollowed": "Make Followed",
+        "createNotification": "Create Notification",
+        "triggerWorkflow": "Trigger Another Workflow",
+        "runService": "Run Service Action",
+        "applyAssignmentRule": "Apply Assignment Rule"
+    },
+
+    "texts": {
+        "allMustBeMet": "All must be met",
+        "atLeastOneMustBeMet": "At least one must be met",
+        "formulaInfo": "Conditions of any complexity in espo-formula language"
+    },
+
+    "messages": {
+        "loopNotice": "Be careful about a possible looping through two or more workflow rules continuously.",
+        "messageTemplateHelpText": "Available variables:\n{entity} - target record,\n{user} - current user."
+    }
+}

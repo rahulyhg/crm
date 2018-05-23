@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar"
+        },
+        "googleAccountEmail": {
+            "type": "varchar"
+        },
+        "parent": {
+            "type": "linkParent",
+            "entityList": ["Contact", "Lead"]
+        },
+        "googleContactId": {
+            "type": "varchar"
+        }
+    },
+    "links": {
+        "parent": {
+            "type": "belongsToParent",
+            "foreign": "googleContacts"
+        }
+    }
+}

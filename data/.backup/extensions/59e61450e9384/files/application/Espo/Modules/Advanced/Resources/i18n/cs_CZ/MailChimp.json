@@ -1,0 +1,21 @@
+{
+  "labels": {
+    "synced with MailChimp": "synchronizováno s MailChimp",
+    "failed synced with MailChimp": "Nesynchronizováno s MailChimp. Zkuste provést synchronizaci znovu.",
+    "Core Campaign": "Core kampaň",
+    "Core TargetList": "Core seznam cílů",
+    "MailChimp Campaign": "MailChimp kampaň",
+    "MailChimp TargetList": "MailChimp seznam",
+    "MailChimp TargetListGroup": "MailChimp skupina",
+    "MailChimp Sync": "MailChimp synchronizace",
+    "Proceed Setup on MailChimp": "postupné nastavení na MailChimpu",
+    "Save and Sync Now": "Uložte a nyní synchronizujte",
+    "Sync Now": "Nyní synchronizujte",
+    "Scheduling Synchronization": "Plánovaná synchronizace...\"",
+    "Synchronization is scheduled": "Synchronizace je naplánována",
+    "Selected grouping": "Vybral jste si seskupování. Chcete vybrat skupinu?"
+  },
+  "tooltips": {
+    "mailChimpGroup": "Vyberte seznam skupin (druhá úroveň ve stromě), pokud chcete přidat všechny příjemce z cílového seznamu do určené zájmové skupiny."
+  }
+}

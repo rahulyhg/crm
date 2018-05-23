@@ -1,0 +1,85 @@
+{
+    "fields": {
+        "Name": "Nom",
+        "entityType": "Entité cible",
+        "type": "Type de déclencheur",
+        "isActive": "Actif",
+        "description": "Description"
+    },
+
+    "labels": {
+        "Create Workflow": "Créer une Règle",
+        "General": "Général",
+        "Conditions": "Conditions",
+        "Actions": "Actions",
+        "All": "Tous",
+        "Any": "Peu importe",
+        "Email Address": "Adresse Email",
+        "Email Template": "Modèle Email",
+        "From": "De",
+        "To": "À",
+        "immediately": "Immédiatement",
+        "later": "Plus tard",
+        "today": "aujourd'hui",
+        "plus": "plus",
+        "minus": "minus",
+        "days": "jours",
+        "Link": "Lien",
+        "Entity": "Entité",
+        "Add Field": "Ajouter un Champ",
+        "equals": "est égale à",
+        "wasEqual": "était égale à",
+        "notEquals": "n'est pas égale à",
+        "wasNotEqual": "n'était pas égale à",
+        "changed": "modifié",
+        "notEmpty": "n'est pas vide",
+        "value": "valeur",
+        "field": "champ",
+        "true": "vrai",
+        "false": "faux",
+        "greaterThan": "plus grand que",
+        "lessThan": "moins grand que",
+        "greaterThanOrEquals": "plus grand ou égale à",
+        "lessThanOrEquals": "moins grand ou égale à",
+        "between": "entre",
+        "on": "le",
+        "before": "avant",
+        "after": "après",
+        "beforeToday": "avant aujourd'hui",
+        "afterToday": "après aujourd'hui"
+    },
+
+    "emailAddressOptions": {
+        "currentUser": "Utilisateur actuel",
+        "specifiedEmailAddress": "Adresse email spécifique",
+        "assignedUser": "Utilisateur assigné",
+        "targetEntity": "Entité Cible"
+    },
+
+    "options": {
+        "type": {
+            "afterRecordSaved": "Après que l'enregistrement soit sauvegardé",
+            "afterRecordCreated": "Après que l'enregistrement soit créé"
+        },
+        "subjectType": {
+            "value": "valeur",
+            "field": "champ"
+        }
+    },
+
+    "actionTypes": {
+        "sendEmail": "Envoyer un Email",
+        "createEntity": "Créer une Entité",
+        "createRelatedEntity": "Créer une Entité Liée",
+        "updateEntity": "Mettre à jour l'Entité"
+    },
+
+    "texts": {
+        "allMustBeMet": "Tout doit correspondre",
+        "atLeastOneMustBeMet": "Au moins un doit correspondre"
+    },
+
+    "messages": {
+        "loopNotice": "Soyez prudent sur une éventuelle boucle à travers deux ou plusieurs règles de workflow continu."
+    }
+}

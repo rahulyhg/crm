@@ -1,0 +1,32 @@
+{
+    "options": {
+        "calendarDefaultEntity" : {
+            "Call": "Call",
+            "Meeting":"Meeting"
+        },
+        "calendarDirection": {
+            "CoreToGC": "One-way: Samex CRM > Google Calendar",
+            "GCToCore": "One-way: Google Calendar > Samex CRM",
+            "Both": "Two-way"
+        }
+    },
+    "fields": {
+        "calendarStartDate": "Sync since",
+        "calendarEntityTypes": "Sync Entities and Identification Labels",
+        "calendarDirection": "Direction",
+        "calendarMonitoredCalendars": "Other Calendars",
+        "calendarMainCalendar": "Main Calendar",
+        "calendarDefaultEntity": "Default Entity",
+        "contactsGroups": "Add Contacts to Groups",
+        "removeGoogleCalendarEventIfRemovedInCore": "Remove Google Calendar Event upon removal in Samex CRM",
+        "dontSyncEventAttendees": "Don't sync event attendees"
+    },
+    "messages": {
+        "disconnectConfirmation": "Do you really want to disconnect?",
+        "noPanels" : "No available Google Products. Contact your Admin."
+    },
+    "tooltips": {
+        "calendarEntityTypes": "For type recognizing event name has to start from identification label. Label for default entity can be empty. Recommendation: Do not change identification labels after you saved synchronization setting",
+        "calendarDefaultEntity": "Unrecognized Event will be loaded as selected entity."
+    }
+}

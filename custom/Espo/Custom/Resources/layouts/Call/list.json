@@ -1,0 +1,29 @@
+[
+    {
+        "name": "direction"
+    },
+    {
+        "name": "name",
+        "width": 30,
+        "link": true
+    },
+    {
+        "name": "parent",
+        "width": 18
+    },
+    {
+        "name": "account"
+    },
+    {
+        "name": "dateStart"
+    },
+    {
+        "name": "assignedUser"
+    },
+    {
+        "name": "status"
+    },
+    {
+        "name": "createdAt"
+    }
+]

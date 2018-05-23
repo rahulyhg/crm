@@ -1,0 +1,1 @@
+[2017-10-27 13:01:02] Core.ERROR: Uncaught Exception PDOException: "SQLSTATE[HY000] [2002] Connection timed out" at /home/smxadmin/crm.samex.online/pro/application/Core/ORM/EntityManager.php line 129 {"exception":"[object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] Connection timed out at /home/smxadmin/crm.samex.online/pro/application/Core/ORM/EntityManager.php:129)"} []

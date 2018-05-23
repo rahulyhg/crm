@@ -1,0 +1,11 @@
+[
+    {
+        "label": false,
+        "rows": [
+            [{"name":"name"}, {"name":"fromEmail"}],
+            [{"name":"type"},{"name":"fromName"}],
+            [{"name":"list"}, {"name":"subject"}],
+            [{"name":"toName"}, false]
+        ]
+    }
+]

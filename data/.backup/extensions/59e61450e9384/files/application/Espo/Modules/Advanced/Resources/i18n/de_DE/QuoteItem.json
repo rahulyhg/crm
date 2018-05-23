@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "name": "Betreff",
+    "qty": "Mng",
+    "quantity": "Menge",
+    "listPrice": "Listpreis",
+    "unitPrice": "Einzelpreis",
+    "amount": "Betrag",
+    "taxRate": "Steuersatz:",
+    "product": "Produkt",
+    "order": "Zeilennummer",
+    "quote": "Angebot",
+    "weight": "Gewicht",
+    "unitWeight": "Gewicht/Einheit",
+    "description": "Beschreibung"
+  },
+  "links": {
+    "quote": "Angebot"
+  }
+}

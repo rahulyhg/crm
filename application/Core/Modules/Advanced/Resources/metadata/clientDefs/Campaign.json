@@ -1,0 +1,8 @@
+{
+    "views":{
+      "detail":"Advanced:Campaign.Detail"
+    },
+    "recordViews": {
+      "detail": "Advanced:Campaign.Record.Detail"
+    }
+}

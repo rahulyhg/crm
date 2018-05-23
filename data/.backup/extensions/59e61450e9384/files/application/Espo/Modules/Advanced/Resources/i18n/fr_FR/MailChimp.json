@@ -1,0 +1,14 @@
+{
+    "labels": {
+        "synced with MailChimp": "synchronisé avec MailChimp",
+        "failed synced with MailChimp": "n'a pas été synchronisé avec MailChimp. Essayez de planifier une nouvelle synchronisation.",
+        "Core Campaign": "Campagne Samex CRM",
+        "Core TargetList": "Liste de Samex CRM",
+        "MailChimp Campaign": "Campagne MailChimp",
+        "MailChimp TargetList": "Liste de MailChimp",
+        "Save and Sync Now": "Sauvegarder & Synchroniser Maintenant",
+        "Sync Now": "Synchroniser Maintenant",
+        "Scheduling Synchronization": "Planification de synchronisation en cours...",
+        "Synchronization is scheduled": "Synchronisation planifiée"
+    }
+}

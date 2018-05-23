@@ -1,0 +1,32 @@
+{
+  "scopeNames": {
+    "Workflow": "Рабочий поток",
+    "Report": "Отчёт",
+    "Product": "Продукт",
+    "ProductCategory": "Категория продуктов",
+    "ProductBrand": "Бренд продукта",
+    "Quote": "Предложение",
+    "QuoteItem": "Пункт предложения",
+    "Tax": "Налог",
+    "ShippingProvider": "Служба доставки",
+    "OpportunityItem": "Пункт сделки",
+    "MailChimpCampaign": "Кампания MailChimp",
+    "MailChimpList": "Список получателей MailChimp",
+    "MailChimpListGroup": "Группа получателей MailChimp"
+  },
+  "scopeNamesPlural": {
+    "Workflow": "Рабочие потоки",
+    "Report": "Отчёты",
+    "Product": "Продукты",
+    "ProductCategory": "Категории продуктов",
+    "Quote": "Предложения",
+    "QuoteItem": "Пункты предложения",
+    "Tax": "Налоги",
+    "ShippingProvider": "Службы доставок",
+    "OpportunityItem": "Пункты сделок",
+    "ProductBrand": "Бренды продуктов",
+    "MailChimpCampaign": "Кампании MailChimp",
+    "MailChimpList": "Списки получателей MailChimp",
+    "MailChimpListGroup": "Группы получателей MailChimp"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "apiKey": "API klíč",
+    "createEmails": "vyvolat odeslané maily",
+    "markEmailsOptedOut": "Označit emailové adresy pro nepodepsané příjemce jako nezúčastněné ",
+    "hardBouncedAction": "přesunutí trvale nedoručitelné zprávý"
+  },
+  "options": {
+    "hardBouncedAction": {
+      "setAsInvalid": "Nastavit emailovou adresu jako neplatnou",
+      "removeFromList": "Odstranit ze seznamu",
+      "setAsInvalidAndRemove": "Obě akce"
+    }
+  },
+  "help": {
+    "Google": "<p><b>Získání OAuth 2.0 pověřovacích listin z Google Developers Console.</b></p><p>Návštěva <a href=\"https://console.developers.google.com/project\" target=\"_blank\">Google Developers Console</a> k získání OAuth 2.0 pověřovacích listin jako je klientské ID a klientské tajemství, které jsou známé oboum aplikacím Google a CoreCRM.</p><p>This integration requires <b>curl</b> extension. Google Contacts also needs <b>libxml</b> and <b>xml</b></p>",
+    "MailChimp": "<p><b>MailChimp konfigurace</b></p><p>Svůj API klíč lze získat na Vašem MailChimp účtu, v příslušenství vyberte API klíč nebo klikněte <a href='https://admin.mailchimp.com/account/api/' target='_blank'>zde</a></p>"
+  },
+  "tooltips": {
+    "createEmails": "Vyvolejte odeslané emaily z MailChimp a propojte je se svými příjemnci v CoreCRM. Doporučení: Nevyvolávejte emaily, jestliže užíváte velký seznam příjemnců."
+  }
+}

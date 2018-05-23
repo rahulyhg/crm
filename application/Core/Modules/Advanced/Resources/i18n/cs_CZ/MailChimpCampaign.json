@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "name": "Název",
+    "type": "Typ",
+    "list": "Seznam",
+    "subject": "Předmět emailu",
+    "fromEmail": "Z emailové adresy",
+    "fromName": "Z názvu",
+    "toName": "Přizpůsobit pole \"To:\" ",
+    "status": "Status",
+    "dateSent": "Datum odeslání",
+    "content": "Obsah?"
+  },
+  "options": {
+    "type": {
+      "regular": "Normální",
+      "plaintext": "Jednoduchý text",
+      "rss": "RSS-Driven",
+      "absplit": "A/B rozdělit",
+      "auto": "Auto"
+    },
+    "status": {
+      "sent": "Odesláno",
+      "save": "Uložit",
+      "paused": "Pozastavit",
+      "schedule": "Naplánovat",
+      "sending": "Odesílání"
+    }
+  }
+}

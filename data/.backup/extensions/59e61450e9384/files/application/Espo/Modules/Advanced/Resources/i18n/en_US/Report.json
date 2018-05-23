@@ -1,0 +1,145 @@
+{
+    "labels": {
+        "Create Report": "Create Report",
+        "Run": "Run",
+        "Total": "Total",
+        "-Empty-": "-Empty-",
+        "Parameters": "Parameters",
+        "Filters": "Filters",
+        "Chart": "Chart",
+        "List Report": "List Report",
+        "Grid Report": "Grid Report",
+        "days": "days",
+        "never": "never",
+        "Get Csv": "Get Csv",
+        "EmailSending": "Email Sending",
+        "View Report": "View Report",
+        "Report": "Report",
+        "Add AND": "Add AND",
+        "Add OR": "Add OR",
+        "Add NOT": "Add NOT",
+        "Add Complex Expression": "Add Complex Expression",
+        "Columns": "Columns",
+        "Send Email": "Send Email"
+    },
+    "fields": {
+        "type": "Type",
+        "entityType": "Entity Type",
+        "description": "Description",
+        "groupBy": "Group by",
+        "columns": "Columns",
+        "orderBy": "Order by",
+        "filters": "Filters",
+        "runtimeFilters": "Runtime Filters",
+        "chartType": "Chart Type",
+        "emailSendingInterval": "Interval",
+        "emailSendingTime": "Time",
+        "emailSendingUsers": "Users",
+        "emailSendingSettingDay": "Day",
+        "emailSendingSettingMonth": "Month",
+        "emailSendingSettingWeekdays": "Days",
+        "emailSendingDoNotSendEmptyReport": "Don't send if report is empty",
+        "chartColorList": "Chart Colors",
+        "chartColor": "Chart Color",
+        "orderByList": "List Order",
+        "column": "Column",
+        "exportFormat": "Format"
+    },
+    "tooltips": {
+        "emailSendingUsers": "Users report result will be sent to",
+        "chartColorList": "Custom colors for specific groups."
+    },
+    "functions": {
+        "COUNT": "Count",
+        "SUM": "Sum",
+        "AVG": "Avg",
+        "MIN": "Min",
+        "MAX": "Max",
+        "YEAR": "Year",
+        "MONTH": "Month",
+        "DAY": "Day"
+    },
+    "orders": {
+        "ASC": "ASC",
+        "DESC": "DESC",
+        "LIST": "LIST"
+    },
+    "options": {
+        "chartType": {
+            "BarHorizontal": "Bar (horizontal)",
+            "BarVertical": "Bar (vertical)",
+            "Pie": "Pie",
+            "Line": "Line"
+        },
+        "emailSendingInterval": {
+            "": "None",
+            "Daily": "Daily",
+            "Weekly": "Weekly",
+            "Monthly": "Monthly",
+            "Yearly": "Yearly"
+        },
+        "emailSendingSettingDay": {
+            "32": "Last day of month"
+        },
+        "type": {
+            "Grid": "Grid",
+            "List": "List"
+        },
+        "function": {
+            "": "--NO-FUNCTION--",
+            "DATE_NUMBER": "DATE",
+            "MONTH_NUMBER": "MONTH",
+            "YEAR_NUMBER": "YEAR",
+            "DAYOFWEEK_NUMBER": "DAYOFWEEK",
+            "HOUR_NUMBER": "HOUR",
+            "MINUTE_NUMBER": "MINUTE",
+            "LOWER": "LOWER",
+            "UPPER": "UPPER",
+            "TRIM": "TRIM",
+            "LENGTH": "LENGTH"
+        },
+        "operator": {
+            "equals": "Equals",
+            "notEquals": "Not Equals",
+            "greaterThan": "Greater Than",
+            "lessThan": "Less Than",
+            "greaterThanOrEquals": "Greater Than or Equals",
+            "lessThanOrEquals": "Less Than or Equals",
+            "in": "In",
+            "notIn": "Not In",
+            "isTrue": "Is True",
+            "isFalse": "Is False",
+            "isNull": "Is Null",
+            "isNotNull": "Is Not Null",
+            "like": "Like"
+        },
+        "exportFormat": {
+            "csv": "CSV",
+            "xlsx": "XLSX (Excel)"
+        }
+    },
+    "messages": {
+        "validateMaxCount": "Count should not be greater than {maxCount}",
+        "gridReportDescription": "Group by one or two columns and see summations. Can be displayed as a chart.",
+        "listReportDescription": "Simple list of records which meet filters criteria."
+    },
+    "presetFilters": {
+        "list": "List",
+        "grid": "Grid",
+        "listTargets": "List (Targets)",
+        "listAccounts": "List (Accounts)",
+        "listContacts": "List (Contacts)",
+        "listLeads": "List (Leads)",
+        "listUsers": "List (Users)"
+    },
+    "errorMessages": {
+        "error": "Error",
+        "noChart": "No chart selected for the report",
+        "selectReport": "Select Report in dashlet options"
+    },
+    "filtersGroupTypes": {
+        "or": "OR",
+        "and": "AND",
+        "not": "NOT"
+    }
+}

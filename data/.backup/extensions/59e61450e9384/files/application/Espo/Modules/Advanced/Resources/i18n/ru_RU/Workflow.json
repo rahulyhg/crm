@@ -1,0 +1,95 @@
+{
+  "fields": {
+    "Name": "Имя",
+    "entityType": "Целевая сущность",
+    "type": "Тип триггера",
+    "isActive": "Активное",
+    "description": "Описание",
+    "usersToMakeToFollow": "Пользователи для подписания на запись",
+    "whatToFollow": "На что подписать"
+  },
+  "labels": {
+    "Create Workflow": "Создать правило",
+    "General": "Общее",
+    "Conditions": "Условия",
+    "Actions": "Действия",
+    "All": "Все",
+    "Any": "Любое",
+    "Email Address": "Электронный адрес",
+    "Email Template": "Шаблон письма",
+    "From": "От",
+    "To": "К",
+    "immediately": "Немедленно",
+    "later": "Позже",
+    "today": "сейчас",
+    "plus": "плюс",
+    "minus": "минус",
+    "days": "дней",
+    "Link": "Связь",
+    "Entity": "Сущность",
+    "Add Field": "Добавить поле",
+    "equals": "равно",
+    "wasEqual": "было равным",
+    "notEquals": "не равно",
+    "wasNotEqual": "не было равным",
+    "changed": "изменено",
+    "notEmpty": "не пустое",
+    "isEmpty": "пустое",
+    "value": "значение",
+    "field": "поле",
+    "true": "истина",
+    "false": "ложь",
+    "greaterThan": "больше чем",
+    "lessThan": "меньше чем",
+    "greaterThanOrEquals": "больше чем или равно",
+    "lessThanOrEquals": "меньше чем или равно",
+    "between": "между",
+    "on": "в заданное время",
+    "before": "до",
+    "after": "после",
+    "beforeToday": "до сегодня",
+    "afterToday": "от сегодня",
+    "recipient": "Получатель",
+    "has": "имеет",
+    "messageTemplate": "Шаблон сообщения",
+    "users": "Пользователи",
+    "Target Entity": "Целевая сущность"
+  },
+  "emailAddressOptions": {
+    "currentUser": "Текущий пользователь",
+    "specifiedEmailAddress": "Определённый адрес",
+    "assignedUser": "Ответственный пользователь",
+    "targetEntity": "Целевая сущность",
+    "specifiedUsers": "Определённым пользователям",
+    "teamUsers": "Пользователи команд",
+    "followers": "Подписанные пользователи",
+    "specifiedTeams": "Пользователи определённых команд"
+  },
+  "options": {
+    "type": {
+      "afterRecordSaved": "После сохранения записи",
+      "afterRecordCreated": "После создания записи"
+    },
+    "subjectType": {
+      "value": "значение",
+      "field": "поле"
+    }
+  },
+  "actionTypes": {
+    "sendEmail": "Отправить письмо",
+    "createEntity": "Создать сущность",
+    "createRelatedEntity": "Создать связанную сущность",
+    "updateEntity": "Обновить сущность",
+    "updateRelatedEntity": "Обновить связанную сущность",
+    "makeFollowed": "Подписать",
+    "createNotification": "Создать оповещение"
+  },
+  "texts": {
+    "allMustBeMet": "Все должны быть выполненными",
+    "atLeastOneMustBeMet": "По крайнем мере одно должно быть выполнено"
+  },
+  "messages": {
+    "loopNotice": "Будьте осторожны с возможным зацикливанием через 2 или более правил с потоков работ.",
+    "messageTemplateHelpText": "Допустимые переменные:\n{entity} - целевая запись,\n{user} - текущий пользователь."
+  }
+}

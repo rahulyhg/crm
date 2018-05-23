@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "name": "Betreff",
+    "qty": "Mng",
+    "quantity": "Menge",
+    "unitPrice": "Einzelpreis",
+    "amount": "Betrag",
+    "product": "Produkt",
+    "order": "Zeilennummer",
+    "opportunity": "Verkaufschance",
+    "description": "Beschreibung"
+  },
+  "links": {
+    "opportunity": "Verkaufschance"
+  }
+}

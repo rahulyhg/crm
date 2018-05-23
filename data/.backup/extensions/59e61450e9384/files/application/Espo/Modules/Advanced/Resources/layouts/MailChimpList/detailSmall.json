@@ -1,0 +1,14 @@
+[
+    {
+        "label": false,
+        "rows": [
+            [{"name":"name"},false],
+            [{"name":"fromEmail"},{"name":"fromName"}],
+            [{"name":"company"}, {"name":"phone"}],
+            [{"name":"address1"}, {"name":"address2"}],
+            [{"name":"city"}, {"name":"state"}],
+            [{"name":"zip"}, {"name":"country"}],
+            [{"name":"reminder"},false]
+        ]
+    }
+]

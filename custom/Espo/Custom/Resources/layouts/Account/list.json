@@ -1,0 +1,22 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "billingAddressCity"
+    },
+    {
+        "name": "billingAddressCountry",
+        "width": 18
+    },
+    {
+        "name": "phoneNumber"
+    },
+    {
+        "name": "emailAddress"
+    },
+    {
+        "name": "createdAt"
+    }
+]

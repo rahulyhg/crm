@@ -1,0 +1,25 @@
+{
+  "options": {
+    "calendarDefaultEntity": {
+      "Call": "Anruf",
+      "Meeting": "Meeting"
+    },
+    "calendarDirection": {
+      "CoreToGC": "Einseitig: Samex CRM -> Google Kalender",
+      "GCToCore": "Einseitig: Google Kalender -> Samex CRM",
+      "Both": "Zweiseitig"
+    }
+  },
+  "fields": {
+    "calendarStartDate": "Sync seit",
+    "calendarEntityTypes": "Entitäten und ID Felder syncen",
+    "calendarDirection": "Richtung",
+    "calendarMonitoredCalendars": "Andere Kalender",
+    "calendarMainCalendar": "Hauptkalender",
+    "calendarDefaultEntity": "Standardeintrag"
+  },
+  "tooltips": {
+    "calendarEntityTypes": "Um den Typ zu identifizieren muss der Name des Ereignisses im ID Feld gesetzt sein. Das Feld für den Standardeintrag kann leer bleiben. Empfehlung: Ändern Sie die ID Felder nicht mehr, nachdem die Synchronisierungseinstellungen gespeichert wurden.",
+    "calendarDefaultEntity": "Nicht erkanntes Ereignis wird als ausgewählte Entität geladen"
+  }
+}

@@ -1,0 +1,67 @@
+{
+    "labels": {
+        "Create Report": "Créer un Rapport",
+        "Run": "Lancer",
+        "Total": "Total",
+        "-Empty-": "-Vide-",
+        "Parameters": "Paramètres",
+        "Filters": "Filtres",
+        "Chart": "Graphique",
+        "List Report": "Rapport en liste",
+        "Grid Report": "Rapport en grille",
+        "days": "jours",
+        "never": "jamais",
+        "Get Csv": "Obtenir le Csv"
+    },
+    "fields": {
+        "Report": "Rapport",
+        "Reports": "Rapports",
+        "type": "Type",
+        "entityType": "Type d'Entité",
+        "description": "Description",
+        "groupBy": "Grouper par",
+        "columns": "Colonnes",
+        "orderBy": "Trier par",
+        "filters": "Filtres",
+        "runtimeFilters": "Filtres d'exécution",
+        "chartType": "Type de graphique"
+    },
+    "functions": {
+        "COUNT": "Compter",
+        "SUM": "Somme",
+        "AVG": "Moyenne",
+        "MIN": "Min",
+        "MAX": "Max",
+        "YEAR": "Année",
+        "MONTH": "Mois",
+        "DAY": "Jour"
+    },
+    "orders": {
+        "ASC": "CROISS",
+        "DESC": "DECROI",
+        "LIST": "LISTE"
+    },
+    "options": {
+        "chartType": {
+            "BarHorizontal": "Bar (horizontale)",
+            "BarVertical": "Bar (verticale)",
+            "Pie": "Camembert",
+            "Line": "Ligne"
+        }
+    },
+    "messages": {
+        "validateMaxCount": "Le décompte ne doit pas être supérieure à {maxCount}",
+        "gridReportDescription": "Groupez par une ou deux colonnes et voyez les sommes. Peut être affiché sous forme de graphique.",
+        "listReportDescription": "Liste simple d'enregistrements qui répondent aux critères des filtres."
+    },
+    "presetFilters": {
+        "list": "Rapports en liste",
+        "grid": "Rapports en grille"
+    },
+    "errorMessages": {
+        "error": "Erreur",
+        "noChart": "Aucun graphique n'a été sélectionné pour le rapport",
+        "selectReport": "Sélectionnez le rapport dans les options des Dashlets"
+
+    }
+}
