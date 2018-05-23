@@ -1,9 +1,9 @@
 <?php
 
 
-use Espo\Core\Utils\Util;
-use Espo\Core\Utils\File\Manager as FileManager;
-use Espo\Core\Utils\Config;
+use Core\Core\Utils\Util;
+use Core\Core\Utils\File\Manager as FileManager;
+use Core\Core\Utils\Config;
 
 class Installer
 {
@@ -37,7 +37,7 @@ class Installer
 	{
 		$this->initialize();
 
-		$this->app = new \Espo\Core\Application();
+		$this->app = new \Core\Core\Application();
 
 		$user = $this->getEntityManager()->getEntity('User');
 		$this->app->getContainer()->setUser($user);
@@ -100,7 +100,7 @@ class Installer
 	{
 		if (!isset($this->passwordHash)) {
 			$config = $this->getConfig();
-			$this->passwordHash = new \Espo\Core\Utils\PasswordHash($config);
+			$this->passwordHash = new \Core\Core\Utils\PasswordHash($config);
 		}
 
 		return $this->passwordHash;
@@ -114,7 +114,7 @@ class Installer
 	protected function auth()
 	{
 		if (!$this->isAuth) {
-			$auth = new \Espo\Core\Utils\Auth($this->app->getContainer());
+			$auth = new \Core\Core\Utils\Auth($this->app->getContainer());
 			$auth->useNoAuth();
 
 			$this->isAuth = true;

@@ -331,7 +331,7 @@ InstallScript.prototype.finish = function() {
 
 	var nextAction = '';
 	$("#start").click(function(){
-		self.goToEspo();
+		self.goToCore();
 	})
 }
 
@@ -695,7 +695,7 @@ InstallScript.prototype.callbackChecking = function(data) {
 	}
 }
 
-InstallScript.prototype.getEspoPath = function(onlyPath) {
+InstallScript.prototype.getCorePath = function(onlyPath) {
 
 	onlyPath = typeof onlyPath !== 'undefined' ? onlyPath : false;
 
@@ -715,15 +715,15 @@ InstallScript.prototype.getModRewriteErrorMesssage = function() {
 	if (typeof(this.langs) !== 'undefined') {
 		message = (typeof(this.langs['options']['modRewriteTitle'][this.serverType]) !== 'undefined')? this.langs['options']['modRewriteTitle'][this.serverType] : this.langs['options']['modRewriteTitle']['default'];
 		message += (typeof(this.langs['options']['modRewriteInstruction'][this.serverType]) !== 'undefined' && typeof(this.langs['options']['modRewriteInstruction'][this.serverType][this.OS]) !== 'undefined') ? this.langs['options']['modRewriteInstruction'][this.serverType][this.OS] : '';
-		message = message.replace("{ESPO_PATH}", this.getEspoPath(true)).replace("{API_PATH}", this.apiPath).replace("{API_PATH}", this.apiPath);
+		message = message.replace("{ESPO_PATH}", this.getCorePath(true)).replace("{API_PATH}", this.apiPath).replace("{API_PATH}", this.apiPath);
 	}
 
 	return message;
 }
 
-InstallScript.prototype.goToEspo = function() {
+InstallScript.prototype.goToCore = function() {
 
-	var location = this.getEspoPath();
+	var location = this.getCorePath();
 	window.location.replace(location);
 }
 

@@ -24,7 +24,7 @@ if (!isset($pathInfo['extension']) || $pathInfo['extension'] !== 'zip' || !is_fi
     die("Unsupported package.\n");
 }
 
-$app = new \Espo\Core\Application();
+$app = new \Core\Core\Application();
 
 $config = $app->getContainer()->get('config');
 $entityManager = $app->getContainer()->get('entityManager');
@@ -32,7 +32,7 @@ $entityManager = $app->getContainer()->get('entityManager');
 $user = $entityManager->getEntity('User', 'system');
 $app->getContainer()->setUser($user);
 
-$upgradeManager = new \Espo\Core\ExtensionManager($app->getContainer());
+$upgradeManager = new \Core\Core\ExtensionManager($app->getContainer());
 
 echo "Start install process...\n";
 
@@ -47,7 +47,7 @@ try {
 }
 
 try {
-    $app = new \Espo\Core\Application();
+    $app = new \Core\Core\Application();
     $app->runRebuild();
 } catch (\Exception $e) {}
 

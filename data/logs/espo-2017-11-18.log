@@ -1,6 +1,0 @@
-[2017-11-18 07:24:14] Core.ERROR: API [GET]:.*, Params:Array ( ) , InputData:  -  [] []
-[2017-11-18 07:24:14] Core.ERROR: Display Error: , Code: 404 URL: /base/?entryPoint=attachment&id=5a0122e00e81e0ee3 [] []
-[2017-11-18 07:24:14] Core.ERROR: Uncaught Exception Slim\Exception\Stop: "" at /home/smxadmin/crm.samex.online/base/vendor/slim/slim/Slim/Slim.php line 1022 {"exception":"[object] (Slim\\Exception\\Stop(code: 0):  at /home/smxadmin/crm.samex.online/base/vendor/slim/slim/Slim/Slim.php:1022)"} []
-[2017-11-18 07:24:21] Core.ERROR: API [GET]:.*, Params:Array ( ) , InputData:  -  [] []
-[2017-11-18 07:24:21] Core.ERROR: Display Error: , Code: 404 URL: /base/?entryPoint=attachment&id=5a0122e00e81e0ee3 [] []
-[2017-11-18 07:24:21] Core.ERROR: Uncaught Exception Slim\Exception\Stop: "" at /home/smxadmin/crm.samex.online/base/vendor/slim/slim/Slim/Slim.php line 1022 {"exception":"[object] (Slim\\Exception\\Stop(code: 0):  at /home/smxadmin/crm.samex.online/base/vendor/slim/slim/Slim/Slim.php:1022)"} []

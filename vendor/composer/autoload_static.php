@@ -145,7 +145,7 @@ class ComposerStaticInit595244c80fe153dc959df0fa2a8c3262
         ),
         'E' => 
         array (
-            'Espo\\Custom' => 
+            'Core\\Custom' => 
             array (
                 0 => __DIR__ . '/../..' . '/custom',
             ),

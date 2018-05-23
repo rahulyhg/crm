@@ -11,7 +11,7 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
     'PHPExcel' => array($vendorDir . '/phpoffice/phpexcel/Classes'),
     'Identicon' => array($vendorDir . '/yzalis/identicon/src'),
-    'Espo\\Custom' => array($baseDir . '/custom'),
+    'Core\\Custom' => array($baseDir . '/custom'),
     'Doctrine\\DBAL\\' => array($vendorDir . '/doctrine/dbal/lib'),
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),

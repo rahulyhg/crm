@@ -12,7 +12,7 @@ include "bootstrap.php";
 $arg = isset($_SERVER['argv'][1]) ? trim($_SERVER['argv'][1]) : '';
 
 if ($arg == 'version' || $arg == '-v') {
-    $app = new \Espo\Core\Application();
+    $app = new \Core\Core\Application();
     die("Current version is " . $app->getContainer()->get('config')->get('version') . ".\n");
 }
 
@@ -29,7 +29,7 @@ if (!isset($pathInfo['extension']) || $pathInfo['extension'] !== 'zip' || !is_fi
     die("Unsupported package.\n");
 }
 
-$app = new \Espo\Core\Application();
+$app = new \Core\Core\Application();
 
 $config = $app->getContainer()->get('config');
 $entityManager = $app->getContainer()->get('entityManager');
@@ -37,7 +37,7 @@ $entityManager = $app->getContainer()->get('entityManager');
 $user = $entityManager->getEntity('User', 'system');
 $app->getContainer()->setUser($user);
 
-$upgradeManager = new \Espo\Core\UpgradeManager($app->getContainer());
+$upgradeManager = new \Core\Core\UpgradeManager($app->getContainer());
 
 echo "Current version is " . $config->get('version') . "\n";
 echo "Start upgrade process...\n";
@@ -53,7 +53,7 @@ try {
 }
 
 try {
-    $app = new \Espo\Core\Application();
+    $app = new \Core\Core\Application();
     $app->runRebuild();
 } catch (\Exception $e) {}
 

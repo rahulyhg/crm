@@ -12,8 +12,8 @@
         <link rel="shortcut icon" href="{{basePath}}client/img/favicon.ico" type="image/x-icon">
         <script type="text/javascript">
             $(function () {
-                Espo.loader.cacheTimestamp = {{cacheTimestamp}};
-                Espo.require('app-portal', function (App) {
+                Core.loader.cacheTimestamp = {{cacheTimestamp}};
+                Core.require('app-portal', function (App) {
                     var app = new App({
                         id: '{{portalId}}',
                         useCache: {{useCache}},

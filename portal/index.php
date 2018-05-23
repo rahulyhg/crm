@@ -3,7 +3,7 @@
 
 include "../bootstrap.php";
 
-$app = new \Espo\Core\Application();
+$app = new \Core\Core\Application();
 if (!$app->isInstalled()) {
     exit;
 }

@@ -26,8 +26,8 @@
 
         <script type="text/javascript">
             $(function () {
-                Espo.loader.cacheTimestamp = {{cacheTimestamp}};
-                Espo.require('app', function (App) {
+                Core.loader.cacheTimestamp = {{cacheTimestamp}};
+                Core.require('app', function (App) {
                     var app = new App({
                         useCache: {{useCache}},
                         cacheTimestamp: {{cacheTimestamp}},

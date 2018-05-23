@@ -1,7 +1,7 @@
 <?php
 
 
-class SystemHelper extends \Espo\Core\Utils\System
+class SystemHelper extends \Core\Core\Utils\System
 {
 	protected $config;
 
