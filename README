@@ -1,0 +1,14 @@
+#Complete CRM Application
+
+This is a complete CRM application developed with the Symfony framework.
+
+It contains controllers for
+	- Accounts (companies)
+	- Contacts
+	- Leads
+	- Opportunities
+	- Tasks
+	- Calendar
+	- Reports
+	
+It also contains a module builder that allows expansion of the CRM with the development of new modules that can be created from the front-end UI.
