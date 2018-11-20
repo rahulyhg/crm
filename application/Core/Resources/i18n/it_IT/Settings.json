@@ -38,7 +38,7 @@
     "ldapAccountCanonicalForm": "Account Form",
     "ldapAccountDomainName": "Account Nome di Dominio",
     "ldapTryUsernameSplit": "Prova Divisione Username",
-    "ldapCreateCoreUser": "Crea Utente in Samex CRM",
+    "ldapCreateCoreUser": "Crea Utente in CRM",
     "ldapUserLoginFilter": "Filtro Accessi Utente",
     "ldapAccountDomainNameShort": "Account Nome di Dominio abbreviato",
     "ldapOptReferrals": "Opt Referenti",

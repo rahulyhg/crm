@@ -1,0 +1,22 @@
+{
+  "help": {
+    "Google": "<p><b>Отримати посвідчення OAuth 2.0 з Google Developers Console.</b></p><p>Відвідайте <a href=\"https://console.developers.google.com/project\" target=\"_blank\">Google Developers Console</a> для отримання посвідчення OAuth 2.0, таких як Клієнтський ID та Секрет Клієнта, що йдуть однаково для Google та CRM додатків.</p><p>Даній інтеграції для роботи потрібне розширення <b>curl</b>. Google Contacts також потребує <b>libxml</b> та <b>xml</b></p>",
+    "MailChimp": "<p><b>Конфігурація MailChimp</b></p><p>Ви можете отримати Ваш API ключ у Вашому MailChimp аккаунті, в закладці Extras виберіть API ключі або натисніть <a href='https://admin.mailchimp.com/account/api/' target='_blank'>тут</a></p>"
+  },
+  "fields": {
+    "apiKey": "API ключ",
+    "createEmails": "Завантажити надіслані листи",
+    "markEmailsOptedOut": "Для відписаних отримувачів емейл адреси помітити як такі, що відмовилися",
+    "hardBouncedAction": "Обробка Hard Bounced"
+  },
+  "options": {
+    "hardBouncedAction": {
+      "setAsInvalid": "Помітити емейл адресу як хибну",
+      "removeFromList": "Видалити зі списку отримувачів",
+      "setAsInvalidAndRemove": "Обидві дії"
+    }
+  },
+  "tooltips": {
+    "createEmails": "Завантажити надіслані листи з MailChimp і пов'язати їх з Вашими отримувачами в CRM. Рекомендація: не завантажуйте листи, якщо у Вас великий список отримувачів."
+  }
+}

@@ -122,9 +122,9 @@
         "height": "Height (px)"
     },
     "messages": {
-        "upgradeVersion": "Uw Samex CRM wordt geupgrade naar versie <strong>{version}</strong>. Dit kan enige tijd duren.",
-        "upgradeDone": "Uw Samex CRM is geupgrade naar versie <strong>{version}</strong>. Herstart uw browser scherm.",
-        "upgradeBackup": "We adviseren om eerst een backup te maken van uw Samex CRM bestanden en data, alvorens te upgraden.",
+        "upgradeVersion": "Uw CRM wordt geupgrade naar versie <strong>{version}</strong>. Dit kan enige tijd duren.",
+        "upgradeDone": "Uw CRM is geupgrade naar versie <strong>{version}</strong>. Herstart uw browser scherm.",
+        "upgradeBackup": "We adviseren om eerst een backup te maken van uw CRM bestanden en data, alvorens te upgraden.",
         "thousandSeparatorEqualsDecimalMark": "Het duizendtal scheidingsteken mag niet hetzelfde zijn als het decimaalteken.",
         "userHasNoEmailAddress": "Gebruiker heeft geen emailadres.",
         "selectEntityType": "Selecteer de eenheid soort in het linker menu.",
@@ -139,7 +139,7 @@
     "descriptions": {
         "settings": "Systeem instellingen van het programma.",
         "scheduledJob": "Opdrachten die uitgevoerd worden door cron.",
-        "upgrade": "Upgrade Samex CRM.",
+        "upgrade": "Upgrade CRM.",
         "clearCache": "Verwijder backend cache.",
         "rebuild": "Reconstrueer backend en schoon het geheugen.",
         "users": "Gebruikers beheer.",

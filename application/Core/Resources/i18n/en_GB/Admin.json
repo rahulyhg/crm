@@ -158,9 +158,9 @@
     "selectExtensionPackage": "Select extension package",
     "extensionInstalled": "Extension {name} {version} has been installed.",
     "installExtension": "Extension {name} {version} is ready for an installation.",
-    "upgradeVersion": "Samex CRM will be upgraded to version <strong>{version}</strong>. Please be patient as this may take a while.",
-    "upgradeDone": "Samex CRM has been upgraded to version <strong>{version}</strong>.",
-    "upgradeBackup": "We recommend making a backup of your Samex CRM files and data before upgrading.",
+    "upgradeVersion": "CRM will be upgraded to version <strong>{version}</strong>. Please be patient as this may take a while.",
+    "upgradeDone": "CRM has been upgraded to version <strong>{version}</strong>.",
+    "upgradeBackup": "We recommend making a backup of your CRM files and data before upgrading.",
     "thousandSeparatorEqualsDecimalMark": "The thousands separator character can not be the same as the decimal point character.",
     "userHasNoEmailAddress": "User has no email address.",
     "uninstallConfirmation": "Are you sure you want to uninstall the extension?"
@@ -168,7 +168,7 @@
   "descriptions": {
     "settings": "System settings of application.",
     "scheduledJob": "Jobs which are executed by cron.",
-    "upgrade": "Upgrade Samex CRM.",
+    "upgrade": "Upgrade CRM.",
     "clearCache": "Clear all backend cache.",
     "rebuild": "Rebuild backend and clear cache.",
     "users": "Users management.",

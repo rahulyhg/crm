@@ -9,7 +9,7 @@
 </div>
 <div style="width:100vw;">
 <p align="center">
-	<a href="http://www.samexllc.com/" target="_blank">Sales CRM Software</a> by Samex LLC
+	<a href="http://www.samexllc.com/" target="_blank">Sales CRM Software</a> by LLC
 	
 </p>
 </div>

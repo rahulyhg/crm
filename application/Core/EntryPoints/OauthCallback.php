@@ -13,7 +13,7 @@ class OauthCallback extends \Core\Core\EntryPoints\Base
 
     public function run()
     {
-        echo "Samex CRM rocks !!!";
+        echo "CRM rocks !!!";
     }
 }
 

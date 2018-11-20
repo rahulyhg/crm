@@ -138,9 +138,9 @@
     "disableFormatting": "Disabilitare Formattazione"
   },
   "messages": {
-    "upgradeVersion": "Samex CRM verrà aggiornato alla versione < strong> { version} < / strong> . L'operazione può richiedere qualche minuto .",
-    "upgradeDone": "Samex CRM è stato aggiornato alla versione <strong>{version}</strong>.",
-    "upgradeBackup": "Si consiglia di effettuare un backup dei file Samex CRM e dati prima dell'aggiornamento .",
+    "upgradeVersion": "CRM verrà aggiornato alla versione < strong> { version} < / strong> . L'operazione può richiedere qualche minuto .",
+    "upgradeDone": "CRM è stato aggiornato alla versione <strong>{version}</strong>.",
+    "upgradeBackup": "Si consiglia di effettuare un backup dei file CRM e dati prima dell'aggiornamento .",
     "thousandSeparatorEqualsDecimalMark": "Il Separatore delle migliaia non può essere lo stesso utilizzato per i decimali",
     "userHasNoEmailAddress": "L'Utente non ha indirizzo email.",
     "selectEntityType": "Scegli il tipo di entity nel menu di sinistra.",
@@ -155,7 +155,7 @@
   "descriptions": {
     "settings": "Settaggi di sistema dell'applicazione.",
     "scheduledJob": "Jobs eseguiti da cron.",
-    "upgrade": "Aggiorna Samex CRM.",
+    "upgrade": "Aggiorna CRM.",
     "clearCache": "Pulisci la cache del backend.",
     "rebuild": "Ricostruisci backend e pulisci cache.",
     "users": "Gestione utenti.",

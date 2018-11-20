@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
-    <title>Samex LLC - CRM Sign Up</title>
+    <title>LLC - CRM Sign Up</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -36,7 +36,7 @@
     <header class="gradient page header overlap-next color-1">
     <div class="container">
 
-            <h1 class="font-lg color-1">Start your 14-day trial of Samex CRM</h1>
+            <h1 class="font-lg color-1">Start your 14-day trial of CRM</h1>
             <p class="lead">Complete the form below to create your account and begin managing your leads & contacts.</p>
 
     </div>

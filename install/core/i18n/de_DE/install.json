@@ -1,6 +1,6 @@
 {
   "labels": {
-    "Main page title": "Willkommen bei Samex CRM",
+    "Main page title": "Willkommen bei CRM",
     "Start page title": "Lizenzvereinbarung",
     "Step1 page title": "Lizenzvereinbarung",
     "License Agreement": "Lizenzvereinbarung",
@@ -11,9 +11,9 @@
     "Step5 page title": "SMTP Einstellungen für ausgehende E-Mails",
     "Errors page title": "Fehler",
     "Finish page title": "Die Installation ist abgeschlossen",
-    "Congratulation! Welcome to Samex CRM": "Gratulation! Samex CRM wurde erfolgreich installiert.",
+    "Congratulation! Welcome to CRM": "Gratulation! CRM wurde erfolgreich installiert.",
     "More Information": "Für mehr Informationen besuchen Sie bitte unseren {BLOG} und/oder folgen Sie uns auf {TWITTER}.<br><br>Für Fragen oder Verbesserungsvorschläge besuchen Sie das {FORUM}.",
-    "share": "Wenn Ihnen Samex CRM gefällt, dann erzählen Sie Ihren Freunden davon und teilen Sie es auf FB, Twitter oder G+ .",
+    "share": "Wenn Ihnen CRM gefällt, dann erzählen Sie Ihren Freunden davon und teilen Sie es auf FB, Twitter oder G+ .",
     "blog": "Blog",
     "twitter": "Twitter",
     "forum": "Forum",
@@ -27,7 +27,7 @@
     "Start": "Start",
     "Back": "Zurück",
     "Next": "Weiter",
-    "Go to Samex CRM": "Zu Samex CRM",
+    "Go to CRM": "Zu CRM",
     "Re-check": "Überprüfung wiederholen",
     "Version": "Version",
     "Test settings": "Verbindung überprüfen",
@@ -81,8 +81,8 @@
     "2005": "Unbekannter MySQL Server",
     "Bad init Permission": "Zugriff auf Verzeichnis \"{*}\" verweigert. Bitte setzen Sie die Berechtigung 775 für \"{*}\" oder führen Sie dieses Kommando in einem Terminalfenster aus <pre><b>{C}</b></pre> Operation nicht erlaubt? Versuchen Sie folgendes: {CSU}",
     "Some errors occurred!": "Es sind Fehler aufgetreten!",
-    "phpVersion": "Ihre PHP Version wird von Samex CRM nicht unterstützt. Bitte aktualisieren Sie zumindest auf {minVersion}",
-    "MySQLVersion": "Ihre MySQL Version wird von Samex CRM nicht unterstützt. Bitte aktualisieren Sie zumindest auf MySQL {minVersion}",
+    "phpVersion": "Ihre PHP Version wird von CRM nicht unterstützt. Bitte aktualisieren Sie zumindest auf {minVersion}",
+    "MySQLVersion": "Ihre MySQL Version wird von CRM nicht unterstützt. Bitte aktualisieren Sie zumindest auf MySQL {minVersion}",
     "The PHP extension was not found...": "PHP Fehler: Erweiterung <b>{extName}</b> wurde nicht gefunden.",
     "All Settings correct": "Alle Einstellungen sind korrekt",
     "Failed to connect to database": "Konnte nicht zur Datenbank verbinden",
@@ -106,7 +106,7 @@
     "Thousand Separator and Decimal Mark equal": "Das Tausendertrennzeichen und das Dezimaltrennzeichen können nicht gleich sein",
     "extension": "{0} Erweiterung fehlt",
     "option": "Empfohlener Wert ist {0}",
-    "mysqlSettingError": "Samex CRM erfordert, dass die MySQL Einstellung \"{NAME}\"  auf {VALUE} gesetzt ist"
+    "mysqlSettingError": "CRM erfordert, dass die MySQL Einstellung \"{NAME}\"  auf {VALUE} gesetzt ist"
   },
   "options": {
     "db driver": {
@@ -114,19 +114,19 @@
       "pdo_mysql": "PDO MySQL"
     },
     "modRewriteTitle": {
-      "apache": "API Fehler: Samex CRM API nicht verfügbar<br>Mögliche Probleme: deaktiviertes \"mod_rewrite\" des Apache Servers, nicht aktivierte .htaccess Unterstützung oder ein RewriteBase Fehler.<br>Führen Sie nur die notwendigen Schritte durch. Nach jedem Schritt prüfen Sie bitte, ob das Problem gelöst ist.",
-      "nginx": "API Fehler: Samex CRM API nicht verfügbar.<br>Fügen Sie diesen Code zu Nginx Host Config (innerhalb des \"server\" Blocks) hinzu:",
-      "microsoft-iis": "API Fehler: Samex CRM API nicht verfügbar<br>Mögliches Problem: deaktiviertes \"URL Rewrite\". Bitte überprüfen und aktivieren Sie das \"URL Rewrite\" Modul im IIS Server.",
-      "default": "API Fehler: Samex CRM API nicht verfügbar<br>Mögliches Problem: deaktiviertes Rewrite Modul. Bitte überprüfen und aktivieren Sie das Rewrite Modul (z.B. mod_rewrite im Apache Server) und die .htaccess Unterstützung."
+      "apache": "API Fehler: CRM API nicht verfügbar<br>Mögliche Probleme: deaktiviertes \"mod_rewrite\" des Apache Servers, nicht aktivierte .htaccess Unterstützung oder ein RewriteBase Fehler.<br>Führen Sie nur die notwendigen Schritte durch. Nach jedem Schritt prüfen Sie bitte, ob das Problem gelöst ist.",
+      "nginx": "API Fehler: CRM API nicht verfügbar.<br>Fügen Sie diesen Code zu Nginx Host Config (innerhalb des \"server\" Blocks) hinzu:",
+      "microsoft-iis": "API Fehler: CRM API nicht verfügbar<br>Mögliches Problem: deaktiviertes \"URL Rewrite\". Bitte überprüfen und aktivieren Sie das \"URL Rewrite\" Modul im IIS Server.",
+      "default": "API Fehler: CRM API nicht verfügbar<br>Mögliches Problem: deaktiviertes Rewrite Modul. Bitte überprüfen und aktivieren Sie das Rewrite Modul (z.B. mod_rewrite im Apache Server) und die .htaccess Unterstützung."
     },
     "modRewriteInstruction": {
       "apache": {
-        "linux": "<br><br>1. Aktivieren Sie mod_rewrite. Dafür führen Sie folgende Kommandos in einem Terminalfenster aus: <pre>{APACHE1}</pre><br>2. Aktivieren Sie .htaccess Unterstützung Ändern oder fügen Sie folgendes Kommando zu Ihrer Apache Konfiguration hinzu (/etc/apache/apache2.conf, /etc/httpd/conf/httpd.conf):<pre>{APACHE2}</pre>\n Anschließend führen Sie dieses Kommando in einem Terminalfenster aus: <pre>{APACHE3}</pre><br>3 Um den RewriteBase Pfad hinzuzufügen, öffnen Sie die Datei {API_PATH}.htaccess und ersetzen Sie die folgende Zeile:<pre>{APACHE4}</pre>zu<pre>{APACHE5}</pre><br> For more information please visit the guideline <a href=\"http://www.espocrm.com/blog/apache-server-configuration-for-espocrm/\" target=\"_blank\">Apache server configuration for Samex CRM</a>.<br><br>",
+        "linux": "<br><br>1. Aktivieren Sie mod_rewrite. Dafür führen Sie folgende Kommandos in einem Terminalfenster aus: <pre>{APACHE1}</pre><br>2. Aktivieren Sie .htaccess Unterstützung Ändern oder fügen Sie folgendes Kommando zu Ihrer Apache Konfiguration hinzu (/etc/apache/apache2.conf, /etc/httpd/conf/httpd.conf):<pre>{APACHE2}</pre>\n Anschließend führen Sie dieses Kommando in einem Terminalfenster aus: <pre>{APACHE3}</pre><br>3 Um den RewriteBase Pfad hinzuzufügen, öffnen Sie die Datei {API_PATH}.htaccess und ersetzen Sie die folgende Zeile:<pre>{APACHE4}</pre>zu<pre>{APACHE5}</pre><br> For more information please visit the guideline <a href=\"http://www.espocrm.com/blog/apache-server-configuration-for-espocrm/\" target=\"_blank\">Apache server configuration for CRM</a>.<br><br>",
         "windows": "<br> <pre>1. Finden Sie die httpd.conf Datei (normalerweise in einem Verzeichnis conf, config oder ähnlich)<br>2. Innerhalb der httpd.conf Datei aktivieren Sie die Zeile LoadModule rewrite_module modules/mod_rewrite.so (entfernen Sie das # Zeichen vom Anfang der Zeile)<br>3. Stellen Sie sicher, dass die Zeile ClearModuleList nicht auskommentiert ist, genauso wie die Zeile AddModule mod_rewrite.c. </pre>\n</pre>"
       },
       "nginx": {
-        "linux": "<br>\n<pre>\n{NGINX}\n</pre> <br> Weitere Informationen sind in der Dokumentation unter <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for Samex CRM</a> zu finden.<br><br>",
-        "windows": "<br>\n<pre>\n{NGINX}\n</pre> <br> Weitere Informationen sind in der Dokumentation unter <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for Samex CRM</a> zu finden.<br><br>"
+        "linux": "<br>\n<pre>\n{NGINX}\n</pre> <br> Weitere Informationen sind in der Dokumentation unter <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for CRM</a> zu finden.<br><br>",
+        "windows": "<br>\n<pre>\n{NGINX}\n</pre> <br> Weitere Informationen sind in der Dokumentation unter <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for CRM</a> zu finden.<br><br>"
       }
     }
   }

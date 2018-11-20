@@ -41,7 +41,7 @@
     "ldapAccountCanonicalForm": "Account Canonical Form",
     "ldapAccountDomainName": "Nama akun Domain",
     "ldapTryUsernameSplit": "Try Username Split",
-    "ldapCreateCoreUser": "Buat Pengguna di Samex CRM",
+    "ldapCreateCoreUser": "Buat Pengguna di CRM",
     "ldapUserLoginFilter": "Filter Login Pengguna",
     "ldapAccountDomainNameShort": "Akun Domain Name Pendek",
     "ldapOptReferrals": "opt Rujukan",

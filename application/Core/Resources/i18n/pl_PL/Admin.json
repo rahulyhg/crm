@@ -133,7 +133,7 @@
     "sourceList": "Lista źródłowa"
   },
   "messages": {
-    "upgradeVersion": "Twój Samex CRM jest aktualizowany do wersji <strong>{version}</strong>. To może chwilę czasu.",
+    "upgradeVersion": "Twój CRM jest aktualizowany do wersji <strong>{version}</strong>. To może chwilę czasu.",
     "upgradeDone": "Twój CRM został zaaktualizowany do najnowszej wersji <strong>{version}</strong>. Odśwież swoją przeglądarke aby zobaczyć zmiany.",
     "upgradeBackup": "Zalecamy abyś wykonał archiwizacje swoich danych, przed aktualizacją.",
     "thousandSeparatorEqualsDecimalMark": "Separator dziesiętny nie może być taki sam jak znak oddzielenia",
@@ -150,7 +150,7 @@
   "descriptions": {
     "settings": "Ustawienia systemu dla aplikacji.",
     "scheduledJob": "Zadania wykonywane przez skrypt cron.",
-    "upgrade": "Aktualizuj Samex CRM.",
+    "upgrade": "Aktualizuj CRM.",
     "clearCache": "Wyczyść wszystkie dane zapisane w pamięci podręcznej.",
     "rebuild": "Przebuduj oraz wyczyść pamięć podręczną.",
     "users": "Zarządzanie użytkownikami.",

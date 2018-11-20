@@ -133,9 +133,9 @@
     "sourceList": "Daftar Sumber"
   },
   "messages": {
-    "upgradeVersion": "Samex CRM Anda akan ditingkatkan ke versi <strong> {version} </ strong>. Hal ini dapat memakan waktu.",
-    "upgradeDone": "Samex CRM Anda telah ditingkatkan ke versi <strong> {version} </ strong>.",
-    "upgradeBackup": "Kami menyarankan untuk membuat cadangan berkas dan data Samex CRM Anda sebelum upgrade.",
+    "upgradeVersion": "CRM Anda akan ditingkatkan ke versi <strong> {version} </ strong>. Hal ini dapat memakan waktu.",
+    "upgradeDone": "CRM Anda telah ditingkatkan ke versi <strong> {version} </ strong>.",
+    "upgradeBackup": "Kami menyarankan untuk membuat cadangan berkas dan data CRM Anda sebelum upgrade.",
     "thousandSeparatorEqualsDecimalMark": "Pemisah ribuan, tidak bisa sama dengan tanda desimal",
     "userHasNoEmailAddress": "Pengguna tidak punya alamat email.",
     "selectEntityType": "Pilih jenis entitas di menu sebelah kiri.",
@@ -150,7 +150,7 @@
   "descriptions": {
     "settings": "pengaturan sistem aplikasi.",
     "scheduledJob": "Pekerjaan yang dilaksanakan oleh cron.",
-    "upgrade": "Upgrade Samex CRM.",
+    "upgrade": "Upgrade CRM.",
     "clearCache": "Menghapus semua backend cache.",
     "rebuild": "Membangun kembali backend dan clear cache.",
     "users": "manajemen pengguna.",

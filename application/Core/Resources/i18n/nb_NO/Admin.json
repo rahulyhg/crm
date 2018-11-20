@@ -151,9 +151,9 @@
     "readOnly": "Skrivebeskyttet"
   },
   "messages": {
-    "upgradeVersion": "Samex CRM vil oppgraderes til versjon <strong>{version}</strong>. Dette kan ta litt tid.",
-    "upgradeDone": "Samex CRM har blitt oppgradert til versjon <strong>{version}</strong>.",
-    "upgradeBackup": "Det er anbefalt å ta backup av Samex CRMs filer og data før oppgradering.",
+    "upgradeVersion": "CRM vil oppgraderes til versjon <strong>{version}</strong>. Dette kan ta litt tid.",
+    "upgradeDone": "CRM har blitt oppgradert til versjon <strong>{version}</strong>.",
+    "upgradeBackup": "Det er anbefalt å ta backup av CRMs filer og data før oppgradering.",
     "thousandSeparatorEqualsDecimalMark": "Skillet for tusentall kan ikke være et desimaltegn",
     "userHasNoEmailAddress": "Brukeren har ikke epostadresse",
     "selectEntityType": "Velg enhetstype i venstre meny.",
@@ -168,7 +168,7 @@
   "descriptions": {
     "settings": "Grunnleggende systeminnstillinger",
     "scheduledJob": "Oppgaver som utføres av cron.",
-    "upgrade": "Oppgrader Samex CRM.",
+    "upgrade": "Oppgrader CRM.",
     "clearCache": "Tøm hurtigminne for serverdelen.",
     "rebuild": "Gjennbygg serverdel og tøm hurtigminne.",
     "users": "Administrer brukere.",

@@ -1,6 +1,6 @@
 {
   "labels": {
-    "Main page title": "Velkommen til Samex CRM",
+    "Main page title": "Velkommen til CRM",
     "Start page title": "Licensaftale",
     "Step1 page title": "Licensaftale",
     "License Agreement": "Licensaftale",
@@ -11,9 +11,9 @@
     "Step5 page title": "SMTP indstillinger for udgående emails",
     "Errors page title": "Fejl",
     "Finish page title": "Installationen er fuldført",
-    "Congratulation! Welcome to Samex CRM": "Tillykke! Samex CRM er installeret succesfuldt.",
+    "Congratulation! Welcome to CRM": "Tillykke! CRM er installeret succesfuldt.",
     "More Information": "Besøg venligst vores {BLOG} for mere information, følg os på {TWITTER}.<br><br>Henvend dig venligst i {FORUM} hvis du har forslag eller spørgsmål.",
-    "share": "Hvis du kan lide Samex CRM beder vi dig dele det med dine venner. Lad dem høre om dette produkt.",
+    "share": "Hvis du kan lide CRM beder vi dig dele det med dine venner. Lad dem høre om dette produkt.",
     "blog": "blog",
     "twitter": "twitter",
     "forum": "forum",
@@ -27,7 +27,7 @@
     "Start": "Start",
     "Back": "Tilbage",
     "Next": "Næste",
-    "Go to Samex CRM": "Gå til Samex CRM",
+    "Go to CRM": "Gå til CRM",
     "Re-check": "Kontroller igen",
     "Version": "Version",
     "Test settings": "Test Forbindelse",
@@ -81,8 +81,8 @@
     "2005": "Ukendt MySQL server host",
     "Bad init Permission": "Tilladelse nægtet for \"{*}\" mappe. Venligst sæt 775 for \"{*}\" eller kør denne kommando i et terminalvindue <pre><b>{C}</b></pre>\n    Handlingen ikke tilladt? Prøv dette: {CSU}",
     "Some errors occurred!": "Der opstod nogle fejl!",
-    "phpVersion": "Din PHP version er ikke supporteret af Samex CRM, venligst opdater som minimum til PHP {minVersion}",
-    "MySQLVersion": "Din MySQL version er ikke supporteret af Samex CRM, venligst opdater som minimum til MySQL {minVersion}",
+    "phpVersion": "Din PHP version er ikke supporteret af CRM, venligst opdater som minimum til PHP {minVersion}",
+    "MySQLVersion": "Din MySQL version er ikke supporteret af CRM, venligst opdater som minimum til MySQL {minVersion}",
     "The PHP extension was not found...": "PHP-fejl: Udvidelsen <b>{extName}</b> blev ikke fundet.",
     "All Settings correct": "Alle indstillinger er korrekte.",
     "Failed to connect to database": "Kunne ikke forbinde til database.",
@@ -106,7 +106,7 @@
     "Thousand Separator and Decimal Mark equal": "Tusindtalsseparator og decimaltegn kan ikke være det samme",
     "extension": "{0} udvidelse mangler",
     "option": "Anbefalet værdi er {0}",
-    "mysqlSettingError": "Samex CRM kræver MySQL-indstillingen \"{NAME}\" sat til {VALUE} "
+    "mysqlSettingError": "CRM kræver MySQL-indstillingen \"{NAME}\" sat til {VALUE} "
   },
   "options": {
     "db driver": {
@@ -116,18 +116,18 @@
     "modRewriteInstruction": {
       "apache": {
         "windows": "<br> <pre>1. Find httpd.conf filen (den findes normalt i en mappe kaldet conf, config eller noget i den retning)<br>\n2. I httpd.conf file skal linjen LoadModule rewrite_module modules/mod_rewrite.so aktiveres (fjern #-tegnet foran linjen)<br>\n3. Tjek at linjen ClearModuleList er uden #-tegn og linjen AddModule mod_rewrite.c må heller ikke have #-tegnet i begyndelsen.\n</pre>",
-        "linux": "\n <br><br>1.Aktiver \"mod_rewrite\". Kør disse kommandoer i et terminalvindue:<pre>{APACHE1}</pre><br>2. Aktiver .htaccess understøttelse. Tilføj/rediger Server konfigurationsindstillinger (/etc/apache/apache2.conf, /etc/httpd/conf/httpd.conf):<pre>{APACHE2}</pre>\nKør derefter denne kommando i et terminalvindue:<pre>{APACHE3}</pre><br>3. Prøv at tilføje RewriteBase stien, åbn en fil {API_PATH}.htaccess og erstat den følgende linje:<pre>{APACHE4}</pre>Med<pre>{APACHE5}</pre><br> For mere information besøg venligst guiden <a href=\"http://www.espocrm.com/blog/apache-server-configuration-for-espocrm/\" target=\"_blank\">Apache server configuration for Samex CRM</a>.<br><br> "
+        "linux": "\n <br><br>1.Aktiver \"mod_rewrite\". Kør disse kommandoer i et terminalvindue:<pre>{APACHE1}</pre><br>2. Aktiver .htaccess understøttelse. Tilføj/rediger Server konfigurationsindstillinger (/etc/apache/apache2.conf, /etc/httpd/conf/httpd.conf):<pre>{APACHE2}</pre>\nKør derefter denne kommando i et terminalvindue:<pre>{APACHE3}</pre><br>3. Prøv at tilføje RewriteBase stien, åbn en fil {API_PATH}.htaccess og erstat den følgende linje:<pre>{APACHE4}</pre>Med<pre>{APACHE5}</pre><br> For mere information besøg venligst guiden <a href=\"http://www.espocrm.com/blog/apache-server-configuration-for-espocrm/\" target=\"_blank\">Apache server configuration for CRM</a>.<br><br> "
       },
       "nginx": {
-        "linux": "<br>\n<pre>\n{NGINX}\n</pre> <br> For mere information besøg venligst guiden <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for Samex CRM</a>.<br><br> ",
-        "windows": "<br>\n<pre>\n{NGINX}\n</pre> <br> For mere information besøg venligst guiden <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for Samex CRM</a>.<br><br> "
+        "linux": "<br>\n<pre>\n{NGINX}\n</pre> <br> For mere information besøg venligst guiden <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for CRM</a>.<br><br> ",
+        "windows": "<br>\n<pre>\n{NGINX}\n</pre> <br> For mere information besøg venligst guiden <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for CRM</a>.<br><br> "
       }
     },
     "modRewriteTitle": {
-      "apache": "API Fejl: Samex CRM API er utilgængelig.<br> Mulige problemer: deaktiveret \"mod_rewrite\" i Apache serveren, deaktiveret .htaccess understøttelse eller et problem med RewriteBase.<br>Foretag kun nødvendige skridt. Tjek efter hvert skridt om problemet er løst.",
-      "nginx": "API Fejl: Samex CRM API er utilgængelig.<br> Tilføj denne kode til din Nginx servers config fil (/etc/nginx/sites-available/YOUR_SITE) indenfor \"server\" sektionen:",
-      "microsoft-iis": "API Fejl: Samex CRM API er utilgængelig.<br> Muligt problem: deaktiveret \"URL Rewrite\". Venligst tjek og aktiver \"URL Rewrite\" Modulet i IIS serveren.",
-      "default": "API Fejl: Samex CRM API er utilgængelig.<br> Muligt problem: deaktiveret Rewrite Modul. Venligst tjek og aktiver Rewrite Modulet i din server (f.eks. mod_rewrite i Apache) og .htaccess understøttelse."
+      "apache": "API Fejl: CRM API er utilgængelig.<br> Mulige problemer: deaktiveret \"mod_rewrite\" i Apache serveren, deaktiveret .htaccess understøttelse eller et problem med RewriteBase.<br>Foretag kun nødvendige skridt. Tjek efter hvert skridt om problemet er løst.",
+      "nginx": "API Fejl: CRM API er utilgængelig.<br> Tilføj denne kode til din Nginx servers config fil (/etc/nginx/sites-available/YOUR_SITE) indenfor \"server\" sektionen:",
+      "microsoft-iis": "API Fejl: CRM API er utilgængelig.<br> Muligt problem: deaktiveret \"URL Rewrite\". Venligst tjek og aktiver \"URL Rewrite\" Modulet i IIS serveren.",
+      "default": "API Fejl: CRM API er utilgængelig.<br> Muligt problem: deaktiveret Rewrite Modul. Venligst tjek og aktiver Rewrite Modulet i din server (f.eks. mod_rewrite i Apache) og .htaccess understøttelse."
     }
   }
 }

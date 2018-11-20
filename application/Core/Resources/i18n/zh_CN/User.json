@@ -66,7 +66,7 @@
   },
   "messages": {
     "passwordWillBeSent": "密码将发送到用户的电子邮件地址。",
-    "accountInfoEmailSubject": "Samex CRM用户访问信息",
+    "accountInfoEmailSubject": "CRM用户访问信息",
     "accountInfoEmailBody": "您的访问信息：\n\n用户名：{userName}\n密码：{password}\n\n{siteUrl} ",
     "passwordChangeLinkEmailSubject": "更改密码请求",
     "passwordChanged": "密码已被更改",

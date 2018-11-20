@@ -151,9 +151,9 @@
     "readOnly": "只读"
   },
   "messages": {
-    "upgradeVersion": "您的Samex CRM将升级到<strong> {version} </ strong>版本，这可能需要一些时间。",
-    "upgradeDone": "您的Samex CRM已升级到<strong>{version}</strong>版本。",
-    "upgradeBackup": "我们建议在升级之前备份您的Samex CRM文件和数据。",
+    "upgradeVersion": "您的CRM将升级到<strong> {version} </ strong>版本，这可能需要一些时间。",
+    "upgradeDone": "您的CRM已升级到<strong>{version}</strong>版本。",
+    "upgradeBackup": "我们建议在升级之前备份您的CRM文件和数据。",
     "thousandSeparatorEqualsDecimalMark": "千位分隔符不能与小数点标记相同",
     "userHasNoEmailAddress": "用户没有电子邮件地址。",
     "selectEntityType": "在左侧菜单中选择实体类型。",
@@ -168,7 +168,7 @@
   "descriptions": {
     "settings": "应用程序的系统设置。",
     "scheduledJob": "由cron执行的作业。",
-    "upgrade": "升级Samex CRM。",
+    "upgrade": "升级CRM。",
     "clearCache": "清除所有后端缓存。\"",
     "rebuild": "重建后端和清除缓存。",
     "users": "用户管理。",

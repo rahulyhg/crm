@@ -5,7 +5,7 @@
 			<div class="col-md-12">
 				<div align="center">
 					<div class="content-img">
-						<img class="devices" src="img/devices.png" alt="Samex CRM">
+						<img class="devices" src="img/devices.png" alt="CRM">
 					</div>
 					{$langs['labels']['Main page header']}
 				</div>

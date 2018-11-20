@@ -673,7 +673,7 @@ class Email extends Record
         $email = $this->getEntityManager()->getEntity('Email');
 
         $email->set(array(
-            'subject' => 'Samex CRM: Test Email',
+            'subject' => 'CRM: Test Email',
             'isHtml' => false,
             'to' => $data['emailAddress']
         ));

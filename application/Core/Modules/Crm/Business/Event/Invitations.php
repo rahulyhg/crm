@@ -156,7 +156,7 @@ class Invitations
             $email = $user->get('emailAddress');
         }
 
-        $ics = new Ics('//Samex CRM//Samex CRM Calendar//EN', array(
+        $ics = new Ics('//CRM//CRM Calendar//EN', array(
             'startDate' => strtotime($entity->get('dateStart')),
             'endDate' => strtotime($entity->get('dateEnd')),
             'uid' => $entity->id,

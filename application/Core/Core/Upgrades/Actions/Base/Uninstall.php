@@ -46,7 +46,7 @@ class Uninstall extends \Core\Core\Upgrades\Actions\Base
         }
 
         if (!$this->systemRebuild()) {
-            $this->throwErrorAndRemovePackage('Error occurred while Samex CRM rebuild.');
+            $this->throwErrorAndRemovePackage('Error occurred while CRM rebuild.');
         }
 
         /* run after uninstall script */

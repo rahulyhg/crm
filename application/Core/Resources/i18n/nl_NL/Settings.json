@@ -40,7 +40,7 @@
         "ldapAccountCanonicalForm": "Standaard Formulier Gebruiker",
         "ldapAccountDomainName": "Domeinnaam Account",
         "ldapTryUsernameSplit": "Probeer gesplitste Gebruikersnaam",
-        "ldapCreateCoreUser": "Gebruiker aanmaken in Samex CRM",
+        "ldapCreateCoreUser": "Gebruiker aanmaken in CRM",
         "ldapSecurity": "Beveiliging",
         "ldapUserLoginFilter": "Gebruikers Login Filter",
         "ldapAccountDomainNameShort": "Korte Gebruikers Domein Naam",

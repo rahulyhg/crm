@@ -21,9 +21,9 @@
       "SendEmailNotifications": "Send epostvarsler"
     },
     "cronSetup": {
-      "linux": "Merk: Legg denne linjen til crontab-filen som kjører Samex CRMs planlagte oppgaver:",
-      "mac": "Merk: Legg denne linjen til crontab-filen som kjører Samex CRMs planlagte oppgaver:",
-      "windows": "Merk: Opprett en batch-fil med følgende kommandoer for å kjøre Samex CRMs planlagte oppgaver via Windows Scheduled Tasks:",
+      "linux": "Merk: Legg denne linjen til crontab-filen som kjører CRMs planlagte oppgaver:",
+      "mac": "Merk: Legg denne linjen til crontab-filen som kjører CRMs planlagte oppgaver:",
+      "windows": "Merk: Opprett en batch-fil med følgende kommandoer for å kjøre CRMs planlagte oppgaver via Windows Scheduled Tasks:",
       "default": "Merk: Legg denne kommandoen til Cron Job (planlagte oppgaver):"
     },
     "status": {

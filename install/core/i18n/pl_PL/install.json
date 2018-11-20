@@ -1,6 +1,6 @@
 {
   "labels": {
-    "Main page title": "Witaj w Samex CRM",
+    "Main page title": "Witaj w CRM",
     "Start page title": "Postawnowienia Licencji",
     "Step1 page title": "Postawnowienia Licencji",
     "License Agreement": "Postawnowienia Licencji",
@@ -11,9 +11,9 @@
     "Step5 page title": "Ustawienia SMTP dla poczty wychodzącej",
     "Errors page title": "Błędy",
     "Finish page title": "Instalacja została ukończona",
-    "Congratulation! Welcome to Samex CRM": "Gratuluje! Samex CRM zostało pomyślnie zainstalowane.",
+    "Congratulation! Welcome to CRM": "Gratuluje! CRM zostało pomyślnie zainstalowane.",
     "More Information": "For more information, please visit our {BLOG}, follow us on {TWITTER}.<br><br>If you have any suggestions or questions, please ask on the {FORUM}.",
-    "share": "Jeśli podoba ci się Samex CRM podziel się informacją o nim ze znajomymi. ",
+    "share": "Jeśli podoba ci się CRM podziel się informacją o nim ze znajomymi. ",
     "blog": "blog",
     "twitter": "twitter",
     "forum": "forum",
@@ -27,7 +27,7 @@
     "Start": "Start",
     "Back": "Wróć",
     "Next": "Następny",
-    "Go to Samex CRM": "Idź do Samex CRM",
+    "Go to CRM": "Idź do CRM",
     "Re-check": "Sprawdź jeszcze raz",
     "Version": "Wersja",
     "Test settings": "Test połączenia z bazą danych",
@@ -81,8 +81,8 @@
     "2005": "Nieznany MySQL host",
     "Bad init Permission": "Permission denied for \"{*}\" directory. Please set 775 for \"{*}\" or just execute this command in the terminal <pre><b>{C}</b></pre>\n\tOperation not permitted? Try this one: {CSU}",
     "Some errors occurred!": "Wystapiły błędy!",
-    "phpVersion": "Wersja PHP nie jest wspierana przez Samex CRM, proszę wykonać aktualizację do minimalnej wersji PHP {minVersion}",
-    "MySQLVersion": "Wersja MySQL nie jest wspierana przez Samex CRM, proszę wykonać aktualizację do minimalnej wersji MySQL {minVersion}",
+    "phpVersion": "Wersja PHP nie jest wspierana przez CRM, proszę wykonać aktualizację do minimalnej wersji PHP {minVersion}",
+    "MySQLVersion": "Wersja MySQL nie jest wspierana przez CRM, proszę wykonać aktualizację do minimalnej wersji MySQL {minVersion}",
     "The PHP extension was not found...": "PHP Error: Extension <b>{extName}</b> is not found.",
     "All Settings correct": "Wszystkie ustwienia są poprawne",
     "Failed to connect to database": "Błąd połączenia z bazą danych",
@@ -106,7 +106,7 @@
     "Thousand Separator and Decimal Mark equal": "Separator dziesiętny i znak rozdzielenia nie może być taki sam",
     "extension": "Rozszerzenie {0} jest niedostępne",
     "option": "Rekomendowaną wartością jest {0}",
-    "mysqlSettingError": "Samex CRM wymaga aby ustawienie MySQL \"{NAME}\" było zmienione na {VALUE}"
+    "mysqlSettingError": "CRM wymaga aby ustawienie MySQL \"{NAME}\" było zmienione na {VALUE}"
   },
   "options": {
     "db driver": {

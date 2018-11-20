@@ -40,7 +40,7 @@
         "ldapAccountCanonicalForm": "Account Canonical Form",
         "ldapAccountDomainName": "Account Domain Name",
         "ldapTryUsernameSplit": "Zkuste rozdělit uživatelské jméno",
-        "ldapCreateCoreUser": "Vytvořit uživatele v Samex CRM",
+        "ldapCreateCoreUser": "Vytvořit uživatele v CRM",
         "ldapSecurity": "Zabezpečení",
         "ldapUserLoginFilter": "Filtr uživatelského přihlášení",
         "ldapAccountDomainNameShort": "Account Domain Name krátké",

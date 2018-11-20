@@ -61,7 +61,7 @@ class System
     }
 
     /**
-     * Get root directory of Samex CRM
+     * Get root directory of CRM
      *
      * @return string
      */

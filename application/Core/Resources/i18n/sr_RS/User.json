@@ -68,7 +68,7 @@
   },
   "messages": {
     "passwordWillBeSent": "Lozinka će biti poslata na adresu korisnika.",
-    "accountInfoEmailSubject": "Samex CRM Korisnik - podaci za pristup",
+    "accountInfoEmailSubject": "CRM Korisnik - podaci za pristup",
     "accountInfoEmailBody": "Vaši podaci za pristup:\n\nKorisničko ime: {userName} \nLozinka: {password}\n\n{siteUrl}",
     "passwordChangeLinkEmailSubject": "Upit za promenu lozinke",
     "passwordChanged": "Lozinka je promenjena",

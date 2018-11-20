@@ -68,7 +68,7 @@
   },
   "messages": {
     "passwordWillBeSent": "Пароль буде вислано на поштову адресу користувача",
-    "accountInfoEmailSubject": "Інформація про користувацький доступ Samex CRM",
+    "accountInfoEmailSubject": "Інформація про користувацький доступ CRM",
     "accountInfoEmailBody": "Ваша інформація про доступ:\n\nІм'я користувача: {userName}\nПароль: {password}\n\n{siteUrl}",
     "passwordChangeLinkEmailSubject": "Запит на зміну пароля",
     "passwordChanged": "Пароль було змінено",

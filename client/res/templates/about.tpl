@@ -1,5 +1,5 @@
 <div class="page-header">
-    <h3>Samex CRM - Lightweight CRM application</h3>
+    <h3>CRM - Lightweight CRM application</h3>
 </div>
 
 <div class="row">
@@ -9,7 +9,7 @@
             <section>
                 <h5>Version {{version}}</h5>
                 <p>
-                    Copyright &copy; 2017 Samex LLC.
+                    Copyright &copy; 2017 LLC.
                     <br>
                     Website: <a href="https://www.samexllc.com" target="_BLANK">www.samexllc.com</a>.
                 </p>

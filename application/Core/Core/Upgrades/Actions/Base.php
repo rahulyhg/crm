@@ -156,7 +156,7 @@ abstract class Base
     }
 
     /**
-     * Check if version of upgrade/extension is acceptable to current version of Samex CRM
+     * Check if version of upgrade/extension is acceptable to current version of CRM
      *
      * @param  string  $version
      * @return boolean
@@ -174,7 +174,7 @@ abstract class Base
 
         //check acceptableVersions
         if (isset($manifest['acceptableVersions'])) {
-            $res &= $this->checkVersions($manifest['acceptableVersions'], $this->getConfig()->get('version'), 'Your Samex CRM version doesn\'t match for this installation package.');
+            $res &= $this->checkVersions($manifest['acceptableVersions'], $this->getConfig()->get('version'), 'Your CRM version doesn\'t match for this installation package.');
         }
 
         //check dependencies

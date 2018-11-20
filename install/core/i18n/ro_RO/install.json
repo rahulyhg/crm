@@ -1,6 +1,6 @@
 {
 	"labels": {
-		"Main page title": "Bun venit pe Samex CRM",
+		"Main page title": "Bun venit pe CRM",
 		"Main page header": "",
 		"Start page title": "Acord de Licenta",
 		"Step1 page title": "Acord de Licenta",
@@ -12,7 +12,7 @@
 		"Step5 page title": "Setari SMTP pentru trimitere email-uri",
 		"Errors page title": "Erori",
 		"Finish page title": "Instalare finalizata",
-		"Congratulation! Welcome to Samex CRM": "Felicitari! Samex CRM a fost instalat cu succes.",
+		"Congratulation! Welcome to CRM": "Felicitari! CRM a fost instalat cu succes.",
 		"Installation Guide": "Instrucțiuni de instalare",
 		"admin": "admin",
 		"localhost": "localhost",
@@ -23,7 +23,7 @@
 		"Start": "Start",
 		"Back": "Inapoi",
 		"Next": "Inainte",
-		"Go to Samex CRM": "Mergi la Samex CRM",
+		"Go to CRM": "Mergi la CRM",
 		"Re-check": "Re-verificare",
 		"Version": "Versiunea",
 		"Test settings": "Testare Conexiune",
@@ -68,8 +68,8 @@
 	"messages": {
 		"Bad init Permission": "Permission denied for \"{*}\" directory. Please set 775 for \"{*}\" or just execute this command in the terminal <pre><b>{C}</b></pre>\n\tOperation not permitted? Try this one: {CSU}",
 		"Some errors occurred!": "Am intampinat erori!",
-		"phpVersion": "Your PHP version is not supported by Samex CRM, please update to PHP {minVersion} at least",
-		"MySQLVersion": "Your MySQL version is not supported by Samex CRM, please update to MySQL {minVersion} at least",
+		"phpVersion": "Your PHP version is not supported by CRM, please update to PHP {minVersion} at least",
+		"MySQLVersion": "Your MySQL version is not supported by CRM, please update to MySQL {minVersion} at least",
 		"The PHP extension was not found...": "PHP Error: Extension <b>{extName}</b> is not found.",
 		"All Settings correct": "Toate setarile sunt corecte",
 		"Failed to connect to database": "Nu s-a reusit conectarea la Baza de Date",

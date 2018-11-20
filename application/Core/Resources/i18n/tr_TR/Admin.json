@@ -163,7 +163,7 @@
   "descriptions": {
     "settings": "Uygulamanın sistem ayarları.",
     "scheduledJob": "Cron tarafından gerçekleştirilmiş işler.",
-    "upgrade": "Samex CRM i yükselt.",
+    "upgrade": "CRM i yükselt.",
     "clearCache": "Tüm sunucu önbelleğini temizle.",
     "rebuild": "Sunucuyu onar ve önbelleği temizle.",
     "users": "Kullanıcı Yönetimi.",

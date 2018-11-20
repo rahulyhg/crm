@@ -159,9 +159,9 @@
     "selectExtensionPackage": "Оберіть пакет розширення",
     "extensionInstalled": "Розширення {name} {version} установлено.",
     "installExtension": "Розширення {name} {version} готове до інсталяції.",
-    "upgradeVersion": "Samex CRM буде оновлено до версії <strong>{version}</strong>. Просимо зачекати, оскільки це може зайняти дейкий час.",
-    "upgradeDone": "Samex CRM оновлено до версії <strong>{version}</strong>.",
-    "upgradeBackup": "Перед оновленням рекомендуємо створити резевну копію файлів Samex CRM та даних",
+    "upgradeVersion": "CRM буде оновлено до версії <strong>{version}</strong>. Просимо зачекати, оскільки це може зайняти дейкий час.",
+    "upgradeDone": "CRM оновлено до версії <strong>{version}</strong>.",
+    "upgradeBackup": "Перед оновленням рекомендуємо створити резевну копію файлів CRM та даних",
     "thousandSeparatorEqualsDecimalMark": "Розділювач тисячних не може бути таким самим, як розділювач десяткових.",
     "userHasNoEmailAddress": "В користувача не вказана адреса електронної скриньки.",
     "uninstallConfirmation": "Ви впевнені, що хочете видалити розширення?"
@@ -169,7 +169,7 @@
   "descriptions": {
     "settings": "Системні налаштування додатку.",
     "scheduledJob": "Завдання, виконувані за допомогою cron.",
-    "upgrade": "Оновити Samex CRM.",
+    "upgrade": "Оновити CRM.",
     "clearCache": "Очистити весь кеш сервера.",
     "rebuild": "Перезапустити сервер та очистити кеш.",
     "users": "Управління користувачами.",

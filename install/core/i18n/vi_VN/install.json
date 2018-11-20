@@ -1,6 +1,6 @@
 {
 	"labels": {
-		"Main page title": "Chào mừng đến với Samex CRM",
+		"Main page title": "Chào mừng đến với CRM",
 		"Main page header": "",
 		"Start page title": "Điều khoản và bản quyền",
 		"Step1 page title": "Điều khoản và bản quyền",
@@ -12,7 +12,7 @@
 		"Step5 page title": "Cài đặt SMTP cho email đi",
 		"Errors page title": "Lỗi",
 		"Finish page title": "Hoàn thành cài đặt",
-		"Congratulation! Welcome to Samex CRM": "Xin chúc mừng bạn! Samex CRM đã được cài đặt thành công.",
+		"Congratulation! Welcome to CRM": "Xin chúc mừng bạn! CRM đã được cài đặt thành công.",
 		"Installation Guide": "Hướng dẫn cài đặt",
 		"admin": "admin",
 		"localhost": "localhost",
@@ -23,7 +23,7 @@
 		"Start": "Bắt đầu",
 		"Back": "Lùi",
 		"Next": "Tiến",
-		"Go to Samex CRM": "Đi đến Samex CRM",
+		"Go to CRM": "Đi đến CRM",
 		"Re-check": "Kiểm tra lại",
 		"Version": "Phiên bản",
 		"Test settings": "Kiểm tra kết nối",
@@ -68,8 +68,8 @@
 	"messages": {
 		"Bad init Permission": "Permission denied for \"{*}\" directory. Please set 775 for \"{*}\" or just execute this command in the terminal <pre><b>{C}</b></pre>\n\tOperation not permitted? Try this one: {CSU}",
 		"Some errors occurred!": "Đã có lỗi xảy ra!",
-		"phpVersion": "Your PHP version is not supported by Samex CRM, please update to PHP {minVersion} at least",
-		"MySQLVersion": "Your MySQL version is not supported by Samex CRM, please update to MySQL {minVersion} at least",
+		"phpVersion": "Your PHP version is not supported by CRM, please update to PHP {minVersion} at least",
+		"MySQLVersion": "Your MySQL version is not supported by CRM, please update to MySQL {minVersion} at least",
 		"The PHP extension was not found...": "Không tìm thấy phần mở rộng <b>{extName}</b> của PHP",
 		"All Settings correct": "cài đặt thành công",
 		"Failed to connect to database": "Không thể kết nối tới csdl",

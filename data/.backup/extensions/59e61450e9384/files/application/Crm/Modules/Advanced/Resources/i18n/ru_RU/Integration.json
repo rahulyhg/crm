@@ -1,0 +1,22 @@
+{
+  "help": {
+    "Google": "<p><b>Obtain OAuth 2.0 credentials from the Google Developers Console.</b></p><p>Visit <a href=\"https://console.developers.google.com/project\" target=\"_blank\">Google Developers Console</a> to obtain OAuth 2.0 credentials such as a Client ID and Client Secret that are known to both Google and CRM application.</p><p>This integration requires <b>curl</b> extension. Google Contacts also needs <b>libxml</b> and <b>xml</b></p>",
+    "MailChimp": "<p><b>Конфигурация MailChimp</b></p><p>Вы можете найти Ваш API ключ в Вашем MailChimp аккаунте, в закладке Extras выберете API ключи или натижмите <a href='https://admin.mailchimp.com/account/api/' target='_blank'>здесь</a></p>"
+  },
+  "fields": {
+    "apiKey": "API ключ",
+    "createEmails": "Загрузить отправленные письма",
+    "markEmailsOptedOut": "Отписанных получателей отметить такими, которые отказались",
+    "hardBouncedAction": "Обработка Hard Bounced"
+  },
+  "options": {
+    "hardBouncedAction": {
+      "setAsInvalid": "Отметить адрес как ошибочный",
+      "removeFromList": "Удалить из списка",
+      "setAsInvalidAndRemove": "Оба действия"
+    }
+  },
+  "tooltips": {
+    "createEmails": "Загрузить отправленные письма с MailChimp и связать их с Вашими получателями в CRM. Рекомендация: не загружайте, если у Вас большой список получателей."
+  }
+}

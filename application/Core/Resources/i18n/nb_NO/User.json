@@ -66,7 +66,7 @@
   },
   "messages": {
     "passwordWillBeSent": "Passordet vil sendes til brukerens epostadresse.",
-    "accountInfoEmailSubject": "Samex CRM-brukerens tilgangsinformasjon",
+    "accountInfoEmailSubject": "CRM-brukerens tilgangsinformasjon",
     "accountInfoEmailBody": "Påloggingsinformasjon:\n\nBrukernavn: {userName}\nPassord: {password}\n\n{siteUrl}",
     "passwordChangeLinkEmailSubject": "Spør om å få bytte passord",
     "passwordChanged": "Passordet har blitt forandret",

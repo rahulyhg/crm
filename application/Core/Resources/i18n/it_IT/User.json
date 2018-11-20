@@ -63,7 +63,7 @@
   },
   "messages": {
     "passwordWillBeSent": "La Password verrà inviata all'indirizzo e-mail dell'utente.",
-    "accountInfoEmailSubject": "Samex CRM User Access Info",
+    "accountInfoEmailSubject": "CRM User Access Info",
     "accountInfoEmailBody": "I tuoi dati di accesso:\n\nUsername: {userName}\nPassword: {password}\n\n{siteUrl}",
     "passwordChangeLinkEmailSubject": "Richiesta Modifica Password",
     "passwordChangeLinkEmailBody": "È possibile modificare la password da questo link {link } . Questo URL univoco scadrà presto .",

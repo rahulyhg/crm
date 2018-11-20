@@ -41,7 +41,7 @@
     "ldapAccountCanonicalForm": "Account Canonical Form",
     "ldapAccountDomainName": "Nazwa konta domeny",
     "ldapTryUsernameSplit": "Spróbuj rodzielić nazwę użytkonika",
-    "ldapCreateCoreUser": "Utwórz uzytkonika w Samex CRM",
+    "ldapCreateCoreUser": "Utwórz uzytkonika w CRM",
     "ldapUserLoginFilter": "Filtr użytkoników ",
     "ldapAccountDomainNameShort": "Krótka nazwa konta domeny",
     "ldapOptReferrals": "Opt Referrals",

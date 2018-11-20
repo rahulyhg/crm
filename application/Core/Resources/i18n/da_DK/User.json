@@ -68,7 +68,7 @@
   },
   "messages": {
     "passwordWillBeSent": "Kodeord sendes til brugers emailadresse.",
-    "accountInfoEmailSubject": "Samex CRM Info om Brugeradgang.",
+    "accountInfoEmailSubject": "CRM Info om Brugeradgang.",
     "accountInfoEmailBody": "Dine Logindetaljer:\n\nBrugernavn: {userName}\nKodeord: {password}\n\n{siteUrl}",
     "passwordChangeLinkEmailSubject": "Anmodning om Ændring af Kodeord",
     "passwordChanged": "Kodeordet er ændret",

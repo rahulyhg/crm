@@ -60,7 +60,7 @@
   },
   "messages": {
     "passwordWillBeSent": "Password akan dikirimkan ke alamat email pengguna.",
-    "accountInfoEmailSubject": "Samex CRM Info Pengguna Access",
+    "accountInfoEmailSubject": "CRM Info Pengguna Access",
     "accountInfoEmailBody": "akses informasi Anda:\n\nUsername: {username}\nPassword: {password}\n\n{siteUrl}",
     "passwordChangeLinkEmailSubject": "Ubah Password Permintaan",
     "passwordChangeLinkEmailBody": "Anda dapat mengubah password Anda dengan tautan ini {link}. url yang unik ini akan segera expired.",

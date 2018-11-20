@@ -4,7 +4,7 @@
 			<div class=" col-md-13">
 				<div class="panel-body" align="center">
 					<div class="message">
-						{$langs['labels']['Congratulation! Welcome to Samex CRM']}
+						{$langs['labels']['Congratulation! Welcome to CRM']}
 					</div>
 
 					<br>
@@ -45,7 +45,7 @@
 </div>
 {/if}
 <footer class="modal-footer">
-	<button class="btn btn-primary" type="button" id="start">{$langs['labels']['Go to Samex CRM']}</button>
+	<button class="btn btn-primary" type="button" id="start">{$langs['labels']['Go to CRM']}</button>
 </footer>
 <script>
 	{literal}

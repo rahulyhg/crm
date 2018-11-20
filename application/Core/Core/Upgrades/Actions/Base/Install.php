@@ -52,7 +52,7 @@ class Install extends \Core\Core\Upgrades\Actions\Base
         /* remove files defined in a manifest "deleteBeforeCopy" */
         $this->deleteBeforeCopy(true);
 
-        /* copy files from directory "Files" to Samex CRM files */
+        /* copy files from directory "Files" to CRM files */
         if (!$this->copyFiles()) {
             $this->throwErrorAndRemovePackage('Cannot copy files.');
         }
@@ -61,7 +61,7 @@ class Install extends \Core\Core\Upgrades\Actions\Base
         $this->deleteFiles(true);
 
         if (!$this->systemRebuild()) {
-            $this->throwErrorAndRemovePackage('Error occurred while Samex CRM rebuild.');
+            $this->throwErrorAndRemovePackage('Error occurred while CRM rebuild.');
         }
 
         //afterInstallFiles

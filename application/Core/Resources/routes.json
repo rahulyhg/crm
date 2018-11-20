@@ -2,7 +2,7 @@
   {
     "route":"/",
     "method":"get",
-    "params":"<h1>Samex CRM REST API<\/h1>"
+    "params":"<h1>CRM REST API<\/h1>"
   },
 
   {

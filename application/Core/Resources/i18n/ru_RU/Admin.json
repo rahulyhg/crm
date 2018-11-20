@@ -159,9 +159,9 @@
     "selectExtensionPackage": "Выберите пакет расширения",
     "extensionInstalled": "Расширение {name} {version} было установлено.",
     "installExtension": "Расширение {name} {version} готово к установке.",
-    "upgradeVersion": "Samex CRM will be upgraded to version <strong>{version}</strong>. Please be patient as this may take a while.",
-    "upgradeDone": "Samex CRM has been upgraded to version <strong>{version}</strong>.",
-    "upgradeBackup": "We recommend making a backup of your Samex CRM files and data before upgrading.",
+    "upgradeVersion": "CRM will be upgraded to version <strong>{version}</strong>. Please be patient as this may take a while.",
+    "upgradeDone": "CRM has been upgraded to version <strong>{version}</strong>.",
+    "upgradeBackup": "We recommend making a backup of your CRM files and data before upgrading.",
     "thousandSeparatorEqualsDecimalMark": "The thousands separator character can not be the same as the decimal point character.",
     "userHasNoEmailAddress": "User has no email address.",
     "uninstallConfirmation": "Are you sure you want to uninstall the extension?"
@@ -169,7 +169,7 @@
   "descriptions": {
     "settings": "Системные настройки.",
     "scheduledJob": "Выполняемые с помощью cron задания.",
-    "upgrade": "Обновить Samex CRM.",
+    "upgrade": "Обновить CRM.",
     "clearCache": "Очистить кэш сервера.",
     "rebuild": "Перестроить серверную часть ПО и очистить кэш сервера.",
     "users": "Управление пользователями.",

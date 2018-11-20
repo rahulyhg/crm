@@ -151,9 +151,9 @@
     "readOnly": "nur lesen"
   },
   "messages": {
-    "upgradeVersion": "Ihr Samex CRM wird nun auf Version <strong>{version}</strong> aktualisiert. Dies kann einige Zeit dauern.",
-    "upgradeDone": "Ihr Samex CRM wurde auf Version <strong>{version}</strong> aktualisiert.",
-    "upgradeBackup": "Wie empfehlen VOR einer Aktualisierung die Samex CRM Dateien sowie die Datenbank zu sichern.",
+    "upgradeVersion": "Ihr CRM wird nun auf Version <strong>{version}</strong> aktualisiert. Dies kann einige Zeit dauern.",
+    "upgradeDone": "Ihr CRM wurde auf Version <strong>{version}</strong> aktualisiert.",
+    "upgradeBackup": "Wie empfehlen VOR einer Aktualisierung die CRM Dateien sowie die Datenbank zu sichern.",
     "thousandSeparatorEqualsDecimalMark": "Das Tausendertrennzeichen und das Dezimaltrennzeichen können nicht gleich sein",
     "userHasNoEmailAddress": "Der Benutzer hat keine E-Mail Adresse.",
     "selectEntityType": "Entitätstyp im linken Menü auswählen.",
@@ -168,7 +168,7 @@
   "descriptions": {
     "settings": "Systemeinstellungen der Applikation.",
     "scheduledJob": "Aufgaben die durch einen Cronjob ausgeführt werden.",
-    "upgrade": "Samex CRM aktualisieren.",
+    "upgrade": "CRM aktualisieren.",
     "clearCache": "Alle Cache Dateien leeren.",
     "rebuild": "Wiederherstellung des Backends und Leeren des Cache.",
     "users": "Benutzerverwaltung.",

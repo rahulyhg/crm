@@ -12,7 +12,7 @@ return [
     'useCache' => true,
     'recordsPerPage' => 25,
     'recordsPerPageSmall' => 5,
-    'applicationName' => 'Samex CRM',
+    'applicationName' => 'CRM',
     'version' => '4.8.1',
     'timeZone' => 'America/Detroit',
     'dateFormat' => 'MM/DD/YYYY',

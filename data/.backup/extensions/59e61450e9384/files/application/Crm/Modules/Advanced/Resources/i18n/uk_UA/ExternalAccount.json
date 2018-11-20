@@ -1,0 +1,25 @@
+{
+  "options": {
+    "calendarDefaultEntity": {
+      "Call": "Дзвінок",
+      "Meeting": "Зустріч"
+    },
+    "calendarDirection": {
+      "CoreToGC": "Односторонній: CRM -> Google Calendar",
+      "GCToCore": "Односторонній: Google Calendar -> CRM",
+      "Both": "Двосторонній"
+    }
+  },
+  "fields": {
+    "calendarStartDate": "Синхронізувати з",
+    "calendarEntityTypes": "Сутності і їх розпізнавальні мітки в синхронізації",
+    "calendarDirection": "Напрямок",
+    "calendarMonitoredCalendars": "Інші календарі",
+    "calendarMainCalendar": "Основний календар",
+    "calendarDefaultEntity": "Сутність за замовчуванням"
+  },
+  "tooltips": {
+    "calendarEntityTypes": "Для розпізнавання типу події назва події має починатися із зазначеної розпізнавальної мітки. Мітка сутності за замовчуванням може залишатись порожньою. Рекомендація: Не змінюйте розпізнавальні мітки після збереження налаштування синхронізації",
+    "calendarDefaultEntity": "Нерозпізнані події будуть завантажені як вибрана сутність"
+  }
+}

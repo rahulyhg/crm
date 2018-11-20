@@ -68,7 +68,7 @@
   },
   "messages": {
     "passwordWillBeSent": "Password will be sent to user's email address.",
-    "accountInfoEmailSubject": "Samex CRM User Access Info",
+    "accountInfoEmailSubject": "CRM User Access Info",
     "accountInfoEmailBody": "Your access information:\n\nUsername: {userName}\nPassword: {password}\n\n{siteUrl}",
     "passwordChangeLinkEmailSubject": "Change Password Request",
     "passwordChanged": "Password has been changed",

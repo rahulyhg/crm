@@ -6,7 +6,7 @@ Core.define('views/site/header', 'view', function (Dep) {
 
         template: 'site/header',
 
-        title: 'Samex CRM',
+        title: 'CRM',
 
         data: {
             title: this.title,

@@ -84,9 +84,9 @@
         "previewSize": "Kích thước cũ"                
     },
     "messages": {
-        "upgradeVersion": "Your Samex CRM will be upgraded to version <strong>{version}</strong>. This can take some time.",
-        "upgradeDone": "Your Samex CRM has been upgraded to version <strong>{version}</strong>. Refresh your browser window.",
-        "upgradeBackup": "We recommend you to make backup of your Samex CRM files and data before upgrade.",
+        "upgradeVersion": "Your CRM will be upgraded to version <strong>{version}</strong>. This can take some time.",
+        "upgradeDone": "Your CRM has been upgraded to version <strong>{version}</strong>. Refresh your browser window.",
+        "upgradeBackup": "We recommend you to make backup of your CRM files and data before upgrade.",
         "thousandSeparatorEqualsDecimalMark": "Dấu phân cách không thể giống nhau",
         "userHasNoEmailAddress": "Người dùng chưa có địa chỉ email",
         "selectEntityType": "Chọn loại ở menu bên trái",
@@ -96,7 +96,7 @@
     "descriptions": {
         "settings": "System settings of application.",
         "scheduledJob": "Công việc tự động tiến hành",
-        "upgrade": "Nâng cấp hệ thống Samex CRM",
+        "upgrade": "Nâng cấp hệ thống CRM",
         "clearCache": "Xóa dữ liệu cache.",
         "rebuild": "Xóa dữ liệu và tải lại hệ thống",
         "users": "Quản lý người dùng.",

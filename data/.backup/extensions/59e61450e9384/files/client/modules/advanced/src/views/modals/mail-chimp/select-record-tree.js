@@ -1,5 +1,5 @@
 /*********************************************************************************
- * The contents of this file are subject to the Samex CRM Advanced
+ * The contents of this file are subject to the CRM Advanced
  * Agreement ("License") which can be viewed at
  * http://www.espocrm.com/advanced-pack-agreement.
  * By installing or using this file, You have unconditionally agreed to the

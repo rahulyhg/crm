@@ -121,8 +121,8 @@ if (Utils::checkActionExists($action)) {
 }
 
 if (!empty($actionFile) && file_exists('install/core/tpl/'.$tplName)) {
-	/*check if Samex CRM is built*/
-	$isBuilt = file_exists('client/espo.min.js');
+	/*check if CRM is built*/
+	$isBuilt = file_exists('client/crm.min.js');
 	$smarty->assign('isBuilt', $isBuilt);
 
 	$smarty->display('index.tpl');

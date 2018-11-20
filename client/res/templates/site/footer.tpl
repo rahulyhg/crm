@@ -1,1 +1,1 @@
-<p class="credit small">&copy; 2017 <a href="http://www.samexllc.com">Samex LLC.</a></p>
+<p class="credit small">&copy; 2017 <a href="http://www.samexllc.com">LLC.</a></p>

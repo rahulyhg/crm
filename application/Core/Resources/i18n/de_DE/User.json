@@ -66,8 +66,8 @@
   },
   "messages": {
     "passwordWillBeSent": "Das Passwort wird an die E-Mail Adresse des Benutzers gesendet",
-    "accountInfoEmailSubject": "Samex CRM Benutzerzugriffsinfo",
-    "accountInfoEmailBody": "Ihre Samex CRM Zugriffsinformation:\n\nBenutzername: {userName}\nPasswort: {password}\n\n{siteUrl}",
+    "accountInfoEmailSubject": "CRM Benutzerzugriffsinfo",
+    "accountInfoEmailBody": "Ihre CRM Zugriffsinformation:\n\nBenutzername: {userName}\nPasswort: {password}\n\n{siteUrl}",
     "passwordChangeLinkEmailSubject": "Anforderung zur Passwortänderung",
     "passwordChangeLinkEmailBody": "Sie können Ihr Passwort über diesen Link {link} ändern. Diese eindeutige URL ist nur für kurze Zeit gültig.",
     "passwordChanged": "Das Passwort wurde geändert",

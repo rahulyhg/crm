@@ -9878,7 +9878,7 @@ return array (
         'outboundEmailFromName' => 
         array (
           'type' => 'varchar',
-          'default' => 'Samex CRM',
+          'default' => 'CRM',
           'trim' => true,
         ),
         'outboundEmailFromAddress' => 

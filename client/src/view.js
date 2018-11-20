@@ -141,7 +141,7 @@ Core.define('view', [], function () {
         },
 
         updatePageTitle: function () {
-            var title = this.getConfig().get('applicationName') || 'Samex CRM';
+            var title = this.getConfig().get('applicationName') || 'CRM';
             this.setPageTitle(title);
         },
 

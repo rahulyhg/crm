@@ -1,6 +1,6 @@
 {
   "labels": {
-    "Main page title": "Benvenuto in Samex CRM",
+    "Main page title": "Benvenuto in CRM",
     "Start page title": "Contratto di licenza",
     "Step1 page title": "Contratto di licenza",
     "License Agreement": "Contratto di licenza",
@@ -11,9 +11,9 @@
     "Step5 page title": "impostazioni SMTP per le email in uscita",
     "Errors page title": "Errori",
     "Finish page title": "Installatione completata",
-    "Congratulation! Welcome to Samex CRM": "Congratulazioni! Samex CRM è stato installato correttamente.",
+    "Congratulation! Welcome to CRM": "Congratulazioni! CRM è stato installato correttamente.",
     "More Information": "Per ulteriori informazioni , si prega di visitare il nostro {BLOG},seguici su {TWITTER}.<br><br>Se avete suggerimenti o domande , si prega di chiedere su {FORUM}.",
-    "share": "Se ti piace Samex CRM , condividilo con i tuoi amici . Fai conoscere questo prodotto.",
+    "share": "Se ti piace CRM , condividilo con i tuoi amici . Fai conoscere questo prodotto.",
     "blog": "blog",
     "twitter": "twitter",
     "forum": "forum",
@@ -27,7 +27,7 @@
     "Start": "Inizio",
     "Back": "indietro",
     "Next": "Avanti",
-    "Go to Samex CRM": "Vai a Samex CRM",
+    "Go to CRM": "Vai a CRM",
     "Re-check": "Ricontrollare",
     "Version": "Versione",
     "Test settings": "Test Connessione",
@@ -81,8 +81,8 @@
     "2005": "MySQL server host non riconosciuto",
     "Bad init Permission": "Permesso negato a \"{*}\" directory. Impostare 775 per \"{*}\" o semplicemente eseguire questo comando nel terminale <pre><b>{C}</b></pre>\n\tOperazione non permessa? Prova questo: {CSU}",
     "Some errors occurred!": "Alcuni errori si sono verificati!",
-    "phpVersion": "la versione di PHP in uso non è supportata da Samex CRM, aggiornare PHP dalla versione {minVersion} in poi.",
-    "MySQLVersion": "la versione di MySQL in uso non è supportata da Samex CRM, aggiornare MySQL dalla versione {minVersion} in poi.",
+    "phpVersion": "la versione di PHP in uso non è supportata da CRM, aggiornare PHP dalla versione {minVersion} in poi.",
+    "MySQLVersion": "la versione di MySQL in uso non è supportata da CRM, aggiornare MySQL dalla versione {minVersion} in poi.",
     "The PHP extension was not found...": "PHP Errore: l'Estensione <b>{extName}</b> non è stata trovata.",
     "All Settings correct": "Tutte le impostazioni sono corrette",
     "Failed to connect to database": "Impossibile connettersi al database",
@@ -106,7 +106,7 @@
     "Thousand Separator and Decimal Mark equal": "Separatore delle migliaia e decimali non possono essere uguali",
     "extension": "{0} estensione mancante",
     "option": "il valore consigliato è {0}",
-    "mysqlSettingError": "Samex CRM richiede che il setting MySQL \"{NAME}\" sia impostato su {VALUE}"
+    "mysqlSettingError": "CRM richiede che il setting MySQL \"{NAME}\" sia impostato su {VALUE}"
   },
   "options": {
     "db driver": {
@@ -114,19 +114,19 @@
       "pdo_mysql": "PDO MySQL"
     },
     "modRewriteTitle": {
-      "apache": "API Error: Samex CRM API non è disponibile.<br> Possibili problemi : disattivato \"mod_rewrite\" su Apache server, disabilitato .htaccess support o un problema di RewriteBase.<br>Procedere solo se necessario . Dopo ogni passo controllare se il problema è risolto .",
-      "nginx": "API Error: Samex CRM API non è disponibile.<br> Aggiungere questo codice al file di configurazione del server blocco Nginx (/etc/nginx/sites-available/YOUR_SITE) nella sezione \"server\" :",
-      "microsoft-iis": "API Error: Samex CRM API non è disponibile.<br> Possibili problemi : disattivato \"URL Rewrite\". Si prega di controllare e attivare il Modulo nel IIS server \"URL Rewrite\" ",
-      "default": "API Error: Samex CRM API non è disponibile.<br> Possibili problemi : disattivato il Modulo Rewrite. Si prega di controllare e attivare il Rewrite Module sul vostro server (e.g. mod_rewrite in Apache) e il supporto .htaccess."
+      "apache": "API Error: CRM API non è disponibile.<br> Possibili problemi : disattivato \"mod_rewrite\" su Apache server, disabilitato .htaccess support o un problema di RewriteBase.<br>Procedere solo se necessario . Dopo ogni passo controllare se il problema è risolto .",
+      "nginx": "API Error: CRM API non è disponibile.<br> Aggiungere questo codice al file di configurazione del server blocco Nginx (/etc/nginx/sites-available/YOUR_SITE) nella sezione \"server\" :",
+      "microsoft-iis": "API Error: CRM API non è disponibile.<br> Possibili problemi : disattivato \"URL Rewrite\". Si prega di controllare e attivare il Modulo nel IIS server \"URL Rewrite\" ",
+      "default": "API Error: CRM API non è disponibile.<br> Possibili problemi : disattivato il Modulo Rewrite. Si prega di controllare e attivare il Rewrite Module sul vostro server (e.g. mod_rewrite in Apache) e il supporto .htaccess."
     },
     "modRewriteInstruction": {
       "apache": {
-        "linux": "<br><br>1. Consentire \"mod_rewrite\".Per farlo eseguire questi comandi in un terminale :<pre>{APACHE1}</pre><br>2. Abilitare il supporto .htaccess. Aggiungere / modificare le impostazioni di configurazione del server(/etc/apache/apache2.conf, /etc/httpd/conf/httpd.conf):<pre>{APACHE2}</pre>\n Dopo eseguire questo comando in un terminale:<pre>{APACHE3}</pre><br>3. Tenta di aggiungere il percorso RewriteBase , aprire un file{API_PATH}.htaccess e sostituire la seguente riga :<pre>{APACHE4}</pre>To<pre>{APACHE5}</pre><br> per ulterioriori informazioni visitare la guida in linea <a href=\"http://www.espocrm.com/blog/apache-server-configuration-for-espocrm/\" target=\"_blank\"> configurazione del server Apache per Samex CRM</a>.<br><br>",
+        "linux": "<br><br>1. Consentire \"mod_rewrite\".Per farlo eseguire questi comandi in un terminale :<pre>{APACHE1}</pre><br>2. Abilitare il supporto .htaccess. Aggiungere / modificare le impostazioni di configurazione del server(/etc/apache/apache2.conf, /etc/httpd/conf/httpd.conf):<pre>{APACHE2}</pre>\n Dopo eseguire questo comando in un terminale:<pre>{APACHE3}</pre><br>3. Tenta di aggiungere il percorso RewriteBase , aprire un file{API_PATH}.htaccess e sostituire la seguente riga :<pre>{APACHE4}</pre>To<pre>{APACHE5}</pre><br> per ulterioriori informazioni visitare la guida in linea <a href=\"http://www.espocrm.com/blog/apache-server-configuration-for-espocrm/\" target=\"_blank\"> configurazione del server Apache per CRM</a>.<br><br>",
         "windows": "<br> <pre>1.Trovare il file httpd.conf (di solito si trova in una cartella denominata conf , configurazione o qualcosa del genere)<br>\n2. All'interno del file httpd.conf decommentare la riga LoadModule rewrite_module modules/mod_rewrite.so (rimuovere il simbolo '#' all'inizio della riga)<br>\n3. Controllare che la linea ClearModuleList è commentata, quindi trovare e fare in modo che la linea AddModule mod_rewrite.c non sia commentata.\n</pre>"
       },
       "nginx": {
-        "linux": "<br>\n<pre>\n{NGINX}\n</pre> <br> Per maggiori informazioni, visitare la Guida in Linea <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for Samex CRM</a>.<br><br>",
-        "windows": "<br>\n<pre>\n{NGINX}\n</pre> <br> Per maggiori informazioni, visitare la Guida in Linea <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for Samex CRM</a>.<br><br>"
+        "linux": "<br>\n<pre>\n{NGINX}\n</pre> <br> Per maggiori informazioni, visitare la Guida in Linea <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for CRM</a>.<br><br>",
+        "windows": "<br>\n<pre>\n{NGINX}\n</pre> <br> Per maggiori informazioni, visitare la Guida in Linea <a href=\"http://www.espocrm.com/blog/nginx-server-configuration-for-espocrm/\" target=\"_blank\">Nginx server configuration for CRM</a>.<br><br>"
       }
     }
   }

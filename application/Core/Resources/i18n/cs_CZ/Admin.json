@@ -108,9 +108,9 @@
         "seeMoreDisabled": "Zakázat ořez textu"
     },
     "messages": {
-        "upgradeVersion": "Samex CRM bude upgradováno na verzi <strong>{version}</strong>. Toto může chvíli trvat.",
-        "upgradeDone": "Samex CRM bylo upgradováno na verzi <strong>{version}</strong>.",
-        "upgradeBackup": "Doporučujeme zálohovat soubory a data Samex CRM před upgradem.",
+        "upgradeVersion": "CRM bude upgradováno na verzi <strong>{version}</strong>. Toto může chvíli trvat.",
+        "upgradeDone": "CRM bylo upgradováno na verzi <strong>{version}</strong>.",
+        "upgradeBackup": "Doporučujeme zálohovat soubory a data CRM před upgradem.",
         "thousandSeparatorEqualsDecimalMark": "Oddělovač tisíců nemůže být stejný jako desetinný symbol.",
         "userHasNoEmailAddress": "Uživatel nemá emailovou adresu.",
         "selectEntityType": "Vybrat entitu v levém menu.",
@@ -125,7 +125,7 @@
     "descriptions": {
         "settings": "Systémová nastavení aplikace.",
         "scheduledJob": "Činnosti vykonávané CRONem.",
-        "upgrade": "Upgradovat Samex CRM.",
+        "upgrade": "Upgradovat CRM.",
         "clearCache": "Vyčistit veškerou cache.",
         "rebuild": "Přestavě backend a vyčistit cache.",
         "users": "Správa uživatelů.",

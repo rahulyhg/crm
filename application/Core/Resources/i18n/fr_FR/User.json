@@ -68,7 +68,7 @@
   },
   "messages": {
     "passwordWillBeSent": "Les identifiants (y compris le mot de passe) seront envoyés à l'adresse email de l'utilisateur.",
-    "accountInfoEmailSubject": "Samex CRM : vos identifiants de connexion",
+    "accountInfoEmailSubject": "CRM : vos identifiants de connexion",
     "accountInfoEmailBody": "Bonjour,\n\nVos identifiants sont les suivants:\n\nNom d'utilisateur: {userName}\nMot de passe: {password}\n\n{siteUrl}\n\n&Agrave; bient&ocirc;t,",
     "passwordChangeLinkEmailSubject": "Demande de nouveau mot de passe",
     "passwordChanged": "Le mot de passe a été modifié",

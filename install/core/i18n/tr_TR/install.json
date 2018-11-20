@@ -1,6 +1,6 @@
 {
   "labels": {
-    "Main page title": "Samex CRM e Hoşgeldiniz",
+    "Main page title": "CRM e Hoşgeldiniz",
     "Start page title": "Lisans Sözleşmesi",
     "Step1 page title": "Lisans Sözleşmesi",
     "License Agreement": "Lisans Sözleşmesi",
@@ -11,9 +11,9 @@
     "Step5 page title": "Giden epostalar için SMTP ayarları",
     "Errors page title": "Hatalar",
     "Finish page title": "Yükleme tamamlandı",
-    "Congratulation! Welcome to Samex CRM": "Tebrikler! Samex CRM başarıyla yüklendi.",
+    "Congratulation! Welcome to CRM": "Tebrikler! CRM başarıyla yüklendi.",
     "More Information": "Daha fazla bilgi için {BLOG} sayfamızı ziyaret edin, bizi {TWITTER} sayfasından takip edin. <br> <br> Herhangi bir öneri veya sorunuz varsa lütfen {FORUM} adresinden sorun.",
-    "share": "Samex CRM'yi seviyorsanız, arkadaşlarınızla paylaşın. Onlara bu ürünü öğrenmelerini sağlayın.",
+    "share": "CRM'yi seviyorsanız, arkadaşlarınızla paylaşın. Onlara bu ürünü öğrenmelerini sağlayın.",
     "blog": "Blog",
     "twitter": "Twitter",
     "forum": "Forum",
@@ -27,7 +27,7 @@
     "Start": "Başla",
     "Back": "Geri",
     "Next": "Sonraki",
-    "Go to Samex CRM": "Samex CRM sayfama git",
+    "Go to CRM": "CRM sayfama git",
     "Re-check": "Tekrar Kontrol Et",
     "Version": "Versiyon",
     "Test settings": "Bağlantıyı Kontrol Et",
@@ -81,8 +81,8 @@
     "2005": "Bilinmeyen MySQL sunucusu",
     "Bad init Permission": "Permission denied for \"{*}\" directory. Please set 775 for \"{*}\" or just execute this command in the terminal <pre><b>{C}</b></pre>\n\tOperation not permitted? Try this one: {CSU}",
     "Some errors occurred!": "Bazı hatalar oluştu!",
-    "phpVersion": "Your PHP version is not supported by Samex CRM, please update to PHP {minVersion} at least",
-    "MySQLVersion": "Your MySQL version is not supported by Samex CRM, please update to MySQL {minVersion} at least",
+    "phpVersion": "Your PHP version is not supported by CRM, please update to PHP {minVersion} at least",
+    "MySQLVersion": "Your MySQL version is not supported by CRM, please update to MySQL {minVersion} at least",
     "The PHP extension was not found...": "<b>{extName}</b> PHP eklentisi bulunamadı...",
     "All Settings correct": "Tüm ayarlar doğru",
     "Failed to connect to database": "Veritabanına bağlanma başarısız oldu",
@@ -106,7 +106,7 @@
     "Thousand Separator and Decimal Mark equal": "Binlik ayraç ve ondalık ayraç aynı olamaz",
     "extension": "{0} uzantı eksik",
     "option": "Önerilen değer {0}",
-    "mysqlSettingError": "Samex CRM, \\ \"{NAME} \" ayarının {VALUE} olarak ayarlanmasını gerektiriyor"
+    "mysqlSettingError": "CRM, \\ \"{NAME} \" ayarının {VALUE} olarak ayarlanmasını gerektiriyor"
   },
   "options": {
     "db driver": {
@@ -116,18 +116,18 @@
     "modRewriteInstruction": {
       "apache": {
         "windows": "<br> <pre>1. Find the httpd.conf file (usually you will find it in a folder called conf, config or something along those lines)<br>\n2. Inside the httpd.conf file uncomment the line LoadModule rewrite_module modules/mod_rewrite.so (remove the pound '#' sign from in front of the line)<br>\n3. Also find the line ClearModuleList is uncommented then find and make sure that the line AddModule mod_rewrite.c is not commented out.\n</pre>",
-        "linux": "<br> <br> 1. \\ \"Mod_rewrite \" yı etkinleştirin. Bunu yapmak için şu komutları bir Terminalde çalıştırın: <pre> {APACHE1} </ pre> <br> 2. .htaccess desteğini etkinleştirin. Sunucu yapılandırma ayarlarını ekleyin / düzenleyin (/etc/apache/apache2.conf, /etc/httpd/conf/httpd.conf):<pre>{APACHE2}</pre>\n Sonra bu komutu bir Terminalde çalıştırın: < Pre> {APACHE3} </ pre> <br> 3. RewriteBase yolunu eklemeyi deneyin, {API_PATH} .htaccess dosyasını açın ve aşağıdaki satırı değiştirin: <pre> {APACHE4} </ pre> <pre> {APACHE5} </ pre> <br> Daha fazla bilgi için lütfen ziyaret edin. <a href=\"http://www.espocrm.com/blog/apache-server-configuration-for-espocrm/\" target=\"_blank\"> Samex CRM için Apache sunucusu yapılandırması </a> kılavuzunu okuyun. <br> <br>"
+        "linux": "<br> <br> 1. \\ \"Mod_rewrite \" yı etkinleştirin. Bunu yapmak için şu komutları bir Terminalde çalıştırın: <pre> {APACHE1} </ pre> <br> 2. .htaccess desteğini etkinleştirin. Sunucu yapılandırma ayarlarını ekleyin / düzenleyin (/etc/apache/apache2.conf, /etc/httpd/conf/httpd.conf):<pre>{APACHE2}</pre>\n Sonra bu komutu bir Terminalde çalıştırın: < Pre> {APACHE3} </ pre> <br> 3. RewriteBase yolunu eklemeyi deneyin, {API_PATH} .htaccess dosyasını açın ve aşağıdaki satırı değiştirin: <pre> {APACHE4} </ pre> <pre> {APACHE5} </ pre> <br> Daha fazla bilgi için lütfen ziyaret edin. <a href=\"http://www.espocrm.com/blog/apache-server-configuration-for-espocrm/\" target=\"_blank\"> CRM için Apache sunucusu yapılandırması </a> kılavuzunu okuyun. <br> <br>"
       },
       "nginx": {
-        "linux": "<br> \\ n <pre> \\ n {NGINX} \\ n </ pre> <br> Daha fazla bilgi için lütfen <a href = \\ \"http://www.espocrm.com/blog/nginx-server adresini ziyaret edin. Için yapılandırma-espocrm / \\ \"hedef = \" boş \\ \"> Samex CRM için Nginx sunucu yapılandırması </a>. <br> <br>",
-        "windows": "<br> \\ n <pre> \\ n {NGINX} \\ n </ pre> <br> Daha fazla bilgi için lütfen <a href = \\ \"http://www.espocrm.com/blog/nginx-server adresini ziyaret edin. Için yapılandırma-espocrm / \\ \"hedef = \" boş \\ \"> Samex CRM için Nginx sunucu yapılandırması </a>. <br> <br>"
+        "linux": "<br> \\ n <pre> \\ n {NGINX} \\ n </ pre> <br> Daha fazla bilgi için lütfen <a href = \\ \"http://www.espocrm.com/blog/nginx-server adresini ziyaret edin. Için yapılandırma-espocrm / \\ \"hedef = \" boş \\ \"> CRM için Nginx sunucu yapılandırması </a>. <br> <br>",
+        "windows": "<br> \\ n <pre> \\ n {NGINX} \\ n </ pre> <br> Daha fazla bilgi için lütfen <a href = \\ \"http://www.espocrm.com/blog/nginx-server adresini ziyaret edin. Için yapılandırma-espocrm / \\ \"hedef = \" boş \\ \"> CRM için Nginx sunucu yapılandırması </a>. <br> <br>"
       }
     },
     "modRewriteTitle": {
-      "apache": "API Hatası: Samex CRM API'sı kullanılamıyor. Olası sorunlar: Apache sunucusunda \\ \"mod_rewrite \" devre dışı, .htaccess desteği veya RewriteBase sorunu devre dışı bırakıldı. <br> Gerekli adımları uygulayın. Her adımın ardından sorunun çözülüp çözülmediğini kontrol edin.",
-      "nginx": "API Hatası: Samex CRM API'sı kullanılamıyor. \\ \"Sunucu \" bölümünde bu kodu Nginx sunucu blok yapılandırma dosyanıza (/ etc / nginx / sites-available / YOUR_SITE) ekleyin:",
-      "microsoft-iis": "API Hatası: Samex CRM API'sı kullanılamıyor. <br> Olası problem: \\ \"URL Yeniden Yaz \" devre dışı. Lütfen IIS sunucusunda \\ \"URL Rewrite \" Modülü'nü kontrol edin ve etkinleştirin",
-      "default": "API Hatası: Samex CRM API'sı kullanılamıyor. <br> Olası sorun: devre dışı bırakılmış Rewrite Modülü. Lütfen sunucunuzdaki Rewrite Modülü'nü kontrol edin ve etkinleştirin (örn. Apache'deki mod_rewrite) ve .htaccess desteğini etkinleştirin."
+      "apache": "API Hatası: CRM API'sı kullanılamıyor. Olası sorunlar: Apache sunucusunda \\ \"mod_rewrite \" devre dışı, .htaccess desteği veya RewriteBase sorunu devre dışı bırakıldı. <br> Gerekli adımları uygulayın. Her adımın ardından sorunun çözülüp çözülmediğini kontrol edin.",
+      "nginx": "API Hatası: CRM API'sı kullanılamıyor. \\ \"Sunucu \" bölümünde bu kodu Nginx sunucu blok yapılandırma dosyanıza (/ etc / nginx / sites-available / YOUR_SITE) ekleyin:",
+      "microsoft-iis": "API Hatası: CRM API'sı kullanılamıyor. <br> Olası problem: \\ \"URL Yeniden Yaz \" devre dışı. Lütfen IIS sunucusunda \\ \"URL Rewrite \" Modülü'nü kontrol edin ve etkinleştirin",
+      "default": "API Hatası: CRM API'sı kullanılamıyor. <br> Olası sorun: devre dışı bırakılmış Rewrite Modülü. Lütfen sunucunuzdaki Rewrite Modülü'nü kontrol edin ve etkinleştirin (örn. Apache'deki mod_rewrite) ve .htaccess desteğini etkinleştirin."
     }
   }
 }
